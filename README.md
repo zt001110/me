@@ -36,7 +36,7 @@
 
 ---------------------------------------------------------------------------------------
 
-🍎游戏平台 https://raw.githubusercontent.com/zt001110/me/master/rule/apple.list
+🍎苹果平台 https://raw.githubusercontent.com/zt001110/me/master/rule/apple.list
 
 ---------------------------------------------------------------------------------------
 
@@ -48,6 +48,6 @@
 
 🛑广告精简版 https://raw.githubusercontent.com/zt001110/me/master/rule/Advertising.list
 
-🛑知乎去广告https://raw.githubusercontent.com/zt001110/me/master/rule/zhihuads.list
+🛑知乎去广告 https://raw.githubusercontent.com/zt001110/me/master/rule/zhihuads.list
 
 
