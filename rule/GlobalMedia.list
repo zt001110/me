@@ -1,6 +1,6 @@
 # NAME: YouTube
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:47:35
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 178
@@ -193,8 +193,8 @@ payload:
 
 
 # NAME: YouTubeMusic
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:47:36
 # DOMAIN: 1
 # TOTAL: 1
@@ -202,8 +202,8 @@ payload:
   - DOMAIN,music.youtube.com
 
 # NAME: AppleTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:47:37
 # DOMAIN: 6
 # DOMAIN-SUFFIX: 1
@@ -220,8 +220,8 @@ payload:
   - PROCESS-NAME,tv
 
 # NAME: Netflix
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-20 02:11:25
 # DOMAIN: 3
 # DOMAIN-KEYWORD: 4
@@ -1254,8 +1254,8 @@ payload:
   - PROCESS-NAME,com.netflix.mediaclient
 
 # NAME: TikTok
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:22
 # DOMAIN: 1
 # DOMAIN-KEYWORD: 2
@@ -1282,8 +1282,8 @@ payload:
   - PROCESS-NAME,com.zhiliaoapp.musically
 
 # NAME: Disney
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:22
 # DOMAIN-SUFFIX: 170
 # PROCESS-NAME: 2
@@ -1463,8 +1463,8 @@ payload:
   - PROCESS-NAME,com.disney.disneyplus
 
 # NAME: Spotify
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:23
 # DOMAIN: 5
 # DOMAIN-KEYWORD: 2
@@ -1504,8 +1504,8 @@ payload:
   - PROCESS-NAME,com.spotify.music
 
 # NAME: Niconico
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:23
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
@@ -1521,8 +1521,8 @@ payload:
   - DOMAIN-SUFFIX,socdm.com
 
 # NAME: BBC
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:24
 # DOMAIN: 17
 # DOMAIN-KEYWORD: 2
@@ -1565,8 +1565,8 @@ payload:
   - DOMAIN-KEYWORD,uk-live
 
 # NAME: AsianMedia
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:24
 # DOMAIN: 10
 # DOMAIN-KEYWORD: 3
@@ -1619,8 +1619,8 @@ payload:
   - IP-CIDR,23.40.242.10/32
 
 # NAME: Bahamut
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:24
 # DOMAIN-SUFFIX: 8
 # TOTAL: 8
@@ -1635,8 +1635,8 @@ payload:
   - DOMAIN-SUFFIX,viblast.com
 
 # NAME: Hulu
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:26
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 57
@@ -1704,8 +1704,8 @@ payload:
   - PROCESS-NAME,com.hulu.plus
 
 # NAME: PandoraTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
@@ -1714,8 +1714,8 @@ payload:
   - DOMAIN-SUFFIX,pandora.tv
 
 # NAME: TVB
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:28
 # DOMAIN: 3
 # DOMAIN-SUFFIX: 18
@@ -1744,8 +1744,8 @@ payload:
   - DOMAIN-SUFFIX,youboranqs01.com
 
 # NAME: HBOHK
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 22
 # TOTAL: 22
@@ -1774,8 +1774,8 @@ payload:
   - DOMAIN-SUFFIX,nowe.hk
 
 # NAME: HBOUSA
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 6
 # PROCESS-NAME: 1
@@ -1790,8 +1790,8 @@ payload:
   - PROCESS-NAME,com.hbo.hbonow
 
 # NAME: HuluJP
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
@@ -1803,8 +1803,8 @@ payload:
   - DOMAIN-SUFFIX,yb.uncn.jp
 
 # NAME: HuluUSA
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 52
 # PROCESS-NAME: 1
@@ -1865,8 +1865,8 @@ payload:
   - PROCESS-NAME,com.hulu.plus
 
 # NAME: FOXNOW
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:25
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
@@ -1877,8 +1877,8 @@ payload:
   - DOMAIN-SUFFIX,uplynk.com
 
 # NAME: FOXPlus
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:25
 # DOMAIN: 6
 # DOMAIN-SUFFIX: 1
@@ -1893,8 +1893,8 @@ payload:
   - DOMAIN-SUFFIX,foxplus.com
 
 # NAME: KKTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:25
 # DOMAIN: 2
 # DOMAIN-SUFFIX: 2
@@ -1906,8 +1906,8 @@ payload:
   - DOMAIN-SUFFIX,kktv.me
 
 # NAME: NaverTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:25
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
@@ -1916,8 +1916,8 @@ payload:
   - DOMAIN-SUFFIX,smartmediarep.com
 
 # NAME: NowE
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:25
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
@@ -1926,8 +1926,8 @@ payload:
   - DOMAIN-SUFFIX,nowestatic.com
 
 # NAME: ParamountPlus
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:25
 # DOMAIN: 4
 # DOMAIN-SUFFIX: 5
@@ -1944,8 +1944,8 @@ payload:
   - DOMAIN-SUFFIX,pplusstatic.com
 
 # NAME: PrimeVideo
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:26
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 1
@@ -1979,8 +1979,8 @@ payload:
   - DOMAIN-KEYWORD,avoddashs
 
 # NAME: TVer
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:26
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
@@ -1993,8 +1993,8 @@ payload:
   - DOMAIN-SUFFIX,tver.jp
 
 # NAME: myTVSUPER
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:26
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 2
@@ -2009,8 +2009,8 @@ payload:
   - DOMAIN-KEYWORD,rthklive
 
 # NAME: HBOAsia
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:27
 # DOMAIN: 16
 # DOMAIN-KEYWORD: 1
@@ -2038,8 +2038,8 @@ payload:
   - DOMAIN-KEYWORD,.hbogoasia.
 
 # NAME: DiscoveryPlus
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:27
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 1
@@ -2062,8 +2062,8 @@ payload:
   - DOMAIN-KEYWORD,discovery.uplynk.com
 
 # NAME: Overcast
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:27
 # DOMAIN-SUFFIX: 1
 # TOTAL: 1
@@ -2071,8 +2071,8 @@ payload:
   - DOMAIN-SUFFIX,overcast.fm
 
 # NAME: Peacock
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:28
 # DOMAIN-SUFFIX: 1
 # TOTAL: 1
@@ -2130,8 +2130,8 @@ payload:
   - PROCESS-NAME,com.mb.android
 
 # NAME: Cake
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:52:15
 # DOMAIN: 4
 # DOMAIN-SUFFIX: 2
@@ -2145,8 +2145,8 @@ payload:
   - DOMAIN-SUFFIX,mycake.me
 
 # NAME: BritboxUK
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:52:19
 # DOMAIN: 2
 # DOMAIN-SUFFIX: 6
@@ -2160,3 +2160,39 @@ payload:
   - DOMAIN-SUFFIX,britbox.com
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,massive-itv.com
+
+# NAME: AmazonPrimeVideo
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
+# UPDATED: 2023-04-07 14:50:25
+# DOMAIN: 5
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 18
+# PROCESS-NAME: 1
+# TOTAL: 25
+payload:
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net
+  - DOMAIN,d25xi40x97liuc.cloudfront.net
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net
+  - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,aiv-delivery.net
+  - DOMAIN-SUFFIX,amazonprimevideo.cn
+  - DOMAIN-SUFFIX,amazonprimevideo.com.cn
+  - DOMAIN-SUFFIX,amazonprimevideos.com
+  - DOMAIN-SUFFIX,amazonvideo.cc
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,atv-ps.amazon.com
+  - DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
+  - DOMAIN-SUFFIX,fls-na.amazon.com
+  - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,prime-video.com
+  - DOMAIN-SUFFIX,primevideo.cc
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,primevideo.info
+  - DOMAIN-SUFFIX,primevideo.org
+  - DOMAIN-SUFFIX,primevideo.tv
+  - DOMAIN-KEYWORD,avoddashs
+  - PROCESS-NAME,com.amazon.avod.thirdpartyclient
