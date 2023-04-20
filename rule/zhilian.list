@@ -18,5 +18,5 @@
 ;MATCH：全匹配
 
 # Router managed 路由器管理域名
-  - DOMAIN-SUFFIX,mlitm.cc
-  - DOMAIN-SUFFIX,iill.ml
+DOMAIN-SUFFIX,mlitm.cc
+DOMAIN-SUFFIX,iill.ml
