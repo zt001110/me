@@ -1,6 +1,4 @@
 # 我的直连列表
-# 参考:https://en.wikipedia.org/wiki/Reserved_IP_addresses
-
 # 表示包含xxx.com域名后缀下的所有网站链接
 ;DOMAIN-SUFFIX,xxx.com
 
@@ -20,5 +18,5 @@
 ;MATCH：全匹配
 
 # Router managed 路由器管理域名
-DOMAIN-KEYWORD,mlitm
-DOMAIN-KEYWORD,iill
+DOMAIN-SUFFIX,mlitm.cc
+DOMAIN-SUFFIX,iill.ml
