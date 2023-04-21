@@ -120,39 +120,6 @@ DOMAIN-SUFFIX,b23.tv
 DOMAIN-SUFFIX,baka.im
 DOMAIN-SUFFIX,bigfun.cn
 DOMAIN-SUFFIX,bigfunapp.cn
-DOMAIN-SUFFIX,bili22.cn
-DOMAIN-SUFFIX,bili2233.cn
-DOMAIN-SUFFIX,bili23.cn
-DOMAIN-SUFFIX,bili33.cn
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,bilibili.cc
-DOMAIN-SUFFIX,bilibili.cn
-DOMAIN-SUFFIX,bilibili.co
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,bilibili.net
-DOMAIN-SUFFIX,bilibili.tv
-DOMAIN-SUFFIX,bilibiligame.cn
-DOMAIN-SUFFIX,bilibiligame.co
-DOMAIN-SUFFIX,bilibiligame.net
-DOMAIN-SUFFIX,bilibilipay.cn
-DOMAIN-SUFFIX,bilibilipay.com
-DOMAIN-SUFFIX,bilicdn1.com
-DOMAIN-SUFFIX,bilicdn2.com
-DOMAIN-SUFFIX,bilicdn3.com
-DOMAIN-SUFFIX,bilicdn4.com
-DOMAIN-SUFFIX,bilicdn5.com
-DOMAIN-SUFFIX,biligame.cn
-DOMAIN-SUFFIX,biligame.co
-DOMAIN-SUFFIX,biligame.com
-DOMAIN-SUFFIX,biligame.net
-DOMAIN-SUFFIX,biligo.com
-DOMAIN-SUFFIX,biliimg.com
-DOMAIN-SUFFIX,biliintl.com
-DOMAIN-SUFFIX,biliplus.com
-DOMAIN-SUFFIX,bilivideo.cn
-DOMAIN-SUFFIX,bilivideo.com
-DOMAIN-SUFFIX,bilivideo.net
 DOMAIN-SUFFIX,corari.com
 DOMAIN-SUFFIX,dreamcast.hk
 DOMAIN-SUFFIX,dyhgames.com
@@ -168,7 +135,6 @@ DOMAIN-SUFFIX,mincdn.com
 DOMAIN-SUFFIX,sharejoytech.com
 DOMAIN-SUFFIX,smtcdns.net
 DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
-DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
 DOMAIN-SUFFIX,yo9.com
 DOMAIN-SUFFIX,cctv.cn
 DOMAIN-SUFFIX,cctv.com
@@ -285,7 +251,6 @@ DOMAIN-SUFFIX,zmz2019.com
 DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
-DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,qiyi
 IP-CIDR,101.224.0.0/13
 IP-CIDR,101.71.154.241/32
@@ -315,12 +280,6 @@ IP-CIDR,59.111.160.197/32
 IP-CIDR,59.111.181.35/32
 IP-CIDR,59.111.181.38/32
 IP-CIDR,59.111.181.60/32
-PROCESS-NAME,com.bilibili.app.blue
-PROCESS-NAME,com.bilibili.app.in
-PROCESS-NAME,com.bilibili.comic
-PROCESS-NAME,com.bilibili.comic.intl
-PROCESS-NAME,tv.danmaku.bili
-PROCESS-NAME,tv.danmaku.bilibilihd
 
 # NAME: NetEaseMusic
 # AUTHOR: MLITM
