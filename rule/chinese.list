@@ -287,18 +287,6 @@ DOMAIN-SUFFIX,vdnplus.cn
 DOMAIN-SUFFIX,vdnplus.com
 DOMAIN-SUFFIX,vdnplus.net
 
-# NAME: CGB
-# AUTHOR: MLITM
-# REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-07 14:51:04
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
-payload:
-DOMAIN-SUFFIX,95508.com
-DOMAIN-SUFFIX,cgbchina.cn
-DOMAIN-SUFFIX,cgbchina.com.cn
-DOMAIN-SUFFIX,gdb.com.cn
-
 # NAME: CEB
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
