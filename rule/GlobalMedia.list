@@ -2144,8 +2144,8 @@ DOMAIN-KEYWORD,avoddashs
 PROCESS-NAME,com.amazon.avod.thirdpartyclient
 
 # NAME: HWTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:26
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
@@ -2154,8 +2154,8 @@ DOMAIN-SUFFIX,5itv.tv
 DOMAIN-SUFFIX,ocnttv.com
 
 # NAME: ITV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:26
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 2
@@ -2166,8 +2166,8 @@ DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,itvstatic.com
 
 # NAME: Kantv
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN-SUFFIX: 1
 # TOTAL: 1
@@ -2175,8 +2175,8 @@ payload:
 DOMAIN-SUFFIX,imkan.tv
 
 # NAME: LiTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 1
@@ -2186,8 +2186,8 @@ DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 DOMAIN-SUFFIX,litv.tv
 
 # NAME: LineTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN: 3
 # DOMAIN-SUFFIX: 5
@@ -2205,8 +2205,8 @@ DOMAIN-SUFFIX,linetv.tw
 PROCESS-NAME,com.linecorp.linetv
 
 # NAME: ZeeTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:50:29
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
@@ -2222,8 +2222,8 @@ DOMAIN-SUFFIX,zeetv.com
 DOMAIN-SUFFIX,zeeuk.com
 v
 # NAME: FuboTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-07 14:51:28
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
