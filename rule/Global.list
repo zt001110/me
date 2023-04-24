@@ -9634,7 +9634,6 @@ DOMAIN,alt5-mtalk.google.com
 DOMAIN,alt6-mtalk.google.com
 DOMAIN,alt7-mtalk.google.com
 DOMAIN,alt8-mtalk.google.com
-DOMAIN,mtalk.google.com
 IP-CIDR,108.177.125.188/32
 IP-CIDR,142.250.10.188/32
 IP-CIDR,142.250.31.188/32
