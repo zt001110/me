@@ -4541,17 +4541,6 @@ payload:
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imgurinc.com
 
-# NAME: Identrust
-# AUTHOR: MLITM
-# REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-07 14:51:18
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
-payload:
-DOMAIN-SUFFIX,identrust.co.uk
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,identrust.net
-
 # NAME: IMDB
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
@@ -10418,7 +10407,6 @@ DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,omnigroup.com
 DOMAIN-SUFFIX,omny.fm
 DOMAIN-SUFFIX,ooyala.com
-DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openvpn.net
 DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,orkut.com
