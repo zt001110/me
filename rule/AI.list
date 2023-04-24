@@ -2,9 +2,9 @@
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2023-04-24 18:26:57
-# DOMAIN: 10
+# DOMAIN: 12
 # DOMAIN-SUFFIX: 3
-# TOTAL: 13
+# TOTAL: 15
 payload:
 DOMAIN,cdn.openai.com
 DOMAIN,chat.openai.com
@@ -16,6 +16,7 @@ DOMAIN,nexus-websocket-a.intercom.io
 DOMAIN,featuregates.org
 DOMAIN,platform.openai.com
 DOMAIN,widget.intercom.io
+DOMAIN,mtalk.google.com
 DOMAIN,api.qrstrategy.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openai.com
