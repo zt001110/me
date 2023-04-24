@@ -20,8 +20,6 @@
 
 🌍全球加速 https://raw.githubusercontent.com/zt001110/me/master/rule/Global.list
 
-🌍OpenAI https://raw.githubusercontent.com/zt001110/me/master/rule/OpenAI.list
-
 ---------------------------------------------------------------------------------------
 
 📺国际媒体 https://raw.githubusercontent.com/zt001110/me/master/rule/GlobalMedia.list
@@ -33,6 +31,10 @@
 ---------------------------------------------------------------------------------------
 
 🎮游戏平台 https://raw.githubusercontent.com/zt001110/me/master/rule/Game.list
+
+---------------------------------------------------------------------------------------
+
+✨AI https://raw.githubusercontent.com/zt001110/me/master/rule/AI.list
 
 ---------------------------------------------------------------------------------------
 
