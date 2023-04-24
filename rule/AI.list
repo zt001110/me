@@ -15,6 +15,7 @@ DOMAIN,api-iam.intercom.io
 DOMAIN,nexus-websocket-a.intercom.io
 DOMAIN,featuregates.org
 DOMAIN,platform.openai.com
+DOMAIN,widget.intercom.io
 DOMAIN,api.qrstrategy.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openai.com
