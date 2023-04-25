@@ -111,7 +111,6 @@ DOMAIN-SUFFIX,steambroadcast.akamaized.net
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
 DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steamcontent.tnkjmec.com
 DOMAIN-SUFFIX,steamdeck.com
 DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steampipe.akamaized.net
@@ -180,32 +179,6 @@ DOMAIN-SUFFIX,spyjinx.com
 DOMAIN-SUFFIX,unrealengine.com
 DOMAIN-SUFFIX,unrealtournament.com
 DOMAIN-KEYWORD,epicgames
-
-# NAME: SteamCN
-# AUTHOR: MLITM
-# REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-07 14:47:34
-# DOMAIN: 11
-# DOMAIN-SUFFIX: 6
-# TOTAL: 17
-payload:
-DOMAIN,csgo.wmsj.cn
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,dl.steam.ksyna.com
-DOMAIN,dota2.wmsj.cn
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,st.dl.pinyuncloud.com
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN,steamstatic.com.8686c.com
-DOMAIN,wmsjsteam.com
-DOMAIN,xz.pphimalayanrt.com
-DOMAIN-SUFFIX,cm.steampowered.com
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steampowered.com.8686c.com
-DOMAIN-SUFFIX,steamserver.net
-DOMAIN-SUFFIX,steamusercontent.com
 
 # NAME: WildRift
 # AUTHOR: MLITM
@@ -1148,7 +1121,6 @@ DOMAIN,xvcf1.xboxlive.com
 DOMAIN,xvcf2.xboxlive.com
 DOMAIN-SUFFIX,cdn.ubi.com
 DOMAIN-SUFFIX,dyn.riotcdn.net
-DOMAIN-SUFFIX,steamcontent.com
 
 # NAME: TencentLoLMobile
 # AUTHOR: MLITM
@@ -1169,28 +1141,3 @@ DOMAIN-SUFFIX,wr.pvp.net
 # TOTAL: 1
 payload:
 DOMAIN-KEYWORD,roblox
-
-# NAME: GameDownloadCN
-# AUTHOR: MLITM
-# REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-07 14:52:51
-# DOMAIN: 15
-# DOMAIN-SUFFIX: 1
-# TOTAL: 16
-payload:
-DOMAIN,assets1.xboxlive.cn
-DOMAIN,assets2.xboxlive.cn
-DOMAIN,cdn-ali.content.steamchina.com
-DOMAIN,cdn-qc.content.steamchina.com
-DOMAIN,cdn-ws.content.steamchina.com
-DOMAIN,dl.delivery.mp.microsoft.com
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN,tlu.dl.delivery.mp.microsoft.com
-DOMAIN,trts.baishancdnx.cn
-DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
-DOMAIN,xz.pphimalayanrt.com
-DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn
