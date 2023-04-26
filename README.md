@@ -43,3 +43,42 @@
     <td><a href="https://cdn.jsdelivr.net/gh/zt001110/me@master/ChinaIp.list" target="_blank">jsdelivr</a></td>
   </tr>
 </table>
+
+---------------------------------------------------------------------------------------
+
+🌍全球加速 https://raw.githubusercontent.com/zt001110/me/master/rule/Global.list
+
+---------------------------------------------------------------------------------------
+
+📺国际媒体 https://raw.githubusercontent.com/zt001110/me/master/rule/GlobalMedia.list
+
+---------------------------------------------------------------------------------------
+
+🎥港台番剧 https://raw.githubusercontent.com/zt001110/me/master/rule/gangaobili.list
+
+---------------------------------------------------------------------------------------
+
+🎮游戏平台 https://raw.githubusercontent.com/zt001110/me/master/rule/Game.list
+
+---------------------------------------------------------------------------------------
+
+✨AI https://raw.githubusercontent.com/zt001110/me/master/rule/AI.list
+
+---------------------------------------------------------------------------------------
+
+🍎苹果平台 https://raw.githubusercontent.com/zt001110/me/master/rule/apple.list
+
+---------------------------------------------------------------------------------------
+
+Ⓜ️微软服务 https://raw.githubusercontent.com/zt001110/me/master/rule/Microsoft.list
+
+去广告：
+
+🛑AdGuardsDNS过滤器 https://raw.githubusercontent.com/zt001110/me/master/rule/AdGuardSDNSFilter.list
+
+🛑广告精简版 https://raw.githubusercontent.com/zt001110/me/master/rule/Advertising.list
+
+🛑知乎去广告 https://raw.githubusercontent.com/zt001110/me/master/rule/zhihuads.list
+
+
+
