@@ -1,13 +1,13 @@
 <table align="center">
   <tr>
     <td>clash</td>
-    <td>[GITHUB](https://raw.githubusercontent.com/zt001110/me/master/clash.ini )</td>
-    <td>[jsdelivr](https://cdn.jsdelivr.net/gh/zt001110/me@master/clash.ini)</td>
+    <td>https://raw.githubusercontent.com/zt001110/me/master/clash.ini</td>
+    <td>https://cdn.jsdelivr.net/gh/zt001110/me@master/clash.ini</td>
   </tr>
   <tr>
     <td>Quantumult X</td>
-    <td>[GITHUB](https://raw.githubusercontent.com/zt001110/me/master/mlitm.conf)</td>
-    <td>[sdelivr](https://cdn.jsdelivr.net/gh/zt001110/me@master/mlitm.conf)</td>
+    <td>https://raw.githubusercontent.com/zt001110/me/master/mlitm.conf</td>
+    <td>https://cdn.jsdelivr.net/gh/zt001110/me@master/mlitm.conf</td>
   </tr>
 </table>
 
