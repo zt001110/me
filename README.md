@@ -44,6 +44,8 @@
   </tr>
 </table>
 
+🎯中国IP地址段ipv4 https://raw.githubusercontent.com/zt001110/me/master/ChinaIp.list 
+                   https://cdn.jsdelivr.net/gh/zt001110/me@master/ChinaIp.list
 ---------------------------------------------------------------------------------------
 
 🌍全球加速 https://raw.githubusercontent.com/zt001110/me/master/rule/Global.list
