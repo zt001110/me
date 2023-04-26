@@ -6,8 +6,8 @@
   </tr>
   <tr>
     <td>Quantumult X</td>
-    <td>https://raw.githubusercontent.com/zt001110/me/master/mlitm.conf</td>
-    <td>https://cdn.jsdelivr.net/gh/zt001110/me@master/mlitm.conf</td>
+    <td><a href="https://raw.githubusercontent.com/zt001110/me/master/mlitm.conf" target="_blank">GITHUB</a></td>
+    <td><a href="https://cdn.jsdelivr.net/gh/zt001110/me@master/mlitm.conf" target="_blank">jsdelivr</a></td>
   </tr>
 </table>
 
