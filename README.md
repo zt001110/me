@@ -2,7 +2,7 @@
   <tr>
     <td>clash</td>
     <td><a href="https://raw.githubusercontent.com/zt001110/me/master/clash.ini" target="_blank">GITHUB</a></td>
-    <td>https://cdn.jsdelivr.net/gh/zt001110/me@master/clash.ini</td>
+    <td><a href="https://cdn.jsdelivr.net/gh/zt001110/me@master/clash.ini" target="_blank">jsdelivr</a></td>
   </tr>
   <tr>
     <td>Quantumult X</td>
