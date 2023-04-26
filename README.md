@@ -1,7 +1,7 @@
 <table align="center">
   <tr>
     <td>clash</td>
-    <td><a href="[https://www.github.com](https://raw.githubusercontent.com/zt001110/me/master/clash.ini)" target="GITHUB"></a></td>
+    <td><a href="[https://www.github.com](https://raw.githubusercontent.com/zt001110/me/master/clash.ini)" target="GITHUB">GITHUB</a></td>
     <td>https://cdn.jsdelivr.net/gh/zt001110/me@master/clash.ini</td>
   </tr>
   <tr>
