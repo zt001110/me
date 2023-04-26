@@ -1,13 +1,17 @@
-| 姓名 | 年龄 | 性别 |
-| ---- | ---- | ---- |
-| 张三 | 25   | 男   |
-| 李四 | 30   | 女   |
-| 王五 | 28   | 男   |
+| clash | Quantumult X |
+| ---- | ---- |
+| [GITHUB](https://raw.githubusercontent.com/zt001110/me/master/clash.ini ) | [GITHUB](https://raw.githubusercontent.com/zt001110/me/master/mlitm.conf) |
+| [jsdelivr](https://cdn.jsdelivr.net/gh/zt001110/me@master/clash.ini) | [sdelivr](https://cdn.jsdelivr.net/gh/zt001110/me@master/mlitm.conf) |
+
+
+
+[GITHUB](https://raw.githubusercontent.com/zt001110/me/master/clash.ini )
+[jsdelivr](https://cdn.jsdelivr.net/gh/zt001110/me@master/clash.ini)
 
 1.clash https://raw.githubusercontent.com/zt001110/me/master/clash.ini  
         https://cdn.jsdelivr.net/gh/zt001110/me@master/clash.ini
 
-2.Quantumult X https://raw.githubusercontent.com/zt001110/me/master/mlitm.conf  
+2.Quantumult X https://raw.githubusercontent.com/zt001110/me/master/mlitm.conf
                https://cdn.jsdelivr.net/gh/zt001110/me@master/mlitm.conf
                
 直连：
