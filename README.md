@@ -1,8 +1,3 @@
-第一行文本
-
-&nbsp;
-
-第二行文本
 
 <table align="center">
   <tr>
@@ -57,7 +52,8 @@
 
 ---------------------------------------------------------------------------------------
 
-🎯中国IP地址段ipv4 https://raw.githubusercontent.com/zt001110/me/master/ChinaIp.list 
+🎯中国IP地址段ipv4 https://raw.githubusercontent.com/zt001110/me/master/ChinaIp.list
+
                    https://cdn.jsdelivr.net/gh/zt001110/me@master/ChinaIp.list
 
 ---------------------------------------------------------------------------------------
