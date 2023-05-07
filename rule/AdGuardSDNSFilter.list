@@ -5,7 +5,7 @@
 # DOMAIN: 50256
 # IP-CIDR: 2
 # TOTAL: 50258
-payload:
+
 DOMAIN,0-000.store
 DOMAIN,0.0.realodix
 DOMAIN,0.code.cotsta.ru
