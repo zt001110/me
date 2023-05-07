@@ -6,7 +6,7 @@
 # DOMAIN-SUFFIX: 18
 # PROCESS-NAME: 2
 # TOTAL: 23
-payload:
+
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,1drv.ms
 DOMAIN-SUFFIX,livefilestore.com
@@ -41,7 +41,7 @@ PROCESS-NAME,onedriveupdater
 # DOMAIN-SUFFIX: 660
 # PROCESS-NAME: 2
 # TOTAL: 668
-payload:
+
 DOMAIN,github-cloud.s3.amazonaws.com
 DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN-SUFFIX,21vbc.com
@@ -718,7 +718,7 @@ PROCESS-NAME,onedriveupdater
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 3
 # TOTAL: 4
-payload:
+
 DOMAIN,teams.events.data.microsoft.com
 DOMAIN-SUFFIX,teams.cdn.live.net
 DOMAIN-SUFFIX,teams.live.com
@@ -730,7 +730,7 @@ DOMAIN-SUFFIX,teams.microsoft.com
 # UPDATED: 2023-04-07 14:52:19
 # DOMAIN: 4
 # TOTAL: 4
-payload:
+
 DOMAIN,edge.activity.windows.com
 DOMAIN,edge.microsoft.com
 DOMAIN,iecvlist.microsoft.com
@@ -742,7 +742,7 @@ DOMAIN,msedge.api.cdp.microsoft.com
 # UPDATED: 2023-04-07 14:52:57
 # DOMAIN-SUFFIX: 25
 # TOTAL: 25
-payload:
+
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.com.cn
 DOMAIN-SUFFIX,bing.net
