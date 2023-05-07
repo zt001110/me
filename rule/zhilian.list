@@ -28,7 +28,7 @@ DOMAIN-SUFFIX,iill.ml
 # DOMAIN: 11
 # DOMAIN-SUFFIX: 6
 # TOTAL: 17
-payload:
+
 DOMAIN,csgo.wmsj.cn
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,dl.steam.ksyna.com
@@ -54,7 +54,7 @@ DOMAIN-SUFFIX,steamusercontent.com
 # DOMAIN: 15
 # DOMAIN-SUFFIX: 1
 # TOTAL: 16
-payload:
+
 DOMAIN,assets1.xboxlive.cn
 DOMAIN,assets2.xboxlive.cn
 DOMAIN,cdn-ali.content.steamchina.com
@@ -79,7 +79,7 @@ DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn
 # DOMAIN: 36
 # DOMAIN-SUFFIX: 3
 # TOTAL: 39
-payload:
+
 DOMAIN,assets1.xboxlive.com
 DOMAIN,assets2.xboxlive.com
 DOMAIN,blizzard.gcdn.cloudn.co.kr
