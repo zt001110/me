@@ -327,7 +327,7 @@ DOMAIN,apple.comscoreresearch.com
 # IP-CIDR6: 1
 # PROCESS-NAME: 6
 # TOTAL: 734
-payload:
+
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1ucrs.com
@@ -1071,7 +1071,7 @@ PROCESS-NAME,backupandsync
 # DOMAIN-SUFFIX: 4
 # PROCESS-NAME: 1
 # TOTAL: 6
-payload:
+
 DOMAIN,www.googleapis.com
 DOMAIN-SUFFIX,docs.google.com
 DOMAIN-SUFFIX,drive.google.com
@@ -1086,7 +1086,7 @@ PROCESS-NAME,backupandsync
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 29
 # TOTAL: 30
-payload:
+
 DOMAIN-SUFFIX,atom.io
 DOMAIN-SUFFIX,dependabot.com
 DOMAIN-SUFFIX,ghcr.io
@@ -1125,7 +1125,7 @@ DOMAIN-KEYWORD,github
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 14
 # TOTAL: 15
-payload:
+
 DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,cellmaps.com
 DOMAIN-SUFFIX,ekahau.cloud
@@ -1152,7 +1152,7 @@ DOMAIN-KEYWORD,speedtest
 # IP-CIDR6: 4
 # PROCESS-NAME: 4
 # TOTAL: 34
-payload:
+
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,contest.com
 DOMAIN-SUFFIX,graph.org
@@ -1194,7 +1194,7 @@ PROCESS-NAME,telegram.exe
 # UPDATED: 2022-11-30 21:11:30
 # IP-CIDR: 3
 # TOTAL: 3
-payload:
+
 IP-CIDR,13.251.24.0/24
 IP-CIDR,13.251.41.0/24
 IP-CIDR,17.252.156.0/23
@@ -1206,7 +1206,7 @@ IP-CIDR,17.252.156.0/23
 # DOMAIN-SUFFIX: 9
 # IP-CIDR: 6
 # TOTAL: 15
-payload:
+
 DOMAIN-SUFFIX,daum.net
 DOMAIN-SUFFIX,daumcdn.net
 DOMAIN-SUFFIX,daumkakao.io
@@ -1230,7 +1230,7 @@ IP-CIDR,27.0.236.0/22
 # DOMAIN-SUFFIX: 20
 # IP-CIDR: 14
 # TOTAL: 34
-payload:
+
 DOMAIN-SUFFIX,gcld-line.com
 DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,line-apps-beta.com
@@ -1272,7 +1272,7 @@ IP-CIDR,203.174.77.0/24
 # UPDATED: 2023-04-07 14:50:22
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,dubox.com
 DOMAIN-SUFFIX,duboxcdn.com
 
@@ -1284,7 +1284,7 @@ DOMAIN-SUFFIX,duboxcdn.com
 # DOMAIN-SUFFIX: 24
 # IP-CIDR: 7
 # TOTAL: 32
-payload:
+
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com
 DOMAIN-SUFFIX,periscope.tv
@@ -1326,7 +1326,7 @@ IP-CIDR,69.195.160.0/19
 # IP-CIDR: 14
 # IP-CIDR6: 7
 # TOTAL: 65
-payload:
+
 DOMAIN-SUFFIX,argotunnel.com
 DOMAIN-SUFFIX,cf-ipfs.com
 DOMAIN-SUFFIX,cf-ns.com
@@ -1401,7 +1401,7 @@ P-CIDR6,2c0f:f248::/32
 # DOMAIN-SUFFIX: 547
 # IP-CIDR: 23
 # TOTAL: 572
-payload:
+
 DOMAIN-SUFFIX,aboutfacebook.com
 DOMAIN-SUFFIX,accessfacebookfromschool.com
 DOMAIN-SUFFIX,accountkit.com
@@ -1981,7 +1981,7 @@ IP-CIDR,54.93.124.31/32
 # UPDATED: 2023-04-07 14:50:23
 # DOMAIN-SUFFIX: 12
 # TOTAL: 12
-payload:
+
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
@@ -2001,7 +2001,7 @@ DOMAIN-SUFFIX,wiktionary.org
 # UPDATED: 2023-04-07 14:50:23
 # DOMAIN-SUFFIX: 28
 # TOTAL: 28
-payload:
+
 DOMAIN-SUFFIX,airhorn.solutions
 DOMAIN-SUFFIX,airhornbot.com
 DOMAIN-SUFFIX,bigbeans.solutions
@@ -2038,7 +2038,7 @@ DOMAIN-SUFFIX,watchanimeattheoffice.com
 # DOMAIN: 7
 # DOMAIN-SUFFIX: 2
 # TOTAL: 9
-payload:
+
 DOMAIN,imap-mail.outlook.com
 DOMAIN,imap.gmail.com
 DOMAIN,outlook.office365.com
@@ -2056,7 +2056,7 @@ DOMAIN-SUFFIX,m.hotmail.com
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 246
 # TOTAL: 247
-payload:
+
 DOMAIN-SUFFIX,account-paypal.info
 DOMAIN-SUFFIX,account-paypal.net
 DOMAIN-SUFFIX,account-paypal.org
@@ -2311,7 +2311,7 @@ DOMAIN-KEYWORD,paypal
 # UPDATED: 2023-04-07 14:50:23
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
-payload:
+
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,hockeyapp.net
@@ -2325,7 +2325,7 @@ DOMAIN-SUFFIX,smartmailcloud.com
 # DOMAIN-SUFFIX: 1
 # PROCESS-NAME: 1
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,lastpass.com
 PROCESS-NAME,lastpass
 
@@ -2339,7 +2339,7 @@ PROCESS-NAME,lastpass
 # IP-CIDR: 15
 # PROCESS-NAME: 1
 # TOTAL: 222
-payload:
+
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,a2z.org.cn
 DOMAIN-SUFFIX,aboutamazon.cn
@@ -2570,7 +2570,7 @@ PROCESS-NAME,com.amazon.avod.thirdpartyclient
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 73
 # TOTAL: 74
-payload:
+
 DOMAIN-SUFFIX,achat-followers-instagram.com
 DOMAIN-SUFFIX,acheter-followers-instagram.com
 DOMAIN-SUFFIX,acheterdesfollowersinstagram.com
@@ -2655,7 +2655,7 @@ DOMAIN-KEYWORD,instagram
 # DOMAIN-SUFFIX: 13
 # IP-CIDR: 11
 # TOTAL: 26
-payload:
+
 DOMAIN,graph.facebook.com
 DOMAIN-SUFFIX,bintray.com
 DOMAIN-SUFFIX,wa.me
@@ -2691,7 +2691,7 @@ IP-CIDR,54.242.0.0/15
 # IP-CIDR: 3
 # IP-CIDR6: 4
 # TOTAL: 8
-payload:
+
 DOMAIN-SUFFIX,teamviewer.com
 IP-CIDR,139.220.243.27/32
 IP-CIDR,172.16.102.56/32
@@ -2709,7 +2709,7 @@ P-CIDR6,2a0b:b583::/48
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 137
 # TOTAL: 146
-payload:
+
 DOMAIN,adobeereg.com
 DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
 DOMAIN,crl.versign.net
@@ -2863,7 +2863,7 @@ DOMAIN-KEYWORD,adobe
 # UPDATED: 2023-04-07 14:50:25
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,afp.com
 DOMAIN-SUFFIX,afpforum.com
 
@@ -2873,7 +2873,7 @@ DOMAIN-SUFFIX,afpforum.com
 # UPDATED: 2023-04-07 14:50:25
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
-payload:
+
 DOMAIN-SUFFIX,att.tv
 DOMAIN-SUFFIX,atttvnow.com
 DOMAIN-SUFFIX,attwatchtv.com
@@ -2888,7 +2888,7 @@ DOMAIN-SUFFIX,nettyinternet.com
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 22
 # TOTAL: 23
-payload:
+
 DOMAIN-SUFFIX,abema-tv.com
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
@@ -2919,7 +2919,7 @@ DOMAIN-KEYWORD,abematv.akamaized.net
 # UPDATED: 2023-04-07 14:50:25
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,channel4.com
 
@@ -2929,7 +2929,7 @@ DOMAIN-SUFFIX,channel4.com
 # UPDATED: 2023-04-07 14:50:25
 # DOMAIN-SUFFIX: 1
 # TOTAL: 1
-payload:
+
 DOMAIN-SUFFIX,americasvoice.news
 
 # NAME: AppleDaily
@@ -2938,7 +2938,7 @@ DOMAIN-SUFFIX,americasvoice.news
 # UPDATED: 2023-04-07 14:50:25
 # DOMAIN-SUFFIX: 32
 # TOTAL: 32
-payload:
+
 DOMAIN-SUFFIX,appledaily.com
 DOMAIN-SUFFIX,appledaily.com.hk
 DOMAIN-SUFFIX,appledaily.com.tw
@@ -2978,7 +2978,7 @@ DOMAIN-SUFFIX,twnextdigital.com
 # UPDATED: 2023-04-07 14:50:25
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,bowenpress.com
 DOMAIN-SUFFIX,boxun.com
 
@@ -2990,7 +2990,7 @@ DOMAIN-SUFFIX,boxun.com
 # DOMAIN-SUFFIX: 34
 # PROCESS-NAME: 2
 # TOTAL: 37
-payload:
+
 DOMAIN,link.theplatform.com
 DOMAIN-SUFFIX,amlg.io
 DOMAIN-SUFFIX,cbs
@@ -3034,7 +3034,7 @@ PROCESS-NAME,com.showtime.standalone
 # UPDATED: 2023-04-07 14:50:25
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
-payload:
+
 DOMAIN-SUFFIX,cnn.com
 DOMAIN-SUFFIX,cnn.io
 DOMAIN-SUFFIX,cnn.it
@@ -3051,7 +3051,7 @@ DOMAIN-SUFFIX,cnnpolitics.com
 # UPDATED: 2023-04-07 14:50:25
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,cabletv.com.hk
 DOMAIN-SUFFIX,i-cable.com
 
@@ -3062,7 +3062,7 @@ DOMAIN-SUFFIX,i-cable.com
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 17
 # TOTAL: 18
-payload:
+
 DOMAIN-SUFFIX,control.kochava.com
 DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net
 DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net
@@ -3088,7 +3088,7 @@ DOMAIN-KEYWORD,voddazn
 # UPDATED: 2023-04-07 14:50:26
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
-payload:
+
 DOMAIN-SUFFIX,dai.ly
 DOMAIN-SUFFIX,dailymotion.com
 DOMAIN-SUFFIX,dm-event.net
@@ -3101,7 +3101,7 @@ DOMAIN-SUFFIX,dmxleo.com
 # UPDATED: 2023-04-07 14:50:26
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,dzcdn.net
 
@@ -3112,7 +3112,7 @@ DOMAIN-SUFFIX,dzcdn.net
 # DOMAIN: 2
 # DOMAIN-SUFFIX: 3
 # TOTAL: 5
-payload:
+
 DOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN,edge.api.brightcove.com
 DOMAIN-SUFFIX,content.jwplatform.com
@@ -3125,7 +3125,7 @@ DOMAIN-SUFFIX,videos-f.jwpsrv.com
 # UPDATED: 2023-04-07 14:50:26
 # DOMAIN-SUFFIX: 255
 # TOTAL: 255
-payload:
+
 DOMAIN-SUFFIX,afewmomentswith.com
 DOMAIN-SUFFIX,anidom.com
 DOMAIN-SUFFIX,bentobox.tv
@@ -3388,7 +3388,7 @@ DOMAIN-SUFFIX,wogx.com
 # UPDATED: 2023-04-07 14:50:26
 # DOMAIN-SUFFIX: 18
 # TOTAL: 18
-payload:
+
 DOMAIN-SUFFIX,huffingtonpost.ca
 DOMAIN-SUFFIX,huffingtonpost.co.uk
 DOMAIN-SUFFIX,huffingtonpost.co.za
@@ -3416,7 +3416,7 @@ DOMAIN-SUFFIX,huffpostmaghreb.com
 # DOMAIN-SUFFIX: 1
 # PROCESS-NAME: 1
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,joox.com
 DOMAIN-KEYWORD,jooxweb-api
 PROCESS-NAME,com.tencent.ibg.joox
@@ -3428,7 +3428,7 @@ PROCESS-NAME,com.tencent.ibg.joox
 # DOMAIN-KEYWORD: 2
 # DOMAIN-SUFFIX: 8
 # TOTAL: 10
-payload:
+
 DOMAIN-SUFFIX,japonx.com
 DOMAIN-SUFFIX,japonx.net
 DOMAIN-SUFFIX,japonx.tv
@@ -3446,7 +3446,7 @@ DOMAIN-KEYWORD,japronx
 # UPDATED: 2023-04-07 14:50:26
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
-payload:
+
 DOMAIN-SUFFIX,kfs.io
 DOMAIN-SUFFIX,kk.stream
 DOMAIN-SUFFIX,kkbox-prime.com
@@ -3463,7 +3463,7 @@ DOMAIN-SUFFIX,theater-kktv.cdn.hinet.net
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,freedomplatform.tv
 DOMAIN-SUFFIX,londonreal.tv
 
@@ -3473,7 +3473,7 @@ DOMAIN-SUFFIX,londonreal.tv
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,moov.hk
 DOMAIN-SUFFIX,mtg.now.com
 
@@ -3483,7 +3483,7 @@ DOMAIN-SUFFIX,mtg.now.com
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN-SUFFIX: 1
 # TOTAL: 1
-payload:
+
 DOMAIN-SUFFIX,mewatch.sg
 
 # NAME: My5
@@ -3493,7 +3493,7 @@ DOMAIN-SUFFIX,mewatch.sg
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 2
 # TOTAL: 3
-payload:
+
 DOMAIN,d349g9zuie06uo.cloudfront.net
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,my5.tv
@@ -3504,7 +3504,7 @@ DOMAIN-SUFFIX,my5.tv
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,nypost.com
 DOMAIN-SUFFIX,nypost.help
 DOMAIN-SUFFIX,nypostreprints.com
@@ -3515,7 +3515,7 @@ DOMAIN-SUFFIX,nypostreprints.com
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN-SUFFIX: 16
 # TOTAL: 16
-payload:
+
 DOMAIN-SUFFIX,d1f1eryiqyjs0r.cloudfront.net
 DOMAIN-SUFFIX,d3lar09xbwlsge.cloudfront.net
 DOMAIN-SUFFIX,d3q1qj9jzsu8nw.cloudfront.net
@@ -3539,7 +3539,7 @@ DOMAIN-SUFFIX,tynt.com
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
-payload:
+
 DOMAIN-SUFFIX,nikkei-cnbc.co.jp
 DOMAIN-SUFFIX,nikkei.co.jp
 DOMAIN-SUFFIX,nikkei.com
@@ -3553,7 +3553,7 @@ DOMAIN-SUFFIX,nikkeibp.co.jp
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN-SUFFIX: 1
 # TOTAL: 1
-payload:
+
 DOMAIN-SUFFIX,pbs.org
 
 # NAME: Qobuz
@@ -3563,7 +3563,7 @@ DOMAIN-SUFFIX,pbs.org
 # DOMAIN-SUFFIX: 31
 # IP-CIDR: 2
 # TOTAL: 33
-payload:
+
 DOMAIN-SUFFIX,cobeuz.fr
 DOMAIN-SUFFIX,cobuz.fr
 DOMAIN-SUFFIX,cobuzz.fr
@@ -3605,7 +3605,7 @@ IP-CIDR,99.81.97.56/32
 # DOMAIN: 11
 # DOMAIN-SUFFIX: 3
 # TOTAL: 14
-payload:
+
 DOMAIN,rthklive2-lh.akamaihd.net
 DOMAIN,rthkradio1-live.akamaized.net
 DOMAIN,rthkradio2-live.akamaized.net
@@ -3627,7 +3627,7 @@ DOMAIN-SUFFIX,rthk.org.hk
 # UPDATED: 2023-04-07 14:50:28
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,sky.com
 DOMAIN-SUFFIX,skygo.co.nz
 
@@ -3637,7 +3637,7 @@ DOMAIN-SUFFIX,skygo.co.nz
 # UPDATED: 2023-04-07 14:50:28
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,soundcloud.com
@@ -3648,7 +3648,7 @@ DOMAIN-SUFFIX,soundcloud.com
 # UPDATED: 2023-04-07 14:50:28
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
 DOMAIN-SUFFIX,tidal.com
 DOMAIN-SUFFIX,tidalhifi.com
@@ -3661,7 +3661,7 @@ DOMAIN-SUFFIX,wimpmusic.com
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 1
 # TOTAL: 2
-payload:
+
 DOMAIN,hamifans.emome.net
 DOMAIN-SUFFIX,skyking.com.tw
 
@@ -3671,7 +3671,7 @@ DOMAIN-SUFFIX,skyking.com.tw
 # UPDATED: 2023-04-07 14:50:28
 # DOMAIN-SUFFIX: 51
 # TOTAL: 51
-payload:
+
 DOMAIN-SUFFIX,amerikaninsesi.com
 DOMAIN-SUFFIX,amerikaninsesi.org
 DOMAIN-SUFFIX,amerikaovozi.com
@@ -3730,7 +3730,7 @@ DOMAIN-SUFFIX,zeriamerikes.com
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 19
 # TOTAL: 19
-payload:
+
 DOMAIN-SUFFIX,adidas.at
 DOMAIN-SUFFIX,adidas.be
 DOMAIN-SUFFIX,adidas.ch
@@ -3757,7 +3757,7 @@ DOMAIN-SUFFIX,adidas.se
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
-payload:
+
 DOMAIN-SUFFIX,acer-group.com
 DOMAIN-SUFFIX,acer.com
 DOMAIN-SUFFIX,acer.com.cn
@@ -3770,7 +3770,7 @@ DOMAIN-SUFFIX,founderpc.com
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,aol.ca
 DOMAIN-SUFFIX,aol.co.uk
 DOMAIN-SUFFIX,aol.com
@@ -3782,7 +3782,7 @@ DOMAIN-SUFFIX,aolnews.com
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 7
 # TOTAL: 7
-payload:
+
 DOMAIN-SUFFIX,9to5google.com
 DOMAIN-SUFFIX,9to5mac.com
 DOMAIN-SUFFIX,9to5terminal.com
@@ -3797,7 +3797,7 @@ DOMAIN-SUFFIX,spaceexplored.com
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 14
 # TOTAL: 14
-payload:
+
 DOMAIN-SUFFIX,9cdn.net
 DOMAIN-SUFFIX,9nation.com.au
 DOMAIN-SUFFIX,9news.com.au
@@ -3820,7 +3820,7 @@ DOMAIN-SUFFIX,yourtv.com.au
 # DOMAIN: 4
 # IP-CIDR: 101
 # TOTAL: 105
-payload:
+
 DOMAIN,ap-oversea-tls.agora.io
 DOMAIN,ap-oversea.agora.io
 DOMAIN,ap-oversea2.agora.io
@@ -3935,7 +3935,7 @@ IP-CIDR,69.28.51.148/32
 # DOMAIN-SUFFIX: 3
 # IP-CIDR: 9
 # TOTAL: 14
-payload:
+
 DOMAIN,clubhouse.pubnub.com
 DOMAIN,clubhouseprod.s3.amazonaws.com
 DOMAIN-SUFFIX,clubhouse.com
@@ -3959,7 +3959,7 @@ IP-CIDR,52.58.56.244/32
 # DOMAIN-SUFFIX: 5
 # PROCESS-NAME: 1
 # TOTAL: 15
-payload:
+
 DOMAIN,api-glb-sea.smoot.apple.com
 DOMAIN,books.itunes.apple.com
 DOMAIN,cvws.icloud-content.com
@@ -3983,7 +3983,7 @@ PROCESS-NAME,lookupviewservice
 # DOMAIN-SUFFIX: 3
 # PROCESS-NAME: 1
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,api.tv.colnv.com
 DOMAIN-SUFFIX,italkbb.com
 DOMAIN-SUFFIX,italkbbtv.com
@@ -3995,7 +3995,7 @@ PROCESS-NAME,com.italkbbtv.phone
 # UPDATED: 2023-04-07 14:50:29
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,fetnet.net
 DOMAIN-SUFFIX,friday.tw
 
@@ -4005,7 +4005,7 @@ DOMAIN-SUFFIX,friday.tw
 # UPDATED: 2023-04-07 14:50:28
 # DOMAIN-SUFFIX: 16
 # TOTAL: 16
-payload:
+
 DOMAIN-SUFFIX,cstatic.net
 DOMAIN-SUFFIX,curbed.com
 DOMAIN-SUFFIX,eater.com
@@ -4030,7 +4030,7 @@ DOMAIN-SUFFIX,voxops.net
 # DOMAIN-SUFFIX: 8
 # PROCESS-NAME: 3
 # TOTAL: 11
-payload:
+
 DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
 DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
@@ -4049,7 +4049,7 @@ PROCESS-NAME,com.vuclip.viu
 # UPDATED: 2023-04-07 14:50:28
 # DOMAIN-SUFFIX: 16
 # TOTAL: 16
-payload:
+
 DOMAIN-SUFFIX,livestream.com
 DOMAIN-SUFFIX,vhx.tv
 DOMAIN-SUFFIX,vhxqa1.com
@@ -4073,7 +4073,7 @@ DOMAIN-SUFFIX,vimeostatus.com
 # UPDATED: 2023-04-07 14:50:28
 # DOMAIN-SUFFIX: 8
 # TOTAL: 8
-payload:
+
 DOMAIN-SUFFIX,kalhlspd-a.akamaihd.net
 DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
 DOMAIN-SUFFIX,twemoji.maxcdn.com
@@ -4089,7 +4089,7 @@ DOMAIN-SUFFIX,vikiplatform.com
 # UPDATED: 2023-04-07 14:50:28
 # DOMAIN-SUFFIX: 1
 # TOTAL: 1
-payload:
+
 DOMAIN-SUFFIX,vidol.tv
 
 # NAME: LivePerson
@@ -4098,7 +4098,7 @@ DOMAIN-SUFFIX,vidol.tv
 # UPDATED: 2023-04-07 14:51:19
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,liveperson.com
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,lpsnmedia.net
@@ -4110,7 +4110,7 @@ DOMAIN-SUFFIX,lpsnmedia.net
 # DOMAIN: 2
 # DOMAIN-SUFFIX: 29
 # TOTAL: 31
-payload:
+
 DOMAIN,last.us11.list-manage.com
 DOMAIN,lastfm-img2.akamaized.net
 DOMAIN-SUFFIX,audioscrobbler.com
@@ -4152,7 +4152,7 @@ DOMAIN-SUFFIX,wznka.tk
 # IP-CIDR: 25
 # IP-CIDR6: 4
 # TOTAL: 42
-payload:
+
 DOMAIN,lgelectronics.122.2o7.net
 DOMAIN-SUFFIX,dacom.co.kr
 DOMAIN-SUFFIX,kidc.net
@@ -4202,7 +4202,7 @@ IP-CIDR6,2406:5900::/32
 # UPDATED: 2023-04-07 14:51:19
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
-payload:
+
 DOMAIN-SUFFIX,jwpcdn.com
 DOMAIN-SUFFIX,jwplatform.com
 DOMAIN-SUFFIX,jwplayer.com
@@ -4216,7 +4216,7 @@ DOMAIN-SUFFIX,longtailvideo.com
 # UPDATED: 2023-04-07 14:51:19
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,esm.run
 DOMAIN-SUFFIX,jsdelivr.com
 DOMAIN-SUFFIX,jsdelivr.net
@@ -4227,7 +4227,7 @@ DOMAIN-SUFFIX,jsdelivr.net
 # UPDATED: 2023-04-07 14:51:19
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,jquery.com
 DOMAIN-SUFFIX,jquerymobile.com
 DOMAIN-SUFFIX,jqueryui.com
@@ -4239,7 +4239,7 @@ DOMAIN-SUFFIX,jqueryui.com
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 3
 # TOTAL: 4
-payload:
+
 DOMAIN,d29vzk4ow07wi7.cloudfront.net
 DOMAIN-SUFFIX,bintray.com
 DOMAIN-SUFFIX,jfrog.com
@@ -4251,7 +4251,7 @@ DOMAIN-SUFFIX,jfrog.org
 # UPDATED: 2023-04-07 14:51:19
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
-payload:
+
 DOMAIN-SUFFIX,datalore.io
 DOMAIN-SUFFIX,intellij.com
 DOMAIN-SUFFIX,intellij.net
@@ -4268,7 +4268,7 @@ DOMAIN-SUFFIX,kotlinlang.org
 # UPDATED: 2023-04-07 14:51:19
 # DOMAIN-SUFFIX: 261
 # TOTAL: 261
-payload:
+
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,acpica.com
 DOMAIN-SUFFIX,altera.com
@@ -4537,7 +4537,7 @@ DOMAIN-SUFFIX,xscale.com
 # UPDATED: 2023-04-07 14:51:19
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imgurinc.com
 
@@ -4547,7 +4547,7 @@ DOMAIN-SUFFIX,imgurinc.com
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,boxofficemojo.com
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
@@ -4559,7 +4559,7 @@ DOMAIN-SUFFIX,media-imdb.com
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 12
 # TOTAL: 12
-payload:
+
 DOMAIN-SUFFIX,appdomain.cloud
 DOMAIN-SUFFIX,bluemix.com
 DOMAIN-SUFFIX,bluemix.net
@@ -4579,7 +4579,7 @@ DOMAIN-SUFFIX,weatherchannel
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 12
 # TOTAL: 12
-payload:
+
 DOMAIN-SUFFIX,codei.sh
 DOMAIN-SUFFIX,codeish.co
 DOMAIN-SUFFIX,codeish.io
@@ -4599,7 +4599,7 @@ DOMAIN-SUFFIX,herokussl.com
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 158
 # TOTAL: 158
-payload:
+
 DOMAIN-SUFFIX,123-hp.com
 DOMAIN-SUFFIX,123hplaserjet.com
 DOMAIN-SUFFIX,8008206616.com
@@ -4768,7 +4768,7 @@ DOMAIN-SUFFIX,xn--6eup7j.net
 # DOMAIN-SUFFIX: 28
 # IP-CIDR: 2
 # TOTAL: 30
-payload:
+
 DOMAIN-SUFFIX,akabeesoft2.com
 DOMAIN-SUFFIX,akabeesoft3.com
 DOMAIN-SUFFIX,akatsukiworks.com
@@ -4806,7 +4806,7 @@ IP-CIDR,203.104.209.7/32
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,edcity.hk
 DOMAIN-SUFFIX,hkedcity.net
 DOMAIN-SUFFIX,hkreadingcity.net
@@ -4817,7 +4817,7 @@ DOMAIN-SUFFIX,hkreadingcity.net
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
-payload:
+
 DOMAIN-SUFFIX,csifund.org
 DOMAIN-SUFFIX,hkbn.com.hk
 DOMAIN-SUFFIX,hkbn.net
@@ -4831,7 +4831,7 @@ DOMAIN-SUFFIX,speedtest.com.hk
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
-payload:
+
 DOMAIN-SUFFIX,chimeforchange.org
 DOMAIN-SUFFIX,gucci.cn
 DOMAIN-SUFFIX,gucci.com
@@ -4845,7 +4845,7 @@ DOMAIN-SUFFIX,regiongold.com
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 14
 # TOTAL: 14
-payload:
+
 DOMAIN-SUFFIX,alphassl.com
 DOMAIN-SUFFIX,globalsign-media.com
 DOMAIN-SUFFIX,globalsign.be
@@ -4867,7 +4867,7 @@ DOMAIN-SUFFIX,globalsign.nl
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 7
 # TOTAL: 7
-payload:
+
 DOMAIN-SUFFIX,gitlab-assets.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,gitlab-static.net
 DOMAIN-SUFFIX,gitlab.com
@@ -4882,7 +4882,7 @@ DOMAIN-SUFFIX,gitter.im
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,gitbook.zendesk.com
@@ -4893,7 +4893,7 @@ DOMAIN-SUFFIX,gitbook.zendesk.com
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 7
 # TOTAL: 7
-payload:
+
 DOMAIN-SUFFIX,aorus.com
 DOMAIN-SUFFIX,aoruszone.cn
 DOMAIN-SUFFIX,gigabyte.cn
@@ -4908,7 +4908,7 @@ DOMAIN-SUFFIX,sni1dcb6gl.wpc.edgecastcdn.net
 # UPDATED: 2023-04-07 14:51:18
 # DOMAIN-SUFFIX: 25
 # TOTAL: 25
-payload:
+
 DOMAIN-SUFFIX,gettyimages.ae
 DOMAIN-SUFFIX,gettyimages.at
 DOMAIN-SUFFIX,gettyimages.be
@@ -4941,7 +4941,7 @@ DOMAIN-SUFFIX,gettyimages.se
 # UPDATED: 2023-04-07 14:51:17
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,flipboard.com
 DOMAIN-SUFFIX,flipchina.cn
 
@@ -4952,7 +4952,7 @@ DOMAIN-SUFFIX,flipchina.cn
 # DOMAIN: 3
 # DOMAIN-SUFFIX: 8
 # TOTAL: 11
-payload:
+
 DOMAIN,espn.api.edge.bamgrid.com
 DOMAIN,espn.hb.omtrdc.net
 DOMAIN,espndotcom.tt.omtrdc.net
@@ -4971,7 +4971,7 @@ DOMAIN-SUFFIX,watchespn.com
 # UPDATED: 2023-04-07 14:51:17
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,emojipedia.org
 DOMAIN-SUFFIX,worldemojiawards.com
 DOMAIN-SUFFIX,worldemojiday.com
@@ -4983,7 +4983,7 @@ DOMAIN-SUFFIX,xn--yt8h.la
 # UPDATED: 2023-04-07 14:51:17
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,dynu.com
 DOMAIN-SUFFIX,dynu.net
 DOMAIN-SUFFIX,freeddns.org
@@ -4994,7 +4994,7 @@ DOMAIN-SUFFIX,freeddns.org
 # UPDATED: 2023-04-07 14:51:17
 # DOMAIN-SUFFIX: 8
 # TOTAL: 8
-payload:
+
 DOMAIN-SUFFIX,blogdns.org
 DOMAIN-SUFFIX,dyn.com
 DOMAIN-SUFFIX,dyndns-ip.com
@@ -5010,7 +5010,7 @@ DOMAIN-SUFFIX,is-a-hunter.com
 # UPDATED: 2023-04-07 14:51:17
 # DOMAIN-SUFFIX: 43
 # TOTAL: 43
-payload:
+
 DOMAIN-SUFFIX,cispaletter.com
 DOMAIN-SUFFIX,cispaletter.org
 DOMAIN-SUFFIX,cometotheduckside.com
@@ -5061,7 +5061,7 @@ DOMAIN-SUFFIX,spreadprivacy.com
 # UPDATED: 2023-04-07 14:51:17
 # DOMAIN-SUFFIX: 17
 # TOTAL: 17
-payload:
+
 DOMAIN-SUFFIX,3d-game.com
 DOMAIN-SUFFIX,4irc.com
 DOMAIN-SUFFIX,b0ne.com
@@ -5086,7 +5086,7 @@ DOMAIN-SUFFIX,suroot.com
 # UPDATED: 2023-04-07 14:51:17
 # DOMAIN-SUFFIX: 17
 # TOTAL: 17
-payload:
+
 DOMAIN-SUFFIX,db.tt
 DOMAIN-SUFFIX,dropbox-dns.com
 DOMAIN-SUFFIX,dropbox.com
@@ -5112,7 +5112,7 @@ DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com
 # DOMAIN: 3
 # DOMAIN-SUFFIX: 4
 # TOTAL: 7
-payload:
+
 DOMAIN,d1q6f0aelx0por.cloudfront.net
 DOMAIN,d2wy8f7a9ursnm.cloudfront.net
 DOMAIN,d36jcksde1wxzq.cloudfront.net
@@ -5127,7 +5127,7 @@ DOMAIN-SUFFIX,dockerhub.com
 # UPDATED: 2023-04-07 14:51:17
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,disquscdn.com
 DOMAIN-SUFFIX,disqusservice.com
@@ -5138,7 +5138,7 @@ DOMAIN-SUFFIX,disqusservice.com
 # UPDATED: 2023-04-07 14:51:17
 # DOMAIN-SUFFIX: 14
 # TOTAL: 14
-payload:
+
 DOMAIN-SUFFIX,dcocsp.cn
 DOMAIN-SUFFIX,digicert-cn.com
 DOMAIN-SUFFIX,digicert-validation.com
@@ -5160,7 +5160,7 @@ DOMAIN-SUFFIX,thawte.fr
 # UPDATED: 2023-04-07 14:51:17
 # DOMAIN-SUFFIX: 118
 # TOTAL: 118
-payload:
+
 DOMAIN-SUFFIX,air-watch.com
 DOMAIN-SUFFIX,airwatchexpress.com
 DOMAIN-SUFFIX,airwatchqa.com
@@ -5286,7 +5286,7 @@ DOMAIN-SUFFIX,xlstudio.com
 # UPDATED: 2023-04-07 14:51:17
 # DOMAIN-SUFFIX: 17
 # TOTAL: 17
-payload:
+
 DOMAIN-SUFFIX,anm.co.uk
 DOMAIN-SUFFIX,dailym.ai
 DOMAIN-SUFFIX,dailymail.co.uk
@@ -5311,7 +5311,7 @@ DOMAIN-SUFFIX,thismon.ee
 # UPDATED: 2023-04-07 14:51:16
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
-payload:
+
 DOMAIN-SUFFIX,comodo.com
 DOMAIN-SUFFIX,comodo.net
 DOMAIN-SUFFIX,comodoca.com
@@ -5325,7 +5325,7 @@ DOMAIN-SUFFIX,comodoca4.com
 # UPDATED: 2023-04-07 14:51:16
 # DOMAIN-SUFFIX: 117
 # TOTAL: 117
-payload:
+
 DOMAIN-SUFFIX,academynetriders.com
 DOMAIN-SUFFIX,app-dynamics.com
 DOMAIN-SUFFIX,appdynamics.co.uk
@@ -5450,7 +5450,7 @@ DOMAIN-SUFFIX,youtubecisco.com
 # UPDATED: 2023-04-07 14:51:16
 # DOMAIN-SUFFIX: 70
 # TOTAL: 70
-payload:
+
 DOMAIN-SUFFIX,c-ij.com
 DOMAIN-SUFFIX,canon-cee.com
 DOMAIN-SUFFIX,canon-cmos-sensors.com
@@ -5528,7 +5528,7 @@ DOMAIN-SUFFIX,canonproprinters.com
 # UPDATED: 2023-04-07 14:51:16
 # DOMAIN-SUFFIX: 7
 # TOTAL: 7
-payload:
+
 DOMAIN-SUFFIX,cht.com.tw
 DOMAIN-SUFFIX,chtf.org.tw
 DOMAIN-SUFFIX,emome.net
@@ -5543,7 +5543,7 @@ DOMAIN-SUFFIX,xuite.net
 # UPDATED: 2023-04-07 14:51:16
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
-payload:
+
 DOMAIN-SUFFIX,buypass-ssl.com
 DOMAIN-SUFFIX,buypass.com
 DOMAIN-SUFFIX,buypass.no
@@ -5556,7 +5556,7 @@ DOMAIN-SUFFIX,minid.no
 # UPDATED: 2023-04-07 14:51:16
 # DOMAIN-SUFFIX: 14
 # TOTAL: 14
-payload:
+
 DOMAIN-SUFFIX,bcove.video
 DOMAIN-SUFFIX,bcovlive-a.akamaihd.net
 DOMAIN-SUFFIX,bcovlive.io
@@ -5578,7 +5578,7 @@ DOMAIN-SUFFIX,zencoder.com
 # UPDATED: 2023-04-07 14:51:16
 # DOMAIN-SUFFIX: 31
 # TOTAL: 31
-payload:
+
 DOMAIN-SUFFIX,bf99.com
 DOMAIN-SUFFIX,bldimg.com
 DOMAIN-SUFFIX,bldlive.com
@@ -5617,7 +5617,7 @@ DOMAIN-SUFFIX,yijian-app.com
 # UPDATED: 2023-04-07 14:51:16
 # DOMAIN-SUFFIX: 60
 # TOTAL: 60
-payload:
+
 DOMAIN-SUFFIX,bbgevent.com
 DOMAIN-SUFFIX,bbhub.io
 DOMAIN-SUFFIX,bbthat.com
@@ -5685,7 +5685,7 @@ DOMAIN-SUFFIX,tictoc.video
 # UPDATED: 2023-04-07 14:51:16
 # DOMAIN-SUFFIX: 82
 # TOTAL: 82
-payload:
+
 DOMAIN-SUFFIX,bby.com
 DOMAIN-SUFFIX,bbycastatic.ca
 DOMAIN-SUFFIX,bbycloud.com
@@ -5775,7 +5775,7 @@ DOMAIN-SUFFIX,www-bestbuystores.com
 # UPDATED: 2023-04-07 14:51:16
 # DOMAIN-SUFFIX: 727
 # TOTAL: 727
-payload:
+
 DOMAIN-SUFFIX,4myminicard.com
 DOMAIN-SUFFIX,aboutyourmini.com
 DOMAIN-SUFFIX,alfera.com.hk
@@ -6510,7 +6510,7 @@ DOMAIN-SUFFIX,washingtondcbmw.com
 # UPDATED: 2023-04-07 14:51:16
 # DOMAIN-SUFFIX: 7
 # TOTAL: 7
-payload:
+
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,atlassian.net
 DOMAIN-SUFFIX,bitbucket.io
@@ -6525,7 +6525,7 @@ DOMAIN-SUFFIX,trellocdn.com
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,cdnpure.com
 DOMAIN-SUFFIX,pureapk.com
@@ -6537,7 +6537,7 @@ DOMAIN-SUFFIX,winudf.com
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 66
 # TOTAL: 66
-payload:
+
 DOMAIN-SUFFIX,ak1.net
 DOMAIN-SUFFIX,aka-ai.com
 DOMAIN-SUFFIX,aka-ai.net
@@ -6611,7 +6611,7 @@ DOMAIN-SUFFIX,srtcdn.net
 # UPDATED: 2023-04-07 14:51:25
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
-payload:
+
 DOMAIN-SUFFIX,multiplay.cn
 DOMAIN-SUFFIX,unity.cn
 DOMAIN-SUFFIX,unity.com
@@ -6628,7 +6628,7 @@ DOMAIN-SUFFIX,unityedu.com.cn
 # UPDATED: 2023-04-07 14:51:26
 # DOMAIN-SUFFIX: 43
 # TOTAL: 43
-payload:
+
 DOMAIN-SUFFIX,aex.com
 DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com
@@ -6680,7 +6680,7 @@ DOMAIN-SUFFIX,zb.com
 # IP-CIDR: 3
 # IP-CIDR6: 2
 # TOTAL: 5
-payload:
+
 IP-CIDR,149.154.160.0/20
 IP-CIDR,91.108.4.0/22
 IP-CIDR,91.108.8.0/22
@@ -6694,7 +6694,7 @@ IP-CIDR6,2001:b28:f23c::/48
 # IP-CIDR: 2
 # IP-CIDR6: 1
 # TOTAL: 3
-payload:
+
 IP-CIDR,91.108.16.0/22
 IP-CIDR,91.108.56.0/22
 IP-CIDR6,2001:b28:f23f::/48
@@ -6706,7 +6706,7 @@ IP-CIDR6,2001:b28:f23f::/48
 # IP-CIDR: 1
 # IP-CIDR6: 1
 # TOTAL: 2
-payload:
+
 IP-CIDR,91.108.12.0/22
 IP-CIDR6,2001:b28:f23d::/48
 
@@ -6716,7 +6716,7 @@ IP-CIDR6,2001:b28:f23d::/48
 # UPDATED: 2023-04-07 14:51:25
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
-payload:
+
 DOMAIN-SUFFIX,pycon.org
 DOMAIN-SUFFIX,pypa.io
 DOMAIN-SUFFIX,pypi.io
@@ -6730,7 +6730,7 @@ DOMAIN-SUFFIX,pythonhosted.org
 # UPDATED: 2023-04-07 14:51:24
 # DOMAIN-SUFFIX: 8
 # TOTAL: 8
-payload:
+
 DOMAIN-SUFFIX,delvenetworks.com
 DOMAIN-SUFFIX,limelight.com
 DOMAIN-SUFFIX,lldns.net
@@ -6746,7 +6746,7 @@ DOMAIN-SUFFIX,llnwi.net
 # UPDATED: 2023-04-07 14:51:24
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,intercom.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomassets.com
@@ -6759,7 +6759,7 @@ DOMAIN-SUFFIX,intercomcdn.com
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 369
 # TOTAL: 370
-payload:
+
 DOMAIN,ebay-25-assets.s3-us-west-1.amazonaws.com
 DOMAIN-SUFFIX,21centuryaccess.com
 DOMAIN-SUFFIX,4ebaytraders.com
@@ -7137,7 +7137,7 @@ DOMAIN-SUFFIX,yibei.org
 # UPDATED: 2023-04-07 14:51:23
 # DOMAIN-SUFFIX: 13
 # TOTAL: 13
-payload:
+
 DOMAIN-SUFFIX,zoho.com
 DOMAIN-SUFFIX,zoho.com.au
 DOMAIN-SUFFIX,zoho.eu
@@ -7158,7 +7158,7 @@ DOMAIN-SUFFIX,zohowebstatic.com
 # UPDATED: 2023-04-07 14:51:23
 # DOMAIN-SUFFIX: 20
 # TOTAL: 20
-payload:
+
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,toolforge.org
 DOMAIN-SUFFIX,w.wiki
@@ -7186,7 +7186,7 @@ DOMAIN-SUFFIX,wmfusercontent.org
 # UPDATED: 2023-04-07 14:51:23
 # DOMAIN-SUFFIX: 8
 # TOTAL: 8
-payload:
+
 DOMAIN-SUFFIX,videopress.com
 DOMAIN-SUFFIX,w.org
 DOMAIN-SUFFIX,wordpress.com
@@ -7204,7 +7204,7 @@ DOMAIN-SUFFIX,wpvip.com
 # IP-CIDR: 16
 # IP-CIDR6: 2
 # TOTAL: 56
-payload:
+
 DOMAIN-SUFFIX,dzen.ru
 DOMAIN-SUFFIX,xn--d1acpjx3f.xn--p1ai
 DOMAIN-SUFFIX,ya.ru
@@ -7268,7 +7268,7 @@ IP-CIDR6,2a02:6b8::/29
 # UPDATED: 2023-04-07 14:51:23
 # DOMAIN-SUFFIX: 22
 # TOTAL: 22
-payload:
+
 DOMAIN-SUFFIX,bgr.in
 DOMAIN-SUFFIX,bollywoodlife.com
 DOMAIN-SUFFIX,careerfundas.com
@@ -7299,7 +7299,7 @@ DOMAIN-SUFFIX,zeenews.com
 # UPDATED: 2023-04-07 14:51:23
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
-payload:
+
 DOMAIN-SUFFIX,outbound.io
 DOMAIN-SUFFIX,zdassets.com
 DOMAIN-SUFFIX,zdusercontent.com
@@ -7313,7 +7313,7 @@ DOMAIN-SUFFIX,zopim.com
 # UPDATED: 2023-04-07 14:51:23
 # DOMAIN-SUFFIX: 23
 # TOTAL: 23
-payload:
+
 DOMAIN-SUFFIX,g-technology.com
 DOMAIN-SUFFIX,sandisk.ae
 DOMAIN-SUFFIX,sandisk.cn
@@ -7344,7 +7344,7 @@ DOMAIN-SUFFIX,westerndigital.com
 # UPDATED: 2023-04-07 14:51:23
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
-payload:
+
 DOMAIN-SUFFIX,editorx.com
 DOMAIN-SUFFIX,parastorage.com
 DOMAIN-SUFFIX,wix-code.com
@@ -7361,7 +7361,7 @@ DOMAIN-SUFFIX,wixstatic.com
 # UPDATED: 2023-04-07 14:51:23
 # DOMAIN-SUFFIX: 200
 # TOTAL: 200
-payload:
+
 DOMAIN-SUFFIX,advertising.com
 DOMAIN-SUFFIX,aol.co.uk
 DOMAIN-SUFFIX,aol.com
@@ -7570,7 +7570,7 @@ DOMAIN-SUFFIX,yourdigitalrebatecenter.com
 # UPDATED: 2023-04-07 14:51:23
 # DOMAIN-SUFFIX: 33
 # TOTAL: 33
-payload:
+
 DOMAIN-SUFFIX,verisign.asia
 DOMAIN-SUFFIX,verisign.biz
 DOMAIN-SUFFIX,verisign.ch
@@ -7611,7 +7611,7 @@ DOMAIN-SUFFIX,verisigninc.com
 # UPDATED: 2023-04-07 14:51:23
 # DOMAIN-SUFFIX: 27
 # TOTAL: 27
-payload:
+
 DOMAIN-SUFFIX,err.sh
 DOMAIN-SUFFIX,hyper.is
 DOMAIN-SUFFIX,nextjs.org
@@ -7646,7 +7646,7 @@ DOMAIN-SUFFIX,zeitworld.com
 # UPDATED: 2023-04-07 14:51:22
 # DOMAIN-SUFFIX: 32
 # TOTAL: 32
-payload:
+
 DOMAIN-SUFFIX,aranzadi.es
 DOMAIN-SUFFIX,corepublishingsolutions.com
 DOMAIN-SUFFIX,elite.com
@@ -7686,7 +7686,7 @@ DOMAIN-SUFFIX,tr.com
 # UPDATED: 2023-04-07 14:51:22
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,tmblr.co
 DOMAIN-SUFFIX,tumblr.co
 DOMAIN-SUFFIX,tumblr.com
@@ -7697,7 +7697,7 @@ DOMAIN-SUFFIX,tumblr.com
 # UPDATED: 2023-04-07 14:51:22
 # DOMAIN-SUFFIX: 159
 # TOTAL: 159
-payload:
+
 DOMAIN-SUFFIX,connaissancesfinancierespratiques.ca
 DOMAIN-SUFFIX,dnsvisa.com
 DOMAIN-SUFFIX,eubluecardvisa.com
@@ -7864,7 +7864,7 @@ DOMAIN-SUFFIX,visb.org
 # UPDATED: 2023-04-07 14:51:23
 # DOMAIN-SUFFIX: 20
 # TOTAL: 20
-payload:
+
 DOMAIN-SUFFIX,mvk.com
 DOMAIN-SUFFIX,userapi.com
 DOMAIN-SUFFIX,vk-cdn.me
@@ -7892,7 +7892,7 @@ DOMAIN-SUFFIX,vkuservideo.net
 # UPDATED: 2023-04-07 14:51:22
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,packagecontrol.io
 DOMAIN-SUFFIX,sublimehq.com
 DOMAIN-SUFFIX,sublimemerge.com
@@ -7904,7 +7904,7 @@ DOMAIN-SUFFIX,sublimetext.com
 # UPDATED: 2023-04-07 14:51:22
 # DOMAIN-SUFFIX: 67
 # TOTAL: 67
-payload:
+
 DOMAIN-SUFFIX,sbux.com.my
 DOMAIN-SUFFIX,sbuxcard.com
 DOMAIN-SUFFIX,starbucks-stars.com
@@ -7979,7 +7979,7 @@ DOMAIN-SUFFIX,starbuckssummergame.com
 # UPDATED: 2023-04-07 14:51:22
 # DOMAIN-SUFFIX: 20
 # TOTAL: 20
-payload:
+
 DOMAIN-SUFFIX,askubuntu.com
 DOMAIN-SUFFIX,blogoverflow.com
 DOMAIN-SUFFIX,codeforaliving.io
@@ -8007,7 +8007,7 @@ DOMAIN-SUFFIX,thesffblog.com
 # UPDATED: 2023-04-07 14:51:22
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,fsdn.com
 DOMAIN-SUFFIX,sf.net
 DOMAIN-SUFFIX,sourceforge.com
@@ -8020,7 +8020,7 @@ DOMAIN-SUFFIX,sourceforge.net
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 6
 # TOTAL: 7
-payload:
+
 DOMAIN,impala-media-production.s3.amazonaws.com
 DOMAIN-SUFFIX,sc-cdn.net
 DOMAIN-SUFFIX,snap-dev.net
@@ -8035,7 +8035,7 @@ DOMAIN-SUFFIX,snapkit.co
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 21
 # TOTAL: 21
-payload:
+
 DOMAIN-SUFFIX,shopee.cl
 DOMAIN-SUFFIX,shopee.cn
 DOMAIN-SUFFIX,shopee.co.id
@@ -8064,7 +8064,7 @@ DOMAIN-SUFFIX,shp.ee
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 8
 # TOTAL: 8
-payload:
+
 DOMAIN-SUFFIX,myshopify.com
 DOMAIN-SUFFIX,shop.app
 DOMAIN-SUFFIX,shopify.com
@@ -8080,7 +8080,7 @@ DOMAIN-SUFFIX,shopifysvc.com
 # UPDATED: 2023-04-07 14:51:22
 # DOMAIN-SUFFIX: 11
 # TOTAL: 11
-payload:
+
 DOMAIN-SUFFIX,slack-core.com
 DOMAIN-SUFFIX,slack-edge.com
 DOMAIN-SUFFIX,slack-files.com
@@ -8099,7 +8099,7 @@ DOMAIN-SUFFIX,slackhq.com
 # UPDATED: 2023-04-07 14:51:22
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
-payload:
+
 DOMAIN-SUFFIX,dishworld.com
 DOMAIN-SUFFIX,movenetworks.com
 DOMAIN-SUFFIX,movetv.com
@@ -8112,7 +8112,7 @@ DOMAIN-SUFFIX,slinginternational.com
 # UPDATED: 2023-04-07 14:51:22
 # DOMAIN-SUFFIX: 15
 # TOTAL: 15
-payload:
+
 DOMAIN-SUFFIX,barkadahansasmartone.com
 DOMAIN-SUFFIX,healthreach.hk
 DOMAIN-SUFFIX,hkcircleapp.com
@@ -8135,7 +8135,7 @@ DOMAIN-SUFFIX,wise-research.com
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 15
 # TOTAL: 15
-payload:
+
 DOMAIN-SUFFIX,aoc.cat
 DOMAIN-SUFFIX,catcert.cat
 DOMAIN-SUFFIX,enterprisessl.com
@@ -8158,7 +8158,7 @@ DOMAIN-SUFFIX,usertrust.com
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 13
 # TOTAL: 13
-payload:
+
 DOMAIN-SUFFIX,anrdoezrs.net
 DOMAIN-SUFFIX,galaxyappstore.com
 DOMAIN-SUFFIX,galaxymobile.jp
@@ -8179,7 +8179,7 @@ DOMAIN-SUFFIX,samsungqbe.com
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 8
 # TOTAL: 8
-payload:
+
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmail.com
@@ -8195,7 +8195,7 @@ DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
-payload:
+
 DOMAIN-SUFFIX,razer.com
 DOMAIN-SUFFIX,razersupport.com
 DOMAIN-SUFFIX,razerzone.com
@@ -8208,7 +8208,7 @@ DOMAIN-SUFFIX,respawnbyrazer.com
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 22
 # TOTAL: 22
-payload:
+
 DOMAIN-SUFFIX,dyncdn.me
 DOMAIN-SUFFIX,proxyrarbg.org
 DOMAIN-SUFFIX,rarbg.bypassed.org
@@ -8238,7 +8238,7 @@ DOMAIN-SUFFIX,rarbgway.org
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
-payload:
+
 DOMAIN-SUFFIX,ads-pixiv.net
 DOMAIN-SUFFIX,booth.pm
 DOMAIN-SUFFIX,fanbox.cc
@@ -8255,7 +8255,7 @@ DOMAIN-SUFFIX,pximg.net
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
-payload:
+
 DOMAIN-SUFFIX,pimg.tw
 DOMAIN-SUFFIX,pixanalytics.com
 DOMAIN-SUFFIX,pixfs.net
@@ -8272,7 +8272,7 @@ DOMAIN-SUFFIX,pixplug.in
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
-payload:
+
 DOMAIN-SUFFIX,pm.me
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.ch
@@ -8285,7 +8285,7 @@ DOMAIN-SUFFIX,protonstatus.com
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 45
 # TOTAL: 45
-payload:
+
 DOMAIN-SUFFIX,airgonetworks.com
 DOMAIN-SUFFIX,berkanawireless.com
 DOMAIN-SUFFIX,brewmp.com
@@ -8338,7 +8338,7 @@ DOMAIN-SUFFIX,xtracloud.cn
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 18
 # TOTAL: 18
-payload:
+
 DOMAIN-SUFFIX,ebates.com
 DOMAIN-SUFFIX,infoseek.co.jp
 DOMAIN-SUFFIX,o50.jp
@@ -8364,7 +8364,7 @@ DOMAIN-SUFFIX,viber.com
 # UPDATED: 2023-04-07 14:51:21
 # DOMAIN-SUFFIX: 52
 # TOTAL: 52
-payload:
+
 DOMAIN-SUFFIX,pin.it
 DOMAIN-SUFFIX,pinimg.com
 DOMAIN-SUFFIX,pinimg.com.cdn.cloudflare.net
@@ -8424,7 +8424,7 @@ DOMAIN-SUFFIX,pinterestmail.com
 # UPDATED: 2023-04-07 14:51:20
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
-payload:
+
 DOMAIN-SUFFIX,pics.ee
 DOMAIN-SUFFIX,picsee.co
 DOMAIN-SUFFIX,picsee.pro
@@ -8439,7 +8439,7 @@ DOMAIN-SUFFIX,pse.is
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 26
 # TOTAL: 27
-payload:
+
 DOMAIN,d2anahhhmp1ffz.cloudfront.net
 DOMAIN-SUFFIX,1010.com.hk
 DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
@@ -8474,7 +8474,7 @@ DOMAIN-SUFFIX,viu.tv
 # UPDATED: 2023-04-07 14:51:20
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
-payload:
+
 DOMAIN-SUFFIX,oreil.ly
 DOMAIN-SUFFIX,oreilly.com
 DOMAIN-SUFFIX,oreilly.com.cn
@@ -8490,7 +8490,7 @@ DOMAIN-SUFFIX,orl.ly
 # IP-CIDR: 7
 # IP-CIDR6: 1
 # TOTAL: 20
-payload:
+
 DOMAIN-SUFFIX,1npq4.tk
 DOMAIN-SUFFIX,coastbyopera.com
 DOMAIN-SUFFIX,gamingbrowsers.com
@@ -8518,7 +8518,7 @@ IP-CIDR6,2001:4c28::/32
 # UPDATED: 2023-04-07 14:51:20
 # DOMAIN-SUFFIX: 22
 # TOTAL: 22
-payload:
+
 DOMAIN-SUFFIX,bugzilla.org
 DOMAIN-SUFFIX,crates.io
 DOMAIN-SUFFIX,developer.allizom.org
@@ -8552,7 +8552,7 @@ DOMAIN-SUFFIX,thunderbird.net
 # IP-CIDR6: 1
 # PROCESS-NAME: 1
 # TOTAL: 65
-payload:
+
 DOMAIN,d17lx9ucc6k9fc.cloudfront.net
 DOMAIN,d3c7rimkq79yfu.cloudfront.net
 DOMAIN-SUFFIX,chocotv.com.tw
@@ -8625,7 +8625,7 @@ PROCESS-NAME,com.linecorp.linetv
 # UPDATED: 2023-04-07 14:51:20
 # DOMAIN-SUFFIX: 194
 # TOTAL: 194
-payload:
+
 DOMAIN-SUFFIX,air-nike-shoes.com
 DOMAIN-SUFFIX,airmax360.com
 DOMAIN-SUFFIX,beijingnike.com
@@ -8827,7 +8827,7 @@ DOMAIN-SUFFIX,xn--74q035i.xn--hxt814e
 # UPDATED: 2023-04-07 14:51:20
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
-payload:
+
 DOMAIN-SUFFIX,notion-static.com
 DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.new
@@ -8840,7 +8840,7 @@ DOMAIN-SUFFIX,notion.so
 # UPDATED: 2023-04-07 14:51:20
 # DOMAIN-SUFFIX: 62
 # TOTAL: 62
-payload:
+
 DOMAIN-SUFFIX,geforce.cn
 DOMAIN-SUFFIX,geforce.co.kr
 DOMAIN-SUFFIX,geforce.co.uk
@@ -8910,7 +8910,7 @@ DOMAIN-SUFFIX,tegrazone.kr
 # UPDATED: 2023-04-07 14:51:20
 # DOMAIN-SUFFIX: 25
 # TOTAL: 25
-payload:
+
 DOMAIN-SUFFIX,4008-517-517.cn
 DOMAIN-SUFFIX,aboutmcdonalds.com
 DOMAIN-SUFFIX,happymeal.co.nz
@@ -8943,7 +8943,7 @@ DOMAIN-SUFFIX,xn--qhrx81fxh2a.xn--55qx5d.hk
 # UPDATED: 2023-04-07 14:51:20
 # DOMAIN-SUFFIX: 12
 # TOTAL: 12
-payload:
+
 DOMAIN-SUFFIX,malayalamanorama.com
 DOMAIN-SUFFIX,manorama.com
 DOMAIN-SUFFIX,manoramanews.com
@@ -8963,7 +8963,7 @@ DOMAIN-SUFFIX,vanithaveedu.com
 # UPDATED: 2023-04-07 14:51:20
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,imgsmail.ru
 DOMAIN-SUFFIX,mail.ru
 DOMAIN-SUFFIX,mycdn.me
@@ -8977,7 +8977,7 @@ DOMAIN-SUFFIX,mycdn.me
 # IP-CIDR6: 7
 # PROCESS-NAME: 1
 # TOTAL: 14
-payload:
+
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,mega.io
 DOMAIN-SUFFIX,mega.nz
@@ -8999,7 +8999,7 @@ PROCESS-NAME,mega.privacy.android.app
 # UPDATED: 2023-04-07 14:51:19
 # DOMAIN-SUFFIX: 13
 # TOTAL: 13
-payload:
+
 DOMAIN-SUFFIX,logi.com
 DOMAIN-SUFFIX,logicool.co.jp
 DOMAIN-SUFFIX,logicoolg.com
@@ -9020,7 +9020,7 @@ DOMAIN-SUFFIX,worldsfastestgamer.net
 # UPDATED: 2023-04-07 14:52:19
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,terabox.com
 DOMAIN-SUFFIX,teraboxcdn.com
 
@@ -9030,7 +9030,7 @@ DOMAIN-SUFFIX,teraboxcdn.com
 # UPDATED: 2023-04-07 14:52:29
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,picjs.xyz
 DOMAIN-SUFFIX,vikacg.com
 
@@ -9040,7 +9040,7 @@ DOMAIN-SUFFIX,vikacg.com
 # UPDATED: 2023-04-07 14:52:51
 # DOMAIN-SUFFIX: 219
 # TOTAL: 219
-payload:
+
 DOMAIN-SUFFIX,1lib.cloud
 DOMAIN-SUFFIX,1lib.domains
 DOMAIN-SUFFIX,1lib.education
@@ -9268,7 +9268,7 @@ DOMAIN-SUFFIX,zotero.org
 # DOMAIN: 2
 # DOMAIN-SUFFIX: 6
 # TOTAL: 8
-payload:
+
 DOMAIN,itvpnp.live.ott.irdeto.com
 DOMAIN,itvpnp.stage.ott.irdeto.com
 DOMAIN-SUFFIX,bb-static.com
@@ -9284,7 +9284,7 @@ DOMAIN-SUFFIX,massive-itv.com
 # UPDATED: 2023-04-07 14:52:19
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,digitalocean.com
 DOMAIN-SUFFIX,digitaloceanspaces.com
 DOMAIN-SUFFIX,do.co
@@ -9296,7 +9296,7 @@ DOMAIN-SUFFIX,nginxconfig.io
 # UPDATED: 2023-04-07 14:52:29
 # DOMAIN-SUFFIX: 95
 # TOTAL: 95
-payload:
+
 DOMAIN-SUFFIX,ikea.ae
 DOMAIN-SUFFIX,ikea.at
 DOMAIN-SUFFIX,ikea.au
@@ -9399,7 +9399,7 @@ DOMAIN-SUFFIX,ingkacentres.com
 # UPDATED: 2023-04-07 14:52:29
 # PROCESS-NAME: 9
 # TOTAL: 9
-payload:
+
 PROCESS-NAME,crashreport.exe
 PROCESS-NAME,devcon.exe
 PROCESS-NAME,driverinstaller.exe
@@ -9416,7 +9416,7 @@ PROCESS-NAME,todesk_setup.exe
 # UPDATED: 2023-04-07 14:52:19
 # DOMAIN-SUFFIX: 16
 # TOTAL: 16
-payload:
+
 DOMAIN-SUFFIX,earth-pa.clients6.google.com
 DOMAIN-SUFFIX,earth.google.com
 DOMAIN-SUFFIX,kh.google.com
@@ -9440,7 +9440,7 @@ DOMAIN-SUFFIX,mw1.google.com
 # UPDATED: 2023-04-07 14:52:18
 # DOMAIN-SUFFIX: 33
 # TOTAL: 33
-payload:
+
 DOMAIN-SUFFIX,appsflayer.com
 DOMAIN-SUFFIX,binance.cc
 DOMAIN-SUFFIX,binance.charity
@@ -9482,7 +9482,7 @@ DOMAIN-SUFFIX,saasexch.com
 # DOMAIN: 4
 # DOMAIN-SUFFIX: 2
 # TOTAL: 6
-payload:
+
 DOMAIN,d1koerlbtsmkf8.cloudfront.net
 DOMAIN,d31wl6mro6753i.cloudfront.net
 DOMAIN,static-mycake.pstatic.net
@@ -9497,7 +9497,7 @@ DOMAIN-SUFFIX,mycake.me
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 6
 # TOTAL: 7
-payload:
+
 DOMAIN-SUFFIX,dlandroid.rcv.sandai.net
 DOMAIN-SUFFIX,hub5idx.v6.shub.sandai.net
 DOMAIN-SUFFIX,hub5pn.wap.sandai.net
@@ -9515,7 +9515,7 @@ DOMAIN-KEYWORD,mypikpak
 # DOMAIN-SUFFIX: 34
 # PROCESS-NAME: 1
 # TOTAL: 39
-payload:
+
 DOMAIN,emby.enjoyit.eu.org
 DOMAIN-SUFFIX,agahk1.jmsooo.com
 DOMAIN-SUFFIX,agajp1.jmsooo.com
@@ -9562,7 +9562,7 @@ PROCESS-NAME,com.mb.android
 # UPDATED: 2023-04-07 14:51:43
 # DOMAIN-SUFFIX: 54
 # TOTAL: 54
-payload:
+
 DOMAIN-SUFFIX,aerialline.com
 DOMAIN-SUFFIX,askubuntu.com
 DOMAIN-SUFFIX,canonical.com
@@ -9625,7 +9625,7 @@ DOMAIN-SUFFIX,ubuntuusers.de
 # DOMAIN: 9
 # IP-CIDR: 26
 # TOTAL: 35
-payload:
+
 DOMAIN,alt1-mtalk.google.com
 DOMAIN,alt2-mtalk.google.com
 DOMAIN,alt3-mtalk.google.com
@@ -9668,7 +9668,7 @@ IP-CIDR,74.125.28.188/32
 # DOMAIN: 3
 # DOMAIN-SUFFIX: 3
 # TOTAL: 6
-payload:
+
 DOMAIN,account.synology.com
 DOMAIN,global.quickconnect.cn
 DOMAIN,sns.synology.com
@@ -9684,7 +9684,7 @@ DOMAIN-SUFFIX,quickconnect.to
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 2
 # TOTAL: 4
-payload:
+
 DOMAIN,hls-hichannel.cdn.hinet.net
 DOMAIN-SUFFIX,hamivideo.hinet.net
 DOMAIN-SUFFIX,ott.hinet.net
@@ -9696,7 +9696,7 @@ DOMAIN-KEYWORD,hamivideo.cdn.hinet.net
 # UPDATED: 2023-04-07 14:51:43
 # DOMAIN-SUFFIX: 47
 # TOTAL: 47
-payload:
+
 DOMAIN-SUFFIX,appcloud.com
 DOMAIN-SUFFIX,appexchange.com
 DOMAIN-SUFFIX,attic.io
@@ -9751,7 +9751,7 @@ DOMAIN-SUFFIX,weinvoiceit.com
 # UPDATED: 2023-04-07 14:51:43
 # DOMAIN-SUFFIX: 18
 # TOTAL: 18
-payload:
+
 DOMAIN-SUFFIX,clickedu.co.uk
 DOMAIN-SUFFIX,deepfreeze.co.uk
 DOMAIN-SUFFIX,deepfreeze.com
@@ -9778,7 +9778,7 @@ DOMAIN-SUFFIX,faronicswise.com
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 21
 # TOTAL: 22
-payload:
+
 DOMAIN,nbcstreaming.sc.omtrdc.net
 DOMAIN-SUFFIX,bravotv.com
 DOMAIN-SUFFIX,cnbc.com
@@ -9809,7 +9809,7 @@ DOMAIN-SUFFIX,usanetwork.com
 # DOMAIN-SUFFIX: 6
 # IP-CIDR: 1
 # TOTAL: 7
-payload:
+
 DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,ehgt.org
 DOMAIN-SUFFIX,ehwiki.org
@@ -9824,7 +9824,7 @@ IP-CIDR,178.175.128.0/21
 # UPDATED: 2023-04-07 14:51:27
 # DOMAIN-SUFFIX: 13
 # TOTAL: 13
-payload:
+
 DOMAIN-SUFFIX,solarcity.com
 DOMAIN-SUFFIX,tesla-cdn.thron.cn
 DOMAIN-SUFFIX,tesla-cdn.thron.com
@@ -9845,7 +9845,7 @@ DOMAIN-SUFFIX,ts.la
 # UPDATED: 2023-04-07 14:51:28
 # DOMAIN-SUFFIX: 7
 # TOTAL: 7
-payload:
+
 DOMAIN-SUFFIX,ebi.ac.uk
 DOMAIN-SUFFIX,embl-hamburg.de
 DOMAIN-SUFFIX,embl.de
@@ -9860,7 +9860,7 @@ DOMAIN-SUFFIX,emblstatic.net
 # UPDATED: 2023-04-07 14:51:28
 # DOMAIN-SUFFIX: 8
 # TOTAL: 8
-payload:
+
 DOMAIN-SUFFIX,consul.io
 DOMAIN-SUFFIX,hashicorp.com
 DOMAIN-SUFFIX,nomadproject.io
@@ -9876,7 +9876,7 @@ DOMAIN-SUFFIX,vaultproject.io
 # UPDATED: 2023-04-07 14:51:28
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,cloudimage.io
 DOMAIN-SUFFIX,cloudimg.io
 DOMAIN-SUFFIX,scaleflex.com
@@ -9889,7 +9889,7 @@ DOMAIN-SUFFIX,scaleflex.com
 # DOMAIN-SUFFIX: 3
 # PROCESS-NAME: 2
 # TOTAL: 7
-payload:
+
 DOMAIN,cwtv-amd-akamai.akamaized.net
 DOMAIN,edge.cwtv-vod-ext.top.comcast.net
 DOMAIN-SUFFIX,cwseed.com
@@ -9904,7 +9904,7 @@ PROCESS-NAME,com.cw.seed.android
 # UPDATED: 2023-04-07 14:51:27
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
-payload:
+
 DOMAIN-SUFFIX,dood.so
 DOMAIN-SUFFIX,dood.video
 DOMAIN-SUFFIX,doodcdn.com
@@ -9916,7 +9916,7 @@ DOMAIN-SUFFIX,doodcdn.com
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 17
 # TOTAL: 18
-payload:
+
 DOMAIN-SUFFIX,diskstation.me
 DOMAIN-SUFFIX,dscloud.biz
 DOMAIN-SUFFIX,dscloud.me
@@ -9946,7 +9946,7 @@ DOMAIN-KEYWORD,synology
 # IP-CIDR: 90
 # IP-CIDR6: 4
 # TOTAL: 969
-payload:
+
 DOMAIN,addons.mozilla.org
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,api.waqi.info
@@ -10922,7 +10922,7 @@ IP-CIDR6,2a0a:f280::/32
 # UPDATED: 2023-04-07 14:51:26
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,momo.dm
 DOMAIN-SUFFIX,momo5188.com
 DOMAIN-SUFFIX,momomall.com.tw
@@ -10934,7 +10934,7 @@ DOMAIN-SUFFIX,momoshop.com.tw
 # UPDATED: 2023-04-07 14:51:26
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
-payload:
+
 DOMAIN-SUFFIX,ecapi-pchome.cdn.hinet.net
 DOMAIN-SUFFIX,ecimg.tw
 DOMAIN-SUFFIX,pchome.com.tw
