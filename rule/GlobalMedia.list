@@ -7,7 +7,7 @@
 # IP-CIDR: 2
 # IP-CIDR6: 1
 # TOTAL: 182
-payload:
+
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googlevideo.com
@@ -198,7 +198,7 @@ IP-CIDR6,2620:120:e000::/40
 # UPDATED: 2023-04-07 14:47:36
 # DOMAIN: 1
 # TOTAL: 1
-payload:
+
 DOMAIN,music.youtube.com
 
 # NAME: AppleTV
@@ -209,7 +209,7 @@ DOMAIN,music.youtube.com
 # DOMAIN-SUFFIX: 1
 # PROCESS-NAME: 1
 # TOTAL: 8
-payload:
+
 DOMAIN,hls-amt.itunes.apple.com
 DOMAIN,hls.itunes.apple.com
 DOMAIN,np-edge.itunes.apple.com
@@ -230,7 +230,7 @@ PROCESS-NAME,tv
 #IP-CIDR6: 4
 # PROCESS-NAME: 1
 # TOTAL: 1021
-payload:
+
 DOMAIN,e13252.dscg.akamaiedge.net
 DOMAIN,h-netflix.online-metrix.net
 DOMAIN,netflix.com.edgesuite.net
@@ -1262,7 +1262,7 @@ PROCESS-NAME,com.netflix.mediaclient
 # DOMAIN-SUFFIX: 13
 # PROCESS-NAME: 1
 # TOTAL: 17
-payload:
+
 DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
@@ -1288,7 +1288,7 @@ PROCESS-NAME,com.zhiliaoapp.musically
 # DOMAIN-SUFFIX: 170
 # PROCESS-NAME: 2
 # TOTAL: 172
-payload:
+
 DOMAIN-SUFFIX,20thcenturystudios.com.au
 DOMAIN-SUFFIX,20thcenturystudios.com.br
 DOMAIN-SUFFIX,20thcenturystudios.jp
@@ -1472,7 +1472,7 @@ PROCESS-NAME,com.disney.disneyplus
 #IP-CIDR: 2
 # PROCESS-NAME: 1
 # TOTAL: 29
-payload:
+
 DOMAIN,audio4-ak-spotify-com.akamaized.net
 DOMAIN,heads-ak-spotify-com.akamaized.net
 DOMAIN,spotify.com.edgesuite.net
@@ -1509,7 +1509,7 @@ PROCESS-NAME,com.spotify.music
 # UPDATED: 2023-04-07 14:50:23
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
-payload:
+
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicodic.jp
 DOMAIN-SUFFIX,nicomanga.jp
@@ -1528,7 +1528,7 @@ DOMAIN-SUFFIX,socdm.com
 # DOMAIN-KEYWORD: 2
 # DOMAIN-SUFFIX: 15
 # TOTAL: 34
-payload:
+
 DOMAIN,aod-dash-uk-live.akamaized.net
 DOMAIN,aod-hls-uk-live.akamaized.net
 DOMAIN,aod-pod-uk-live.akamaized.net
@@ -1570,7 +1570,7 @@ DOMAIN-KEYWORD,uk-live
 # UPDATED: 2023-04-07 14:50:24
 # DOMAIN-SUFFIX: 8
 # TOTAL: 8
-payload:
+
 DOMAIN-SUFFIX,bahamut.akamaized.net
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,digicert.com
@@ -1588,7 +1588,7 @@ DOMAIN-SUFFIX,viblast.com
 # DOMAIN-SUFFIX: 57
 # PROCESS-NAME: 1
 # TOTAL: 59
-payload:
+
 DOMAIN,live-mediashield-ava-hulustream-com.akamaized.net
 DOMAIN-SUFFIX,112263.com
 DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
@@ -1655,7 +1655,7 @@ PROCESS-NAME,com.hulu.plus
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,kmplayer.com
 DOMAIN-SUFFIX,pandora.tv
 
@@ -1666,7 +1666,7 @@ DOMAIN-SUFFIX,pandora.tv
 # DOMAIN: 3
 # DOMAIN-SUFFIX: 18
 # TOTAL: 21
-payload:
+
 DOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN,edge.api.brightcove.com
 DOMAIN,tvbtracking.azurewebsites.net
@@ -1695,7 +1695,7 @@ DOMAIN-SUFFIX,youboranqs01.com
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 22
 # TOTAL: 22
-payload:
+
 DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
 DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
@@ -1726,7 +1726,7 @@ DOMAIN-SUFFIX,nowe.hk
 # DOMAIN-SUFFIX: 6
 # PROCESS-NAME: 1
 # TOTAL: 7
-payload:
+
 DOMAIN-SUFFIX,cinemax.com
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbomaxcdn.com
@@ -1741,7 +1741,7 @@ PROCESS-NAME,com.hbo.hbonow
 # UPDATED: 2023-04-07 14:51:15
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
-payload:
+
 DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hjholdings.jp
 DOMAIN-SUFFIX,hulu.jp
@@ -1755,7 +1755,7 @@ DOMAIN-SUFFIX,yb.uncn.jp
 # DOMAIN-SUFFIX: 52
 # PROCESS-NAME: 1
 # TOTAL: 53
-payload:
+
 DOMAIN-SUFFIX,112263.com
 DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
 DOMAIN-SUFFIX,callhulu.com
@@ -1816,7 +1816,7 @@ PROCESS-NAME,com.hulu.plus
 # UPDATED: 2023-04-07 14:51:25
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-payload:
+
 DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxdcg.com
 DOMAIN-SUFFIX,theplatform.com
@@ -1829,7 +1829,7 @@ DOMAIN-SUFFIX,uplynk.com
 # DOMAIN: 6
 # DOMAIN-SUFFIX: 1
 # TOTAL: 7
-payload:
+
 DOMAIN,cdn-fox-networks-group-green.akamaized.net
 DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
 DOMAIN,foxsports01-i.akamaihd.net
@@ -1845,7 +1845,7 @@ DOMAIN-SUFFIX,foxplus.com
 # DOMAIN: 2
 # DOMAIN-SUFFIX: 2
 # TOTAL: 4
-payload:
+
 DOMAIN,kktv-theater.kk.stream
 DOMAIN,theater-kktv.cdn.hinet.net
 DOMAIN-SUFFIX,kktv.com.tw
@@ -1857,7 +1857,7 @@ DOMAIN-SUFFIX,kktv.me
 # UPDATED: 2023-04-07 14:51:25
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,smartmediarep.com
 
@@ -1867,7 +1867,7 @@ DOMAIN-SUFFIX,smartmediarep.com
 # UPDATED: 2023-04-07 14:51:25
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,nowestatic.com
 
@@ -1878,7 +1878,7 @@ DOMAIN-SUFFIX,nowestatic.com
 # DOMAIN: 4
 # DOMAIN-SUFFIX: 5
 # TOTAL: 9
-payload:
+
 DOMAIN,cbsi.live.ott.irdeto.com
 DOMAIN,cbsplaylistserver.aws.syncbak.com
 DOMAIN,cbsservice.aws.syncbak.com
@@ -1897,7 +1897,7 @@ DOMAIN-SUFFIX,pplusstatic.com
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 15
 # TOTAL: 25
-payload:
+
 DOMAIN,atv-ps.amazon.com
 DOMAIN,avodmp4s3ww-a.akamaihd.net
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
@@ -1930,7 +1930,7 @@ DOMAIN-KEYWORD,avoddashs
 # UPDATED: 2023-04-07 14:51:26
 # DOMAIN-SUFFIX: 6
 # TOTAL: 6
-payload:
+
 DOMAIN-SUFFIX,dogatch.jp
 DOMAIN-SUFFIX,edge.api.brightcove.com
 DOMAIN-SUFFIX,gorin.jp
@@ -1946,7 +1946,7 @@ DOMAIN-SUFFIX,tver.jp
 # DOMAIN-KEYWORD: 2
 # DOMAIN-SUFFIX: 2
 # TOTAL: 6
-payload:
+
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN-SUFFIX,mytvsuper.com
@@ -1962,7 +1962,7 @@ DOMAIN-KEYWORD,rthklive
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 2
 # TOTAL: 19
-payload:
+
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,bcbolthboa-a.akamaihd.net
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
@@ -1991,7 +1991,7 @@ DOMAIN-KEYWORD,.hbogoasia.
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 11
 # TOTAL: 14
-payload:
+
 DOMAIN,discovery-us.conax.cloud
 DOMAIN,dplus-northamerica.media-edge.prod-vod.h264.io
 DOMAIN-SUFFIX,disco-api.com
@@ -2013,7 +2013,7 @@ DOMAIN-KEYWORD,discovery.uplynk.com
 # UPDATED: 2023-04-07 14:51:27
 # DOMAIN-SUFFIX: 1
 # TOTAL: 1
-payload:
+
 DOMAIN-SUFFIX,overcast.fm
 
 # NAME: Peacock
@@ -2022,7 +2022,7 @@ DOMAIN-SUFFIX,overcast.fm
 # UPDATED: 2023-04-07 14:51:28
 # DOMAIN-SUFFIX: 1
 # TOTAL: 1
-payload:
+
 DOMAIN-SUFFIX,peacocktv.com
 
 # NAME: Emby
@@ -2034,7 +2034,7 @@ DOMAIN-SUFFIX,peacocktv.com
 # DOMAIN-SUFFIX: 34
 # PROCESS-NAME: 1
 # TOTAL: 39
-payload:
+
 DOMAIN,emby.enjoyit.eu.org
 DOMAIN-SUFFIX,agahk1.jmsooo.com
 DOMAIN-SUFFIX,agajp1.jmsooo.com
@@ -2082,7 +2082,7 @@ PROCESS-NAME,com.mb.android
 # DOMAIN: 4
 # DOMAIN-SUFFIX: 2
 # TOTAL: 6
-payload:
+
 DOMAIN,d1koerlbtsmkf8.cloudfront.net
 DOMAIN,d31wl6mro6753i.cloudfront.net
 DOMAIN,static-mycake.pstatic.net
@@ -2097,7 +2097,7 @@ DOMAIN-SUFFIX,mycake.me
 # DOMAIN: 2
 # DOMAIN-SUFFIX: 6
 # TOTAL: 8
-payload:
+
 DOMAIN,itvpnp.live.ott.irdeto.com
 DOMAIN,itvpnp.stage.ott.irdeto.com
 DOMAIN-SUFFIX,bb-static.com
@@ -2116,7 +2116,7 @@ DOMAIN-SUFFIX,massive-itv.com
 # DOMAIN-SUFFIX: 18
 # PROCESS-NAME: 1
 # TOTAL: 25
-payload:
+
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
 DOMAIN,d25xi40x97liuc.cloudfront.net
@@ -2149,7 +2149,7 @@ PROCESS-NAME,com.amazon.avod.thirdpartyclient
 # UPDATED: 2023-04-07 14:50:26
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,5itv.tv
 DOMAIN-SUFFIX,ocnttv.com
 
@@ -2160,7 +2160,7 @@ DOMAIN-SUFFIX,ocnttv.com
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 2
 # TOTAL: 3
-payload:
+
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,itvstatic.com
@@ -2171,7 +2171,7 @@ DOMAIN-SUFFIX,itvstatic.com
 # UPDATED: 2023-04-07 14:50:27
 # DOMAIN-SUFFIX: 1
 # TOTAL: 1
-payload:
+
 DOMAIN-SUFFIX,imkan.tv
 
 # NAME: LiTV
@@ -2181,7 +2181,7 @@ DOMAIN-SUFFIX,imkan.tv
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 1
 # TOTAL: 2
-payload:
+
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 DOMAIN-SUFFIX,litv.tv
 
@@ -2193,7 +2193,7 @@ DOMAIN-SUFFIX,litv.tv
 # DOMAIN-SUFFIX: 5
 # PROCESS-NAME: 1
 # TOTAL: 9
-payload:
+
 DOMAIN,d17lx9ucc6k9fc.cloudfront.net
 DOMAIN,d3pgb93pk7bvxj.cloudfront.net
 DOMAIN,d3vm9lcxb6xcm4.cloudfront.net
@@ -2210,7 +2210,7 @@ PROCESS-NAME,com.linecorp.linetv
 # UPDATED: 2023-04-07 14:50:29
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
-payload:
+
 DOMAIN-SUFFIX,z5.app
 DOMAIN-SUFFIX,z5.com
 DOMAIN-SUFFIX,zee5.com
@@ -2227,6 +2227,6 @@ v
 # UPDATED: 2023-04-07 14:51:28
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-payload:
+
 DOMAIN-SUFFIX,fubo.tv
 DOMAIN-SUFFIX,fubotv.com
