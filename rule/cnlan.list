@@ -7,7 +7,7 @@
 # IP-CIDR: 14
 # IP-CIDR6: 3
 # TOTAL: 144
-payload:
+
 DOMAIN,asusrouter.com
 DOMAIN,instant.arubanetworks.com
 DOMAIN,router.asus.com
