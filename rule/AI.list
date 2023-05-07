@@ -5,7 +5,7 @@
 # DOMAIN: 12
 # DOMAIN-SUFFIX: 3
 # TOTAL: 15
-payload:
+
 DOMAIN,cdn.openai.com
 DOMAIN,chat.openai.com
 DOMAIN,cdn.auth0.com
@@ -29,7 +29,7 @@ DOMAIN-SUFFIX,identrust.com
 # DOMAIN: 3
 # DOMAIN-SUFFIX: 1
 # TOTAL: 4
-payload:
+
 DOMAIN,cdn.midjourney.com
 DOMAIN,mj-gallery.com
 DOMAIN,status.midjourney.com
@@ -42,7 +42,7 @@ DOMAIN-SUFFIX,midjourney.com
 # DOMAIN: 4
 # DOMAIN-SUFFIX: 1
 # TOTAL: 5
-payload:
+
 DOMAIN,media.discordapp.net
 DOMAIN,cdn.discordapp.com
 DOMAIN,status.discord.com
