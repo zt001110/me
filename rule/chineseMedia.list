@@ -4,7 +4,7 @@
 # UPDATED: 2023-04-07 14:51:00
 # DOMAIN-SUFFIX: 37
 # TOTAL: 37
-payload:
+
 DOMAIN-SUFFIX,cctv.cn
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cctvlib.cn
@@ -53,7 +53,7 @@ DOMAIN-SUFFIX,zygbdszt.net.cn
 # IP-CIDR: 28
 # PROCESS-NAME: 6
 # TOTAL: 267
-payload:
+
 DOMAIN,api.iplay.163.com
 DOMAIN,aqqmusic.tc.qq.com
 DOMAIN,mam.netease.com
@@ -203,7 +203,7 @@ IP-CIDR,59.111.181.60/32
 # DOMAIN-SUFFIX: 9
 # IP-CIDR: 19
 # TOTAL: 30
-payload:
+
 DOMAIN,iadmat.nosdn.127.net
 DOMAIN,netease.ugcvideoss.ourdvs.com
 DOMAIN-SUFFIX,163yun.com
@@ -242,7 +242,7 @@ IP-CIDR,59.111.21.14/31
 # DOMAIN-SUFFIX: 36
 # IP-CIDR: 1
 # TOTAL: 37
-payload:
+
 DOMAIN-SUFFIX,0co3geye.cn
 DOMAIN-SUFFIX,2isbbess.cn
 DOMAIN-SUFFIX,33lwhaoinc.cn
@@ -290,7 +290,7 @@ IP-CIDR,106.11.0.0/16
 # IP-CIDR: 3
 # IP-CIDR6: 29
 # TOTAL: 51
-payload:
+
 DOMAIN,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net
 DOMAIN,17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net
 DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
@@ -352,7 +352,7 @@ IP-CIDR6,::ffff:60.171.183.98/128
 # IP-CIDR: 21
 # PROCESS-NAME: 1
 # TOTAL: 57
-payload:
+
 DOMAIN-SUFFIX,71.am
 DOMAIN-SUFFIX,71.am.com
 DOMAIN-SUFFIX,71edge.com
@@ -417,7 +417,7 @@ PROCESS-NAME,com.qiyi.video
 # UPDATED: 2023-04-07 14:51:02
 # DOMAIN-SUFFIX: 10
 # TOTAL: 10
-payload:
+
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,douyu.tv
 DOMAIN-SUFFIX,douyuba.cn
@@ -435,7 +435,7 @@ DOMAIN-SUFFIX,oywtv.com
 # UPDATED: 2023-04-07 14:51:02
 # DOMAIN-SUFFIX: 17
 # TOTAL: 17
-payload:
+
 DOMAIN-SUFFIX,9nali.com
 DOMAIN-SUFFIX,conchdate.com
 DOMAIN-SUFFIX,himalaya.com
@@ -460,7 +460,7 @@ DOMAIN-SUFFIX,zhishiv.com
 # UPDATED: 2023-04-07 14:52:15
 # DOMAIN-SUFFIX: 11
 # TOTAL: 11
-payload:
+
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinpic.com
