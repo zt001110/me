@@ -1,4 +1,6 @@
-# 中国云服务商ip端
+# 🎯 中国云服务商ip端
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
 # 阿里
 IP-CIDR,8.128.0.0/10,no-resolve
 IP-CIDR,8.208.0.0/12,no-resolve
