@@ -1,11 +1,7 @@
-# NAME: OpenAI
+# ✨ AI平台
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-24 18:26:57
-# DOMAIN: 12
-# DOMAIN-SUFFIX: 3
-# TOTAL: 15
-
+# NAME: OpenAI
 DOMAIN,cdn.openai.com
 DOMAIN,chat.openai.com
 DOMAIN,cdn.auth0.com
@@ -21,28 +17,12 @@ DOMAIN,api.qrstrategy.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,identrust.com
-
 # NAME: midjourney
-# AUTHOR: MLITM
-# REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-24 18:26:57
-# DOMAIN: 3
-# DOMAIN-SUFFIX: 1
-# TOTAL: 4
-
 DOMAIN,cdn.midjourney.com
 DOMAIN,mj-gallery.com
 DOMAIN,status.midjourney.com
 DOMAIN-SUFFIX,midjourney.com
-
 # NAME: discord
-# AUTHOR: MLITM
-# REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-24 18:26:57
-# DOMAIN: 4
-# DOMAIN-SUFFIX: 1
-# TOTAL: 5
-
 DOMAIN,media.discordapp.net
 DOMAIN,cdn.discordapp.com
 DOMAIN,status.discord.com
