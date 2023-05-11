@@ -1,11 +1,6 @@
-# NAME: AdGuardSDNSFilter
-# AUTHOR: mlitm
+# 🛑 AdGuardsDNS过滤器
+# AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-07 14:51:49
-# DOMAIN: 50256
-# IP-CIDR: 2
-# TOTAL: 50258
-
 DOMAIN,0-000.store
 DOMAIN,0.0.realodix
 DOMAIN,0.code.cotsta.ru
