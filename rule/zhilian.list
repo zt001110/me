@@ -29,6 +29,9 @@ DOMAIN-SUFFIX,iill.ml
 # DOMAIN-SUFFIX: 6
 # TOTAL: 17
 
+
+DOMAIN,clients4.google.com
+DOMAIN,dns.google
 DOMAIN,csgo.wmsj.cn
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,dl.steam.ksyna.com
