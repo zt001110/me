@@ -14,9 +14,14 @@ DOMAIN,platform.openai.com
 DOMAIN,widget.intercom.io
 DOMAIN,mtalk.google.com
 DOMAIN,api.qrstrategy.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,compute-pipe.com
+DOMAIN-SUFFIX,edgecompute.app
+DOMAIN-SUFFIX,every1dns.net
+DOMAIN-SUFFIX,sentry.io
 # NAME: midjourney
 DOMAIN,cdn.midjourney.com
 DOMAIN,mj-gallery.com
