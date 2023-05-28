@@ -17,6 +17,8 @@ Surger
 
 https://raw.githubusercontent.com/zt001110/me/master/Surge.conf
 
+https://cdn.jsdelivr.net/gh/zt001110/me@master/Surge.conf
+
 ---------------------------------------------------------------------------------------
 
 🎯 直连补充
