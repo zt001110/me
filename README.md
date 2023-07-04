@@ -33,7 +33,7 @@ https://raw.githubusercontent.com/zt001110/me/master/rule/chinese.list
 
 https://cdn.jsdelivr.net/gh/zt001110/me@master/rule/chinese.list
 
-🎯 国内媒体
+🎯 国内域名
 
 https://raw.githubusercontent.com/zt001110/me/master/rule/chineseMedia.list
 
