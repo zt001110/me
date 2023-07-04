@@ -1,9 +1,4 @@
 # 我的直连列表
-# 表示包含xxx.com域名后缀下的所有网站链接
-# DOMAIN-SUFFIX,xxx.com
-
-# 表示包含这个xxxx域名关键词的所有网站链接
-# DOMAIN-KEYWORD,xxxx
 
 # DOMAIN-SUFFIX：域名后缀匹配
 # DOMAIN：域名匹配
@@ -17,6 +12,29 @@
 # RULE-SET：Rule Provider 规则匹配
 # MATCH：全匹配
 
+# NAME: 1password
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
+# UPDATED: 2023-07-04 18:33:00
+# DOMAIN: 14
+# DOMAIN-SUFFIX: 1
+# TOTAL: 15
+DOMAIN,a.1passwordusercontent.com
+DOMAIN,accounts.1password.ca
+DOMAIN,accounts.ent.1password.com
+DOMAIN,api.pwnedpasswords.com
+DOMAIN,app.1password.com
+DOMAIN,b5n.1password.com
+DOMAIN,c.1password.com
+DOMAIN,cache.agilebits.com
+DOMAIN,csp.1passwordservices.com
+DOMAIN,f.1passwordusercontent.com
+DOMAIN,f.1passwordusercontent.com
+DOMAIN,my.1password.com
+DOMAIN,start.1password.com
+DOMAIN,watchtower.1password.com
+DOMAIN-SUFFIX,1password.com
+
 # Router managed 路由器管理域名
 DOMAIN-SUFFIX,mlitm.cc
 DOMAIN-SUFFIX,iill.ml
@@ -28,8 +46,6 @@ DOMAIN-SUFFIX,iill.ml
 # DOMAIN: 11
 # DOMAIN-SUFFIX: 6
 # TOTAL: 17
-
-
 DOMAIN,clients4.google.com
 DOMAIN,dns.google
 DOMAIN,csgo.wmsj.cn
