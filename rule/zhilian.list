@@ -12,6 +12,8 @@
 # RULE-SET：Rule Provider 规则匹配
 # MATCH：全匹配
 
+DOMAIN,apple-finance.query.yahoo.com
+
 # NAME: 1password
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
