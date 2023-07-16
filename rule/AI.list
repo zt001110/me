@@ -22,6 +22,8 @@ DOMAIN-SUFFIX,compute-pipe.com
 DOMAIN-SUFFIX,edgecompute.app
 DOMAIN-SUFFIX,every1dns.net
 DOMAIN-SUFFIX,sentry.io
+# NAME:bard
+DOMAIN,bard.google.com
 # NAME: midjourney
 DOMAIN,cdn.midjourney.com
 DOMAIN,mj-gallery.com
