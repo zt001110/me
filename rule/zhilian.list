@@ -14,6 +14,39 @@
 
 DOMAIN,apple-finance.query.yahoo.com
 
+# NAME: oracle
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
+# UPDATED: 2023-07-21 11:27:00
+# DOMAIN: 24
+# DOMAIN-SUFFIX: 1
+# TOTAL: 25
+DOMAIN,www.oracle.com
+DOMAIN,usageapi.us-phoenix-1.oci.oraclecloud.com
+DOMAIN,tms.oracle.com
+DOMAIN,static.oracle.com
+DOMAIN,signup.cloud.oracle.com
+DOMAIN,signup-api.cloud.oracle.com
+DOMAIN,shop.oracle.com
+DOMAIN,personalization.us-phoenix-1.oci.oraclecloud.com
+DOMAIN,optimizer.us-phoenix-1.oci.oraclecloud.com
+DOMAIN,ocistatus.oraclecloud.com
+DOMAIN,objectstorage.us-phoenix-1.oraclecloud.com
+DOMAIN,login.us-phoenix-1.oraclecloud.com
+DOMAIN,login.oci.oraclecloud.com
+DOMAIN,locales.plugins.oci.oraclecloud.com
+DOMAIN,limits.us-phoenix-1.oci.oraclecloud.com
+DOMAIN,identity.us-phoenix-1.oraclecloud.com
+DOMAIN,idcs-92c21918f2f34b53b5108b33292523f8.identity.oraclecloud.com
+DOMAIN,iaas.us-phoenix-1.oraclecloud.com
+DOMAIN,courier-service.oraclecloud.com
+DOMAIN,console-telemetry.us-phoenix-1.oci.oraclecloud.com
+DOMAIN,commercial.us-phoenix-1.oci.oraclecloud.com
+DOMAIN,cloud.oracle.com
+DOMAIN,audit.us-phoenix-1.oci.oraclecloud.com
+DOMAIN,announcements.us-phoenix-1.oraclecloud.com
+DOMAIN-SUFFIX,oracle.com
+
 # NAME: 1password
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
