@@ -45,6 +45,9 @@ DOMAIN,commercial.us-phoenix-1.oci.oraclecloud.com
 DOMAIN,cloud.oracle.com
 DOMAIN,audit.us-phoenix-1.oci.oraclecloud.com
 DOMAIN,announcements.us-phoenix-1.oraclecloud.com
+DOMAIN,d.oracleinfinity.io
+DOMAIN,dc.oracleinfinity.io
+DOMAIN-KEYWORD,oracle
 DOMAIN-SUFFIX,oracle.com
 
 # NAME: 1password
