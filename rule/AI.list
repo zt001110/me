@@ -40,7 +40,6 @@ DOMAIN,gateway.discord.gg
 DOMAIN-SUFFIX,discord.com
 
 # NAME: duolinguo
-DOMAIN,application.aalab.com
 DOMAIN,d3kwyfyztuo0xs.cloudfront.net
 DOMAIN,duolingo-leaderboards-prod.duolingo.com
 DOMAIN,goals-api.duolingo.com
