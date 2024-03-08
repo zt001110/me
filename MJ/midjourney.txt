@@ -1,0 +1,11 @@
+按照上述实操一个例子，假如我们想画一幅运动员运动的图片，可以如下来描写：
+
+主体描述：运动员/Subject Description: Athlete
+
+环境场景：室内健身房/Environmental Scene: Indoor gym
+
+艺术风格：动感理代风/Artistic Style: Dynamic modern style
+
+媒介材料：球场/Medium Material: Sports field
+
+摄像机视角：俯视角度/Camera Perspective: Overhead view 精度定义：高清晰度/Precision Definition: High definition
