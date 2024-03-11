@@ -13,6 +13,7 @@
 # MATCH：全匹配
 
 DOMAIN,apple-finance.query.yahoo.com
+DOMAIN-SUFFIX,yzt.moe
 
 # NAME: oracle
 # AUTHOR: MLITM
