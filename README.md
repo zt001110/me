@@ -9,9 +9,9 @@ https://cdn.jsdelivr.net/gh/zt001110/me@master/clash.ini
 
 Quantumult X
 
-https://raw.githubusercontent.com/zt001110/me/master/QX.conf
+https://raw.githubusercontent.com/zt001110/me/master/qx.conf
 
-https://cdn.jsdelivr.net/gh/zt001110/me@master/QX.conf
+https://cdn.jsdelivr.net/gh/zt001110/me@master/qx.conf
 
 Surger
 
