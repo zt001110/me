@@ -20,6 +20,9 @@ https://raw.githubusercontent.com/zt001110/me/master/Surge.conf
 https://cdn.jsdelivr.net/gh/zt001110/me@master/Surge.conf
 
 ---------------------------------------------------------------------------------------
+📺 emby
+
+https://raw.githubusercontent.com/zt001110/me/master/rule/emby.list
 
 🎯 直连补充
 
