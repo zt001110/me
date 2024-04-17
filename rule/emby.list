@@ -1,0 +1,27 @@
+# 自用emby规则，目前包含hxd、终点站、syn、守候网络、misakaf、TreeDiagram、misakaF、1111、ouo海外
+DOMAIN-SUFFIX,emby.cn2gias.uk
+DOMAIN-SUFFIX,src-emby.cn2gias.uk
+DOMAIN-SUFFIX,bili.bili.rip
+DOMAIN-SUFFIX,ntrrr.am.sb
+DOMAIN-SUFFIX,stream.synn.cc
+DOMAIN-SUFFIX,stream.ntrrr.top
+DOMAIN-SUFFIX,stream-zz.synn.cc
+DOMAIN-SUFFIX,789.123456.al
+DOMAIN-SUFFIX,emby.mius.uk
+DOMAIN-SUFFIX,pub1.emby.wtf
+DOMAIN-SUFFIX,pub2.emby.wtf
+DOMAIN-SUFFIX,pub3.emby.wtf
+DOMAIN-SUFFIX,misakaf.org
+DOMAIN-SUFFIX,stream1.misakaf.org
+DOMAIN-SUFFIX,stream2.misakaf.org
+DOMAIN-SUFFIX,stream3.misakaf.org
+DOMAIN-SUFFIX,e.niceduck.me
+DOMAIN-SUFFIX,embyvip.misakaf.org
+DOMAIN-SUFFIX,push-kr.misakaf.org
+DOMAIN-SUFFIX,direct.lyrebirdemby.com
+DOMAIN-SUFFIX,cdn.lyrebirdemby.com
+DOMAIN-SUFFIX,cf.niceduck.lol
+DOMAIN-SUFFIX,vi.niceduck.lol
+DOMAIN-SUFFIX,line.xmsl.org
+DOMAIN-SUFFIX,public.emby.ws
+IP-CIDR,102.223.180.108/32
