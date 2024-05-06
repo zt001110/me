@@ -22,6 +22,8 @@ DOMAIN,clientstream.launchdarkly.com
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
 # NAME: OpenAI
+DOMAIN,ab.chatgpt.com
+DOMAIN,tcr9i.chat.openai.com
 DOMAIN,cdn.openai.com
 DOMAIN,chat.openai.com
 DOMAIN,cdn.auth0.com
@@ -42,6 +44,7 @@ DOMAIN-SUFFIX,compute-pipe.com
 DOMAIN-SUFFIX,edgecompute.app
 DOMAIN-SUFFIX,every1dns.net
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,chatgpt.com
 
 # NAME:bard
 DOMAIN,bard.google.com
