@@ -4,7 +4,7 @@
 # IP-CIDR: 1
 # TOTAL: 26
 
-DOMAIN,cn2gias.uk
+DOMAIN-SUFFIX,cn2gias.uk
 DOMAIN-SUFFIX,preus.cn2gias.uk
 DOMAIN-SUFFIX,emby.cn2gias.uk
 DOMAIN-SUFFIX,src-emby.cn2gias.uk
