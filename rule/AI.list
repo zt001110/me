@@ -1,3 +1,4 @@
+# NAME: 其他补充
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,gemini.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -9,18 +10,15 @@ DOMAIN,t0.gstatic.com
 DOMAIN,t1.gstatic.com
 DOMAIN,t3.gstatic.com
 DOMAIN,people-pa.clients6.google.com
+
+# NAME: OpenAI补充
+DOMAIN,open-ai-chat-omega.vercel.app
+DOMAIN,clientstream.launchdarkly.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,ios.chat.openai.com
 DOMAIN,api.revenuecat.com
 DOMAIN,o33249.ingest.sentry.io
-
-
-# ✨ Arc
-# AUTHOR: MLITM
-# REPO: https://github.com/zt001110/me
-# NAME: OpenAI
-DOMAIN,open-ai-chat-omega.vercel.app
-DOMAIN,clientstream.launchdarkly.com
+DOMAIN,s.gravatar.com
 
 # ✨ AI平台
 # AUTHOR: MLITM
