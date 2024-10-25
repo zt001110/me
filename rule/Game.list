@@ -1,3 +1,5 @@
+
+
 # NAME: Blizzard
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
@@ -6,6 +8,7 @@
 # IP-CIDR: 23
 # TOTAL: 62
 
+DOMAIN,catalog.blzstatic.com
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,battlenet.com
