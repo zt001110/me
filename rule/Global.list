@@ -1,5 +1,11 @@
-DOMAIN-SUFFIX,https://yzt.moe
-
+DOMAIN-SUFFIX,yzt.moe
+DOMAIN-SUFFIX,google.com
+DOMAIN,play.google.com
+DOMAIN,jnn-pa.googleapis.com
+DOMAIN,yt3.ggpht.com
+DOMAIN,www.youtube-nocookie.com
+DOMAIN,i.ytimg.com
+DOMAIN,s.ytimg.com
 
 # NAME: Global
 # AUTHOR: MLITM
