@@ -11,6 +11,7 @@ DOMAIN,t1.gstatic.com
 DOMAIN,t3.gstatic.com
 DOMAIN,people-pa.clients6.google.com
 
+
 # NAME: OpenAI补充
 DOMAIN,open-ai-chat-omega.vercel.app
 DOMAIN,clientstream.launchdarkly.com
@@ -19,6 +20,9 @@ DOMAIN,ios.chat.openai.com
 DOMAIN,api.revenuecat.com
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN,s.gravatar.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN,sora-cdn.oaistatic.com
+
 
 # ✨ AI平台
 # AUTHOR: MLITM
