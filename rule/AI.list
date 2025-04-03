@@ -10,6 +10,7 @@ DOMAIN,t0.gstatic.com
 DOMAIN,t1.gstatic.com
 DOMAIN,t3.gstatic.com
 DOMAIN,people-pa.clients6.google.com
+DOMAIN,generativelanguage.googleapis.com
 
 
 # NAME: OpenAI补充
