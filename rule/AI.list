@@ -46,6 +46,7 @@ DOMAIN,practivate.adobe.newoa
 DOMAIN,practivate.adobe.ntp
 
 DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,adobesc.com
 DOMAIN-SUFFIX,10xfotolia.com
 DOMAIN-SUFFIX,2o7.net
 DOMAIN-SUFFIX,acrobat.com
