@@ -25,10 +25,16 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN,sora-cdn.oaistatic.com
 
 
-# ✨ AI平台
-# AUTHOR: MLITM
-# REPO: https://github.com/zt001110/me
 # NAME: Adobe
+DOMAIN,d1swly8pgrbhu5.cloudfront.net
+DOMAIN,pre-signed-firefly-prod.s3-accelerate.amazonaws.com
+DOMAIN,ws.cutterman.cn
+DOMAIN,cdn.substance3d.com
+DOMAIN,r1---sn-i3b7knse.gvt1.com
+DOMAIN,redirector.gvt1.com
+DOMAIN,stock-notifications.astockcdn.net
+DOMAIN,update.googleapis.com
+
 DOMAIN,ccmdls.adobe.com
 DOMAIN,acp-ss-ue1.adobe.io
 DOMAIN,cc-api-data.adobe.io
@@ -185,6 +191,7 @@ DOMAIN-SUFFIX,votolia.com
 DOMAIN-SUFFIX,worldsecureemail.com
 DOMAIN-SUFFIX,worldsecuresystems.com
 DOMAIN-KEYWORD,adobe
+DOMAIN-KEYWORD,cutterman
 
 
 # NAME: OpenAI
