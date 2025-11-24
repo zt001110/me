@@ -16,7 +16,12 @@ DOMAIN,generativelanguage.googleapis.com
 DOMAIN,gemini.google.com
 DOMAIN,www.google-analytics.com
 DOMAIN,www.googletagmanager.com
-
+DOMAIN,optimizationguide-pa.googleapis.com
+DOMAIN,config.immersivetranslate.com
+DOMAIN,ai.immersivetranslate.com
+DOMAIN,assets.immersivetranslate.cn
+DOMAIN,config.immersivetranslate.com
+DOMAIN,beacons.gcp.gvt2.com
 
 # NAME: OpenAI补充
 DOMAIN,open-ai-chat-omega.vercel.app
