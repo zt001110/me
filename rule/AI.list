@@ -12,6 +12,9 @@ DOMAIN,t3.gstatic.com
 DOMAIN,people-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
 
+# NAME: gemini
+DOMAIN,gemini.google.com
+
 
 # NAME: OpenAI补充
 DOMAIN,open-ai-chat-omega.vercel.app
