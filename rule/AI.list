@@ -14,6 +14,8 @@ DOMAIN,generativelanguage.googleapis.com
 
 # NAME: gemini
 DOMAIN,gemini.google.com
+DOMAIN,www.google-analytics.com
+DOMAIN,www.googletagmanager.com
 
 
 # NAME: OpenAI补充
