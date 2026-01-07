@@ -11,7 +11,6 @@ DOMAIN,t1.gstatic.com
 DOMAIN,t3.gstatic.com
 DOMAIN,people-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
-DOMAIN,www.lovart.ai
 
 # NAME: lovart
 DOMAIN,lovart.ai
@@ -20,6 +19,7 @@ DOMAIN,a.lovart.ai
 DOMAIN,ph.lovart.ai
 DOMAIN,web-static3.lovart.ai
 DOMAIN,www.lovart.ai
+DOMAIN-SUFFIX,lovart.ai
 
 # NAME: gemini
 DOMAIN,gemini.google.com
