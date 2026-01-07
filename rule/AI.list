@@ -11,7 +11,13 @@ DOMAIN,t1.gstatic.com
 DOMAIN,t3.gstatic.com
 DOMAIN,people-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
+
+# NAME: lovart
 DOMAIN,lovart.ai
+DOMAIN,assets-persist.lovart.ai
+DOMAIN,a.lovart.ai
+DOMAIN,ph.lovart.ai
+DOMAIN,web-static3.lovart.ai
 
 # NAME: gemini
 DOMAIN,gemini.google.com
