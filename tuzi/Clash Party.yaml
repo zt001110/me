@@ -1,0 +1,275 @@
+# 锚点：定义通用的节点选择逻辑
+Common_Group: &通用节点选择
+  type: select
+  proxies: [🟢 直连, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🖲️ 手动切换, 🛫 冷门节点, 🗼 家宽游戏]
+
+# 锚点：定义规则集的通用配置
+Rule_Provider_Common: &规则集配置
+  type: http
+  format: yaml
+  interval: 86400
+  behavior: classical
+  path: ./rules/
+
+##############################################
+# 🟢 订阅区域
+proxy-providers:
+  User_Sub:
+    type: http
+    interval: 86400
+    health-check: {enable: true, url: 'https://edge.microsoft.com/captiveportal/generate_204', interval: 300}
+    # 替换下面的链接为你自己的机场订阅链接
+    url: "https://你的订阅链接"
+    path: ./proxies/airport.yaml
+    override:
+      additional-prefix: '[机场名字]'
+      skip-cert-verify: true
+      udp: true
+ 
+##############################################
+# ⚙️ 基础设置
+mode: rule
+ipv6: true
+log-level: info
+allow-lan: true
+mixed-port: 7890
+unified-delay: true
+tcp-concurrent: true
+global-client-fingerprint: chrome
+keep-alive-interval: 30
+
+# 地理数据库设置
+geodata-mode: true
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 48
+geox-url:
+  geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.metadb"
+  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
+
+# 流量嗅探 (解决部分应用无法分流的问题)
+sniffer:
+  enable: true
+  sniff:
+    HTTP: {ports: [80, 8080-8880], override-destination: true}
+    TLS: {ports: [443, 8443]}
+    QUIC: {ports: [443, 8443]}
+  skip-domain: ["Mijia Cloud", "+.push.apple.com", "+.apple.com", "+.wechat.com", "+.qq.com"]
+
+# Tun 模式 (虚拟网卡)
+tun:
+  enable: true
+  stack: system
+  mtu: 9000
+  dns-hijack: ["any:53", "tcp://any:53"]
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+
+# DNS 设置 (Fake-IP 模式，防止 DNS 污染)
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  respect-rules: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ["+.lan", "+.local", "geosite:cn"]
+  default-nameserver: [223.5.5.5, 119.29.29.29]
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+
+proxies:
+  - name: "🟢 直连"
+    type: direct
+    udp: true
+  - name: "🚫 拒绝"
+    type: reject
+
+##############################################
+# 🚀 策略组
+proxy-groups:
+  # === 主要功能入口 ===
+  - name: 🌍 全球加速
+    <<: *通用节点选择
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/global.png"
+
+  - name: 📺 国际媒体
+    <<: *通用节点选择
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/global_media.png"
+
+  - name: 🎥 港台番剧
+    <<: *通用节点选择
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/bilibilit.png"
+
+  - name: 🎮 游戏平台
+    <<: *通用节点选择
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/game.png"
+
+  - name: ✨ AI平台
+    <<: *通用节点选择
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/ai.png"
+
+  - name: 🍎 苹果服务
+    <<: *通用节点选择
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/apple.png"
+
+  - name: Ⓜ️ 微软服务
+    <<: *通用节点选择
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/microsoft.png"
+
+  - name: 🎯 全球直连
+    type: select
+    proxies: [🟢 直连, 🖲️ 手动切换]
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/direct.png"
+
+  # === 自动测速与筛选组 ===
+  
+  - name: 🇭🇰 香港节点
+    type: url-test
+    use: [User_Sub]
+    tolerance: 50
+    interval: 300
+    filter: "(?i)(港|HK|Hong\s*Kong|Hong)"
+    exclude-filter: "(?i)(游戏|大面积|家宽|下载专用|仅限游戏使用|2x|x2|IEPL|IPLC|home|Std|Pre|CM|CT|Mobile|Starlink)"
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/Hongkong.png"
+
+  - name: 🇨🇳 台湾节点
+    type: url-test
+    use: [User_Sub]
+    tolerance: 50
+    interval: 300
+    filter: "(?i)(台|新北|彰化|TW|Taiwan)"
+    exclude-filter: "(?i)(游戏|大面积|家宽|下载专用|仅限游戏使用|2x|x2|IEPL|IPLC|home|Std|Pre|CM|CT|Mobile|Starlink)"
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/Taiwan_China.png"
+
+  - name: 🇸🇬 狮城节点
+    type: url-test
+    use: [User_Sub]
+    tolerance: 50
+    interval: 300
+    filter: "(?i)(新加坡|坡|狮城|SG|Singapore)"
+    exclude-filter: "(?i)(游戏|大面积|家宽|下载专用|仅限游戏使用|2x|x2|IEPL|IPLC|home|Std|Pre|CM|CT|Mobile|Starlink)"
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/Singapore.png"
+
+  - name: 🇯🇵 日本节点
+    type: url-test
+    use: [User_Sub]
+    tolerance: 50
+    interval: 300
+    filter: "(?i)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan)"
+    exclude-filter: "(?i)(尼日|游戏|大面积|家宽|下载专用|仅限游戏使用|2x|x2|IEPL|IPLC|home|Std|Pre|CM|CT|Mobile|Starlink)"
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/Japan.png"
+
+  - name: 🇺🇲 美国节点
+    type: url-test
+    use: [User_Sub]
+    tolerance: 150
+    interval: 300
+    filter: "(?i)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
+    exclude-filter: "(?i)(游戏|大面积|家宽|下载专用|仅限游戏使用|2x|x2|IEPL|IPLC|home|Std|Pre|CM|CT|Mobile|Starlink)"
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/America.png"
+
+  - name: 🖲️ 手动切换
+    type: select
+    use: [User_Sub]
+    # 正则：保留常见地区，排除高倍率/特殊节点
+    filter: "(?i)(低倍率|香港|日本|新加坡|美国|台湾|HK|JP|SG|US|TW)"
+    exclude-filter: "(?i)(游戏|大面积|家宽|下载专用|仅限游戏使用|2x|x2|IEPL|IPLC|home|Std|Pre|CM|CT|Mobile|Starlink)"
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/select.png"
+
+  - name: 🗼 家宽游戏
+    type: select
+    use: [User_Sub]
+    # 正则：专门筛选 游戏、家宽、IPLC 等高质量节点
+    filter: "(?i)(游戏|大面积|家宽|下载专用|仅限游戏使用|2x|x2|IEPL|IPLC|home|Std|Pre|CM|CT|Mobile|Starlink)"
+    exclude-filter: "(?i)(低倍率)"
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/game.png"
+
+  - name: 🛫 冷门节点
+    type: select
+    use: [User_Sub]
+    # 正则：排除以上五大常见地区，剩下的就是冷门节点
+    exclude-filter: "(?i)(游戏|Direct|Reject|请每天更新一次|直接连接|拒绝|大面积节点|港|HK|Hong\s*Kong|Hong|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|日本|日服|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
+    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/airplane.png"
+
+##############################################
+# 📡 规则集 (远程引用)
+rule-providers: 
+  GangTai_Bili: 
+    <<: *规则集配置
+    url: "https://raw.githubusercontent.com/zt001110/me/master/rule/gangaobili.list"
+
+  Game_List:
+    <<: *规则集配置
+    url: "https://raw.githubusercontent.com/zt001110/me/master/rule/Game.list"
+
+  AI_List:
+    <<: *规则集配置
+    url: "https://raw.githubusercontent.com/zt001110/me/master/rule/AI.list"
+
+  Global_Media:
+    <<: *规则集配置
+    url: "https://raw.githubusercontent.com/zt001110/me/master/rule/GlobalMedia.list"
+
+  Microsoft_List:
+    <<: *规则集配置
+    url: "https://raw.githubusercontent.com/zt001110/me/master/rule/Microsoft.list"
+
+  Apple_List:
+    <<: *规则集配置
+    url: "https://raw.githubusercontent.com/zt001110/me/master/rule/apple.list"
+
+  Global_Accelerate:
+    <<: *规则集配置
+    url: "https://cdn.jsdelivr.net/gh/zt001110/me@master/rule/Global.list"
+
+  # === 直连规则集 (分开定义以保证完整性) ===
+  Direct_Zhilian:
+    <<: *规则集配置
+    url: "https://cdn.jsdelivr.net/gh/zt001110/me@master/rule/zhilian.list"
+  Direct_Chinese:
+    <<: *规则集配置
+    url: "https://cdn.jsdelivr.net/gh/zt001110/me@master/rule/chinese.list"
+  Direct_ChineseMedia:
+    <<: *规则集配置
+    url: "https://cdn.jsdelivr.net/gh/zt001110/me@master/rule/chineseMedia.list"
+  Direct_CnLan:
+    <<: *规则集配置
+    url: "https://cdn.jsdelivr.net/gh/zt001110/me@master/rule/cnlan.list"
+  Direct_CompanyIP:
+    <<: *规则集配置
+    url: "https://cdn.jsdelivr.net/gh/zt001110/me@master/rule/ChinaCompanyIp.list"
+  Direct_ChinaIP:
+    <<: *规则集配置
+    url: "https://cdn.jsdelivr.net/gh/zt001110/me@master/rule/ChinaIp.list"
+
+##############################################
+# 🚦 规则匹配
+rules:
+  # 特殊分流
+  - RULE-SET,GangTai_Bili,🎥 港台番剧
+  - RULE-SET,Game_List,🎮 游戏平台
+  - RULE-SET,AI_List,✨ AI平台
+  - RULE-SET,Global_Media,📺 国际媒体
+  - RULE-SET,Microsoft_List,Ⓜ️ 微软服务
+  - RULE-SET,Apple_List,🍎 苹果服务
+
+  # 直连规则 (合并所有直连集)
+  - RULE-SET,Direct_Zhilian,🎯 全球直连
+  - RULE-SET,Direct_Chinese,🎯 全球直连
+  - RULE-SET,Direct_ChineseMedia,🎯 全球直连
+  - RULE-SET,Direct_CnLan,🎯 全球直连
+  - RULE-SET,Direct_CompanyIP,🎯 全球直连
+  - RULE-SET,Direct_ChinaIP,🎯 全球直连
+  
+  # GEOIP 规则
+  - GEOIP,CN,🎯 全球直连
+  
+  # 全球加速 (兜底前匹配)
+  - RULE-SET,Global_Accelerate,🌍 全球加速
+
+  # 最终兜底
+  - MATCH,🌍 全球加速
