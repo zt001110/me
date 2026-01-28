@@ -132,7 +132,7 @@ proxy-groups:
     use: [User_Sub]
     tolerance: 50
     interval: 300
-    filter: "(?i)(港|HK|Hong\s*Kong|Hong)"
+    filter: "(?i)(港|HK|Hong|Kong)"
     exclude-filter: "(?i)(游戏|大面积|家宽|下载专用|仅限游戏使用|2x|x2|IEPL|IPLC|home|Std|Pre|CM|CT|Mobile|Starlink)"
     icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/Hongkong.png"
 
@@ -192,7 +192,7 @@ proxy-groups:
     type: select
     use: [User_Sub]
     # 正则：排除以上五大常见地区，剩下的就是冷门节点
-    exclude-filter: "(?i)(游戏|Direct|Reject|请每天更新一次|直接连接|拒绝|大面积节点|港|HK|Hong\s*Kong|Hong|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|日本|日服|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
+    exclude-filter: "(?i)(游戏|Direct|Reject|请每天更新一次|直接连接|拒绝|大面积节点|港|HK|Hong|Kong|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|日本|日服|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
     icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/airplane.png"
 
 ##############################################
