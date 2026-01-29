@@ -122,7 +122,7 @@ proxy-groups:
 
   - name: 🎯 全球直连
     type: select
-    proxies: [🟢 直连, 🖲️ 手动切换]
+    proxies: [🟢 直连, 🚫 拒绝]
     icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/direct.png"
 
   # === 自动测速与筛选组 ===
