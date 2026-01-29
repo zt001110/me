@@ -1,7 +1,7 @@
 # 锚点：定义通用的节点选择逻辑
 Common_Group: &通用节点选择
   type: select
-  proxies: [🟢 直连, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🖲️ 手动切换, 🛫 冷门节点, 🗼 家宽游戏]
+  proxies: [🟢 直连, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🛫 冷门节点, 🗼 家宽游戏]
 
 # 锚点：定义规则集的通用配置
 Rule_Provider_Common: &规则集配置
@@ -171,14 +171,6 @@ proxy-groups:
     filter: "(?i)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|0.2x)"
     exclude-filter: "(?i)(港|HK|Hong|Kong|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|游戏|大面积|家宽|下载专用|仅限游戏使用|2x|x2|IEPL|IPLC|home|Std|Pre|CM|CT|Mobile|Starlink)"
     icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/America.png"
-
-  - name: 🖲️ 手动切换
-    type: select
-    use: [User_Sub]
-    # 正则：保留常见地区，排除高倍率/特殊节点
-    filter: "(?i)(低倍率|香港|日本|新加坡|美国|台湾|HK|JP|SG|US|TW)"
-    exclude-filter: "(?i)(游戏|大面积|家宽|下载专用|仅限游戏使用|2x|x2|IEPL|IPLC|home|Std|Pre|CM|CT|Mobile|Starlink)"
-    icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/select.png"
 
   - name: 🗼 家宽游戏
     type: select
