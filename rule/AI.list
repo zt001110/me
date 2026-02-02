@@ -1,4 +1,5 @@
 # NAME: 其他补充
+
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,gemini.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -11,6 +12,10 @@ DOMAIN,t1.gstatic.com
 DOMAIN,t3.gstatic.com
 DOMAIN,people-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
+
+# NAME: notebooklm
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
 
 # NAME: lovart
 DOMAIN,assets-persist.lovart.ai
