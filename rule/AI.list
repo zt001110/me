@@ -1,17 +1,7 @@
 # NAME: 其他补充
 
 DOMAIN-SUFFIX,perplexity.ai
-DOMAIN,gemini.google.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,apis.google.com
 DOMAIN,api.qrstrategy.com
-DOMAIN,waa-pa.clients6.google.com
-DOMAIN,aistudio.google.com
-DOMAIN,t0.gstatic.com
-DOMAIN,t1.gstatic.com
-DOMAIN,t3.gstatic.com
-DOMAIN,people-pa.clients6.google.com
-DOMAIN,generativelanguage.googleapis.com
 
 # Apple Intelligence
 DOMAIN-SUFFIX,apple-relay.apple.com
@@ -56,6 +46,12 @@ DOMAIN-SUFFIX,lovart.ai
 # NAME: gemini
 DOMAIN,accounts.google.com
 DOMAIN,gemini.google.com
+DOMAIN,apis.google.com
+DOMAIN,people-pa.clients6.google.com
+DOMAIN,t0.gstatic.com
+DOMAIN,t1.gstatic.com
+DOMAIN,t3.gstatic.com
+DOMAIN,waa-pa.clients6.google.com
 DOMAIN,www.google-analytics.com
 DOMAIN,www.googletagmanager.com
 DOMAIN,optimizationguide-pa.googleapis.com
@@ -76,6 +72,10 @@ DOMAIN,generativeai.google
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,makersuite.google.com
 DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,recaptcha.net
 
 # NAME: OpenAI
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
