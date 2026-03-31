@@ -2328,8 +2328,6 @@ DOMAIN-SUFFIX,aboutamazon.pl
 DOMAIN-SUFFIX,acmvalidations.com
 DOMAIN-SUFFIX,acmvalidationsaws.com
 DOMAIN-SUFFIX,aesworkshops.com
-DOMAIN-SUFFIX,aiv-cdn.net
-DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,alexa.com
 DOMAIN-SUFFIX,alexafund.cn
 DOMAIN-SUFFIX,alexafund.com.cn
@@ -2392,16 +2390,11 @@ DOMAIN-SUFFIX,amazonnow.cn
 DOMAIN-SUFFIX,amazonnow.com.cn
 DOMAIN-SUFFIX,amazonpay.com
 DOMAIN-SUFFIX,amazonpay.in
-DOMAIN-SUFFIX,amazonprimevideo.cn
-DOMAIN-SUFFIX,amazonprimevideo.com.cn
-DOMAIN-SUFFIX,amazonprimevideos.com
 DOMAIN-SUFFIX,amazonsdi.com
 DOMAIN-SUFFIX,amazonses.com
 DOMAIN-SUFFIX,amazonstudiosguilds.com
 DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,amazonuniversity.jobs
-DOMAIN-SUFFIX,amazonvideo.cc
-DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,amazonvideodirect.com
 DOMAIN-SUFFIX,amazonwebservices.com.cn
 DOMAIN-SUFFIX,amazonworkdocs.cn
@@ -2478,7 +2471,6 @@ DOMAIN-SUFFIX,kindleoasis.us
 DOMAIN-SUFFIX,kindleoasisnews.com
 DOMAIN-SUFFIX,kindleproject.com
 DOMAIN-SUFFIX,llnwd.net
-DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,media-imdb.com
 DOMAIN-SUFFIX,nwcdcloud.cn
 DOMAIN-SUFFIX,nwcdcloud.com.cn
@@ -2488,12 +2480,6 @@ DOMAIN-SUFFIX,prime-video.com
 DOMAIN-SUFFIX,primeday.cn
 DOMAIN-SUFFIX,primeday.com.cn
 DOMAIN-SUFFIX,primeday.info
-DOMAIN-SUFFIX,primevideo.cc
-DOMAIN-SUFFIX,primevideo.com
-DOMAIN-SUFFIX,primevideo.info
-DOMAIN-SUFFIX,primevideo.org
-DOMAIN-SUFFIX,primevideo.tv
-DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,route53.cn
 DOMAIN-SUFFIX,sagemaker.com.cn
 DOMAIN-SUFFIX,serving-sys.com
@@ -2516,7 +2502,6 @@ DOMAIN-SUFFIX,yamaxun.cn
 DOMAIN-SUFFIX,yamaxun.com
 DOMAIN-SUFFIX,z.cn
 DOMAIN-SUFFIX,zappos
-DOMAIN-KEYWORD,avoddashs
 IP-CIDR,13.32.0.0/15
 IP-CIDR,13.35.0.0/17
 IP-CIDR,18.184.0.0/15
@@ -2720,11 +2705,9 @@ DOMAIN-SUFFIX,boxun.com
 # PROCESS-NAME: 2
 # TOTAL: 37
 
-DOMAIN,link.theplatform.com
 DOMAIN-SUFFIX,amlg.io
 DOMAIN-SUFFIX,cbs
 DOMAIN-SUFFIX,cbs.com
-DOMAIN-SUFFIX,cbsaavideo.com
 DOMAIN-SUFFIX,cbscorporation.com
 DOMAIN-SUFFIX,cbsi.com
 DOMAIN-SUFFIX,cbsi.live.ott.irdeto.com
@@ -2734,7 +2717,6 @@ DOMAIN-SUFFIX,cbsig.net
 DOMAIN-SUFFIX,cbsimg.net
 DOMAIN-SUFFIX,cbsinteractive.com
 DOMAIN-SUFFIX,cbsistatic.com
-DOMAIN-SUFFIX,cbsivideo.com
 DOMAIN-SUFFIX,cbsnews.com
 DOMAIN-SUFFIX,cbsplaylistserver.aws.syncbak.com
 DOMAIN-SUFFIX,cbspressexpress.com
@@ -2748,7 +2730,6 @@ DOMAIN-SUFFIX,cbstelevisioncity.com
 DOMAIN-SUFFIX,mtvnservices.com
 DOMAIN-SUFFIX,paramount.com
 DOMAIN-SUFFIX,pluto.tv
-DOMAIN-SUFFIX,pplusstatic.com
 DOMAIN-SUFFIX,showtime.com
 DOMAIN-SUFFIX,viacbs.com
 DOMAIN-SUFFIX,viacom.com
@@ -2843,7 +2824,6 @@ DOMAIN-SUFFIX,dzcdn.net
 DOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN,edge.api.brightcove.com
 DOMAIN-SUFFIX,content.jwplatform.com
-DOMAIN-SUFFIX,encoretvb.com
 DOMAIN-SUFFIX,videos-f.jwpsrv.com
 
 # NAME: Fox
@@ -2863,7 +2843,6 @@ DOMAIN-SUFFIX,d3cv4a9a9wh0bt.cloudfront.net
 DOMAIN-SUFFIX,dashasiafox.akamaized.net
 DOMAIN-SUFFIX,fox-corporation.com
 DOMAIN-SUFFIX,fox-news.com
-DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,fox.tv
 DOMAIN-SUFFIX,fox10.tv
 DOMAIN-SUFFIX,fox10news.com
@@ -2920,7 +2899,6 @@ DOMAIN-SUFFIX,foxcreativeuniversity.com
 DOMAIN-SUFFIX,foxcredit.com
 DOMAIN-SUFFIX,foxcredit.org
 DOMAIN-SUFFIX,foxd.tv
-DOMAIN-SUFFIX,foxdcg.com
 DOMAIN-SUFFIX,foxdeportes.com
 DOMAIN-SUFFIX,foxdeportes.net
 DOMAIN-SUFFIX,foxdeportes.tv
@@ -2970,7 +2948,6 @@ DOMAIN-SUFFIX,foxnow.com
 DOMAIN-SUFFIX,foxon.com
 DOMAIN-SUFFIX,foxphiladelphia.com
 DOMAIN-SUFFIX,foxplay.com
-DOMAIN-SUFFIX,foxplus.com
 DOMAIN-SUFFIX,foxpoker.com
 DOMAIN-SUFFIX,foxrad.io
 DOMAIN-SUFFIX,foxredeem.com
@@ -3100,8 +3077,6 @@ DOMAIN-SUFFIX,testonfox.com
 DOMAIN-SUFFIX,theclasshroom.com
 DOMAIN-SUFFIX,thefoxnation.com
 DOMAIN-SUFFIX,thegeorgiascene.com
-DOMAIN-SUFFIX,theplatform.com
-DOMAIN-SUFFIX,uplynk.com
 DOMAIN-SUFFIX,whatthefox.com
 DOMAIN-SUFFIX,whosthehost.com
 DOMAIN-SUFFIX,wofl.tv
@@ -3178,8 +3153,6 @@ DOMAIN-SUFFIX,kkbox-prime.com
 DOMAIN-SUFFIX,kkbox.com
 DOMAIN-SUFFIX,kkbox.com.tw
 DOMAIN-SUFFIX,kktix.com
-DOMAIN-SUFFIX,kktv.com.tw
-DOMAIN-SUFFIX,kktv.me
 DOMAIN-SUFFIX,theater-kktv.cdn.hinet.net
 
 # NAME: LondonReal
@@ -4662,12 +4635,6 @@ DOMAIN,espn.hb.omtrdc.net
 DOMAIN,espndotcom.tt.omtrdc.net
 DOMAIN-SUFFIX,dtci.co
 DOMAIN-SUFFIX,dtci.technology
-DOMAIN-SUFFIX,espn.co.uk
-DOMAIN-SUFFIX,espn.com
-DOMAIN-SUFFIX,espn.net
-DOMAIN-SUFFIX,espncdn.com
-DOMAIN-SUFFIX,espnqa.com
-DOMAIN-SUFFIX,watchespn.com
 
 # NAME: Emojipedia
 # AUTHOR: MLITM
@@ -8117,11 +8084,6 @@ DOMAIN-SUFFIX,hkteducation.com
 DOMAIN-SUFFIX,hktpremier.com
 DOMAIN-SUFFIX,hktshop.com
 DOMAIN-SUFFIX,netvigator.com
-DOMAIN-SUFFIX,now-ashare.com
-DOMAIN-SUFFIX,now-tv.com
-DOMAIN-SUFFIX,now.com.hk
-DOMAIN-SUFFIX,nowe.com
-DOMAIN-SUFFIX,nowe.hk
 DOMAIN-SUFFIX,pccw.com
 DOMAIN-SUFFIX,pccwglobal.com
 DOMAIN-SUFFIX,pccwsolutions.com
@@ -8894,14 +8856,7 @@ DOMAIN-SUFFIX,zotero.org
 # DOMAIN-SUFFIX: 6
 # TOTAL: 8
 
-DOMAIN,itvpnp.live.ott.irdeto.com
-DOMAIN,itvpnp.stage.ott.irdeto.com
-DOMAIN-SUFFIX,bb-static.com
 DOMAIN-SUFFIX,bbc.co.uk
-DOMAIN-SUFFIX,britbox.co.uk
-DOMAIN-SUFFIX,britbox.com
-DOMAIN-SUFFIX,itv.com
-DOMAIN-SUFFIX,massive-itv.com
 
 # NAME: DigitalOcean
 # AUTHOR: MLITM
@@ -9357,7 +9312,6 @@ DOMAIN-SUFFIX,nbcsports.h-cdn.com
 DOMAIN-SUFFIX,nbcudigitaladops.com
 DOMAIN-SUFFIX,nbcuni.com
 DOMAIN-SUFFIX,oxygen.com
-DOMAIN-SUFFIX,peacocktv.com
 DOMAIN-SUFFIX,s-nbcnews.com
 DOMAIN-SUFFIX,syfy.com
 DOMAIN-SUFFIX,telemundo.com
@@ -9665,7 +9619,6 @@ DOMAIN-SUFFIX,hotbak.net
 DOMAIN-SUFFIX,howtoforge.com
 DOMAIN-SUFFIX,hoyolab.com
 DOMAIN-SUFFIX,hoyoverse.com
-DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,icntv.xyz
 DOMAIN-SUFFIX,icoco.com
@@ -9871,7 +9824,6 @@ DOMAIN-SUFFIX,trustasiassl.com
 DOMAIN-SUFFIX,tt-rss.org
 DOMAIN-SUFFIX,tumbex.com
 DOMAIN-SUFFIX,tv.com
-DOMAIN-SUFFIX,tvb.com
 DOMAIN-SUFFIX,twdvd.com
 DOMAIN-SUFFIX,tweetmarker.net
 DOMAIN-SUFFIX,twitch.tv
