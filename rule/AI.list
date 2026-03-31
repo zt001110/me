@@ -13,6 +13,24 @@ DOMAIN,t3.gstatic.com
 DOMAIN,people-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
 
+# Apple Intelligence
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+
+# GitHub Copilot
+DOMAIN, api.githubcopilot.com
+DOMAIN, copilot-proxy.githubusercontent.com
+DOMAIN, copilot.microsoft.com
+DOMAIN, sydney.bing.com
+DOMAIN-SUFFIX, githubcopilot.com
+
 # NAME: notebooklm
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,notebooklm.google
@@ -33,10 +51,39 @@ DOMAIN,optimizationguide-pa.googleapis.com
 DOMAIN,config.immersivetranslate.com
 DOMAIN,ai.immersivetranslate.com
 DOMAIN,assets.immersivetranslate.cn
-DOMAIN,config.immersivetranslate.com
 DOMAIN,beacons.gcp.gvt2.com
+DOMAIN,ai.google.dev
+DOMAIN,aida.googleapis.com
+DOMAIN,aistudio.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,bard.google.com
+DOMAIN,deepmind.com
+DOMAIN,deepmind.google
+DOMAIN,geller-pa.googleapis.com
+DOMAIN,generativeai.google
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,makersuite.google.com
+DOMAIN,proactivebackend-pa.googleapis.com
 
-# NAME: OpenAI补充
+# NAME: OpenAI
+AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
+AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
+DOMAIN,ab.chatgpt.com
+DOMAIN,tcr9i.chat.openai.com
+DOMAIN,cdn.openai.com
+DOMAIN,chat.openai.com
+DOMAIN,cdn.auth0.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,api-iam.intercom.io
+DOMAIN,nexus-websocket-a.intercom.io
+DOMAIN,featuregates.org
+DOMAIN,platform.openai.com
+DOMAIN,widget.intercom.io
+DOMAIN,mtalk.google.com
+DOMAIN,api.qrstrategy.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,open-ai-chat-omega.vercel.app
 DOMAIN,clientstream.launchdarkly.com
 DOMAIN,browser-intake-datadoghq.com
@@ -44,9 +91,63 @@ DOMAIN,ios.chat.openai.com
 DOMAIN,api.revenuecat.com
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN,s.gravatar.com
-DOMAIN-SUFFIX,sora.com
 DOMAIN,sora-cdn.oaistatic.com
+DOMAIN,chatgpt.livekit.cloud
+DOMAIN,host.livekit.cloud
+DOMAIN,openai.com.cdn.cloudflare.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,compute-pipe.com
+DOMAIN-SUFFIX,edgecompute.app
+DOMAIN-SUFFIX,every1dns.net
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 
+
+# Anthropic Claude
+DOMAIN-SUFFIX, anthropic.com
+DOMAIN-SUFFIX, claude.ai
+DOMAIN-SUFFIX, claude.com
+DOMAIN-SUFFIX, clau.de
+DOMAIN-SUFFIX, claudeusercontent.com
+IP-CIDR, 160.79.104.0/23, no-resolve
+IP-CIDR6, 2607:6bc0::/48, no-resolve
+
+# JetBrains AI
+DOMAIN-SUFFIX, grazie.ai
+DOMAIN-SUFFIX, grazie.aws.intellij.net
+DOMAIN-SUFFIX, jetbrains.ai
+
+# Meta AI
+DOMAIN, imagine.meta.com
+DOMAIN-SUFFIX, meta.ai
+
+# Perplexity AI
+DOMAIN-SUFFIX, pplx.ai
+DOMAIN-SUFFIX, perplexity.ai
+DOMAIN-SUFFIX, perplexity.com
+
+# Mistral AI
+DOMAIN, chat.mistral.ai
+DOMAIN, console.mistral.ai
+DOMAIN-SUFFIX, mistral.ai
+
+# Grok AI
+DOMAIN, api.x.ai
+DOMAIN-SUFFIX, x.ai
+DOMAIN-SUFFIX, grok.com
+
+# Trae AI
+DOMAIN, trae-api-sg.mchost.guru
+DOMAIN-SUFFIX, trae.ai
 
 # NAME: Adobe
 DOMAIN,d1swly8pgrbhu5.cloudfront.net
@@ -215,32 +316,6 @@ DOMAIN-SUFFIX,worldsecureemail.com
 DOMAIN-SUFFIX,worldsecuresystems.com
 DOMAIN-KEYWORD,adobe
 DOMAIN-KEYWORD,cutterman
-
-
-# NAME: OpenAI
-DOMAIN,ab.chatgpt.com
-DOMAIN,tcr9i.chat.openai.com
-DOMAIN,cdn.openai.com
-DOMAIN,chat.openai.com
-DOMAIN,cdn.auth0.com
-DOMAIN,challenges.cloudflare.com
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN,api-iam.intercom.io
-DOMAIN,nexus-websocket-a.intercom.io
-DOMAIN,featuregates.org
-DOMAIN,platform.openai.com
-DOMAIN,widget.intercom.io
-DOMAIN,mtalk.google.com
-DOMAIN,api.qrstrategy.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,compute-pipe.com
-DOMAIN-SUFFIX,edgecompute.app
-DOMAIN-SUFFIX,every1dns.net
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,chatgpt.com
 
 # NAME:bard
 DOMAIN,bard.google.com
