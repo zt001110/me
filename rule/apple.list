@@ -2,7 +2,6 @@ DOMAIN,apps.mzstatic.com
 DOMAIN,profile.ess.apple.com
 DOMAIN,radio.itunes.apple.com
 DOMAIN,se2.itunes.apple.com
-DOMAIN,se2.itunes.apple.com
 DOMAIN,sf-api-token-service.itunes.apple.com
 DOMAIN,uts-api.itunes.apple.com
 DOMAIN,xp.apple.com
@@ -35,7 +34,6 @@ DOMAIN,albert.apple.com
 
 DOMAIN,gateway.icloud.com
 DOMAIN,edge-039.sgsin8.icloud-content.com
-DOMAIN,gateway.icloud.com
 DOMAIN,metrics.icloud.com
 DOMAIN,p30-fmfmobile.icloud.com
 DOMAIN,probe.icloud.com
@@ -77,7 +75,6 @@ DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud-isupport.com
 DOMAIN-SUFFIX,icloud.apple.com
 DOMAIN-SUFFIX,icloud.ch
-DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,icloud.de
 DOMAIN-SUFFIX,icloud.ee
@@ -185,7 +182,6 @@ PROCESS-NAME,music
 # TOTAL: 10
 
 DOMAIN,apple.comscoreresearch.com
-DOMAIN,gateway.icloud.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,news-assets.apple.com
 DOMAIN,news-client-search.apple.com
@@ -209,7 +205,6 @@ DOMAIN,hls.itunes.apple.com
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN,tv.applemusic.com
-DOMAIN,uts-api.itunes.apple.com
 DOMAIN-SUFFIX,tv.apple.com
 PROCESS-NAME,tv
 
@@ -220,7 +215,6 @@ PROCESS-NAME,tv
 # DOMAIN: 1
 # TOTAL: 1
 
-DOMAIN,guzzoni.apple.com
 
 # NAME: Apple
 # AUTHOR: MLITM
@@ -236,8 +230,6 @@ DOMAIN,guzzoni.apple.com
 DOMAIN-KEYWORD,apple-support.akadns.net
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
-DOMAIN-KEYWORD,testflight
-DOMAIN-KEYWORD,icloud.com.akadns.net
 IP-CIDR,139.178.128.0/18
 IP-CIDR,144.178.0.0/19
 IP-CIDR,144.178.36.0/22
@@ -250,10 +242,7 @@ IP-CIDR,63.92.224.0/19
 IP-CIDR,65.199.22.0/23
 PROCESS-NAME,storedownloadd
 PROCESS-NAME,com.apple.geod
-PROCESS-NAME,music
-PROCESS-NAME,news
 PROCESS-NAME,lookupviewservice
-PROCESS-NAME,tv
 
 # NAME: FindMy
 # AUTHOR: MLITM
@@ -277,7 +266,6 @@ DOMAIN,statici.icloud.com
 DOMAIN,appldnld-cdn.apple.com.akadns.net
 DOMAIN,appldnld-cdn.origin-apple.com.akadns.net
 DOMAIN,appldnld.apple.com.mwcname.com
-DOMAIN,configuration.apple.com
 DOMAIN,gdmf-cdn.apple.com.akadns.net
 DOMAIN,gdmf-cdn.origin-apple.com.akadns.net
 DOMAIN,gdmf-lb.apple.com.akadns.net
@@ -335,7 +323,6 @@ DOMAIN,updates.cdn-apple.com
 DOMAIN,xp-cdn.apple.com.akadns.net
 DOMAIN,xp-cdn.origin-apple.com.akadns.net
 DOMAIN,xp-lb.apple.com.akadns.net
-DOMAIN,xp.apple.com
 DOMAIN,xp.apple.com.akadns.net
 DOMAIN,xp.apple.com.mwcname.com
 DOMAIN,xp.g.aaplimg.com
@@ -366,17 +353,12 @@ DOMAIN,api-glb-sea.smoot.apple.com
 DOMAIN,books.itunes.apple.com
 DOMAIN,cvws.icloud-content.com
 DOMAIN,developer.apple.com
-DOMAIN,hls.itunes.apple.com
-DOMAIN,itunes.apple.com
 DOMAIN,lookup-api.apple.com
 DOMAIN,sandbox.itunes.apple.com
-DOMAIN,testflight.apple.com
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,blobstore.apple.com
 DOMAIN-SUFFIX,digicert.com
-PROCESS-NAME,lookupviewservice
 
 
 # NAME: iCloudPrivateRelay
@@ -401,7 +383,6 @@ DOMAIN-SUFFIX,mask.icloud.com
 # DOMAIN-SUFFIX: 36
 # TOTAL: 36
 
-DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,apple.com.akadns.net
 DOMAIN-SUFFIX,appleswift.com
@@ -466,7 +447,6 @@ DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,app-store.wang
 DOMAIN-SUFFIX,appe-store.com
 DOMAIN-SUFFIX,apple-appstore.cn
-DOMAIN-SUFFIX,apple-icloud.cn
 DOMAIN-SUFFIX,apple-itunes.cn
 DOMAIN-SUFFIX,apple-pay.com
 DOMAIN-SUFFIX,apple-pay.rs
@@ -477,7 +457,6 @@ DOMAIN-SUFFIX,appleappstore.net
 DOMAIN-SUFFIX,appleappstore.tv
 DOMAIN-SUFFIX,appledarwin.com
 DOMAIN-SUFFIX,appledarwin.net
-DOMAIN-SUFFIX,appleicloud.cn
 DOMAIN-SUFFIX,appleid-applemx.com
 DOMAIN-SUFFIX,appleid-applemx.us
 DOMAIN-SUFFIX,appleid-iclou.com
@@ -486,7 +465,6 @@ DOMAIN-SUFFIX,appleid.berlin
 DOMAIN-SUFFIX,appleid.com
 DOMAIN-SUFFIX,appleid.hamburg
 DOMAIN-SUFFIX,appleid.hk
-DOMAIN-SUFFIX,applemx-icloud.com
 DOMAIN-SUFFIX,appleone.audio
 DOMAIN-SUFFIX,appleone.blog
 DOMAIN-SUFFIX,appleone.chat
@@ -522,7 +500,6 @@ DOMAIN-SUFFIX,applepaysupplies.net
 DOMAIN-SUFFIX,applepaysupplies.tv
 DOMAIN-SUFFIX,applewallet.com
 DOMAIN-SUFFIX,applewallet.tv
-DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,appstore.co.id
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,appstore.hk
@@ -534,50 +511,8 @@ DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,darwinsource.com
 DOMAIN-SUFFIX,darwinsource.org
 DOMAIN-SUFFIX,darwinsourcecode.com
-DOMAIN-SUFFIX,icloud-apple.cn
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud-isupport.com
-DOMAIN-SUFFIX,icloud.ch
-DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.akadns.net
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,icloud.de
-DOMAIN-SUFFIX,icloud.ee
-DOMAIN-SUFFIX,icloud.fi
-DOMAIN-SUFFIX,icloud.fr
-DOMAIN-SUFFIX,icloud.hu
-DOMAIN-SUFFIX,icloud.ie
-DOMAIN-SUFFIX,icloud.is
-DOMAIN-SUFFIX,icloud.jp
-DOMAIN-SUFFIX,icloud.lv
-DOMAIN-SUFFIX,icloud.net.cn
-DOMAIN-SUFFIX,icloud.om
-DOMAIN-SUFFIX,icloud.org
-DOMAIN-SUFFIX,icloud.pt
-DOMAIN-SUFFIX,icloud.ro
-DOMAIN-SUFFIX,icloud.se
-DOMAIN-SUFFIX,icloud.si
-DOMAIN-SUFFIX,icloud.sk
-DOMAIN-SUFFIX,icloud.vn
-DOMAIN-SUFFIX,icloudads.net
-DOMAIN-SUFFIX,icloudapple.cn
-DOMAIN-SUFFIX,icloudbox.net
-DOMAIN-SUFFIX,icloudbrowser.net
-DOMAIN-SUFFIX,icloude.com
-DOMAIN-SUFFIX,icloudhome.com
-DOMAIN-SUFFIX,icloudmail.net
-DOMAIN-SUFFIX,icloudmusic.net
-DOMAIN-SUFFIX,icloudnet.net
-DOMAIN-SUFFIX,icloudo.com
-DOMAIN-SUFFIX,icloudo.de
-DOMAIN-SUFFIX,icloudo.net
-DOMAIN-SUFFIX,icloudos.de
-DOMAIN-SUFFIX,icloudos.net
-DOMAIN-SUFFIX,icloudpay.net
-DOMAIN-SUFFIX,icloudsecure.net
-DOMAIN-SUFFIX,icloudsetup.com
 DOMAIN-SUFFIX,ids-apple.com
-DOMAIN-SUFFIX,ios-icloud.com
 DOMAIN-SUFFIX,itun.es
 DOMAIN-SUFFIX,itunbes.com
 DOMAIN-SUFFIX,ituneas.com
@@ -612,14 +547,9 @@ DOMAIN-SUFFIX,itunesstore.co
 DOMAIN-SUFFIX,itunesu.com
 DOMAIN-SUFFIX,itunesu.net
 DOMAIN-SUFFIX,iutunes.com
-DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,myappleid.com
-DOMAIN-SUFFIX,myicloud.net
-DOMAIN-SUFFIX,mylcloud.net
 DOMAIN-SUFFIX,tvappstore.net
-DOMAIN-SUFFIX,wwwicloud.com
 DOMAIN-SUFFIX,wwwitunes.com
-PROCESS-NAME,com.apple.geod
 
 # NAME: AppleHardware
 # AUTHOR: MLITM
@@ -864,11 +794,9 @@ DOMAIN-SUFFIX,wwwmacbookair.com
 
 DOMAIN-SUFFIX,aod.itunes.apple.com
 DOMAIN-SUFFIX,apple.comscoreresearch.com
-DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appleenews.com
 DOMAIN-SUFFIX,applemusic.berlin
 DOMAIN-SUFFIX,applemusic.co
-DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,applemusic.com.au
 DOMAIN-SUFFIX,applemusic.hamburg
 DOMAIN-SUFFIX,applemusic.wang
@@ -886,7 +814,6 @@ DOMAIN-SUFFIX,appletv4.com.cn
 DOMAIN-SUFFIX,appletvapp.apple
 DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
 DOMAIN-SUFFIX,audio.itunes.apple.com
-DOMAIN-SUFFIX,blobstore.apple.com
 DOMAIN-SUFFIX,hls-amt.itunes.apple.com
 DOMAIN-SUFFIX,hls.itunes.apple.com
 DOMAIN-SUFFIX,i-book.com
@@ -912,7 +839,6 @@ DOMAIN-SUFFIX,news-edge.apple.com
 DOMAIN-SUFFIX,news-events.apple.com
 DOMAIN-SUFFIX,play-edge.itunes.apple.com
 DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
-DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,wwwapplemusic.com
 
 # NAME: Beats
@@ -1648,5 +1574,4 @@ DOMAIN-SUFFIX,yourmonsterbeats.com
 
 DOMAIN,appleid.apple.com
 DOMAIN,appleid.cdn-apple.com
-DOMAIN,gsa.apple.com
 DOMAIN,idmsa.apple.com

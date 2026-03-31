@@ -1593,7 +1593,6 @@ DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,gamer.com.tw
-DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,hinet.net
 DOMAIN-SUFFIX,viblast.com
 
@@ -1759,11 +1758,6 @@ PROCESS-NAME,com.hbo.hbonow
 # DOMAIN-SUFFIX: 5
 # TOTAL: 5
 
-DOMAIN-SUFFIX,happyon.jp
-DOMAIN-SUFFIX,hjholdings.jp
-DOMAIN-SUFFIX,hulu.jp
-DOMAIN-SUFFIX,streaks.jp
-DOMAIN-SUFFIX,yb.uncn.jp
 
 # NAME: HuluUSA
 # AUTHOR: MLITM
@@ -1773,59 +1767,6 @@ DOMAIN-SUFFIX,yb.uncn.jp
 # PROCESS-NAME: 1
 # TOTAL: 53
 
-DOMAIN-SUFFIX,112263.com
-DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
-DOMAIN-SUFFIX,callhulu.com
-DOMAIN-SUFFIX,cws-hulu.conviva.com
-DOMAIN-SUFFIX,findyourlimits.com
-DOMAIN-SUFFIX,freehulu.com
-DOMAIN-SUFFIX,hooloo.tv
-DOMAIN-SUFFIX,hoolu.com
-DOMAIN-SUFFIX,hoolu.tv
-DOMAIN-SUFFIX,hu1u.com
-DOMAIN-SUFFIX,huloo.cc
-DOMAIN-SUFFIX,huloo.tv
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,hulu.hb.omtrdc.net
-DOMAIN-SUFFIX,hulu.playback.edge.bamgrid.com
-DOMAIN-SUFFIX,hulu.sc.omtrdc.net
-DOMAIN-SUFFIX,hulu.tv
-DOMAIN-SUFFIX,hulu.us
-DOMAIN-SUFFIX,huluaction.com
-DOMAIN-SUFFIX,huluad.com
-DOMAIN-SUFFIX,huluapp.com
-DOMAIN-SUFFIX,huluasks.com
-DOMAIN-SUFFIX,hulucall.com
-DOMAIN-SUFFIX,hulufree.com
-DOMAIN-SUFFIX,hulugans.com
-DOMAIN-SUFFIX,hulugermany.com
-DOMAIN-SUFFIX,hulugo.com
-DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,huluinstantmessenger.com
-DOMAIN-SUFFIX,huluitaly.com
-DOMAIN-SUFFIX,hulunet.com
-DOMAIN-SUFFIX,hulunetwork.com
-DOMAIN-SUFFIX,huluplus.com
-DOMAIN-SUFFIX,hulupremium.com
-DOMAIN-SUFFIX,hulupurchase.com
-DOMAIN-SUFFIX,huluqa.com
-DOMAIN-SUFFIX,hulurussia.com
-DOMAIN-SUFFIX,huluspain.com
-DOMAIN-SUFFIX,hulusports.com
-DOMAIN-SUFFIX,hulustream.com
-DOMAIN-SUFFIX,huluteam.com
-DOMAIN-SUFFIX,hulutv.com
-DOMAIN-SUFFIX,huluusa.com
-DOMAIN-SUFFIX,joinmaidez.com
-DOMAIN-SUFFIX,mushymush.tv
-DOMAIN-SUFFIX,myhulu.com
-DOMAIN-SUFFIX,originalhulu.com
-DOMAIN-SUFFIX,payhulu.com
-DOMAIN-SUFFIX,prod.hjholdings.tv
-DOMAIN-SUFFIX,registerhulu.com
-DOMAIN-SUFFIX,thehulubraintrust.com
-DOMAIN-SUFFIX,wwwhuluplus.com
-PROCESS-NAME,com.hulu.plus
 
 # NAME: FOXNOW
 # AUTHOR: MLITM
@@ -1885,7 +1826,6 @@ DOMAIN-SUFFIX,smartmediarep.com
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
 
-DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,nowestatic.com
 
 # NAME: ParamountPlus
@@ -1966,8 +1906,6 @@ DOMAIN-SUFFIX,tver.jp
 
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
-DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN-SUFFIX,tvb.com
 DOMAIN-KEYWORD,nowtv100
 DOMAIN-KEYWORD,rthklive
 
@@ -1996,8 +1934,6 @@ DOMAIN,hbounify-prod.evergent.com
 DOMAIN,players.brightcove.net
 DOMAIN,s3-ap-southeast-1.amazonaws.com
 DOMAIN,wmff.warnermediacdn.com
-DOMAIN-SUFFIX,hbogoasia.com
-DOMAIN-SUFFIX,hbogoasia.hk
 DOMAIN-KEYWORD,.hbogoasia.
 
 # NAME: DiscoveryPlus
@@ -2021,7 +1957,6 @@ DOMAIN-SUFFIX,fwmrm.net
 DOMAIN-SUFFIX,getblueshift.com
 DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,mobile-collector.newrelic.com
-DOMAIN-SUFFIX,uplynk.com
 DOMAIN-KEYWORD,discovery.uplynk.com
 
 # NAME: Overcast
@@ -2068,7 +2003,6 @@ DOMAIN-SUFFIX,mycake.me
 DOMAIN,itvpnp.live.ott.irdeto.com
 DOMAIN,itvpnp.stage.ott.irdeto.com
 DOMAIN-SUFFIX,bb-static.com
-DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,britbox.co.uk
 DOMAIN-SUFFIX,britbox.com
 DOMAIN-SUFFIX,itv.com
@@ -2084,30 +2018,10 @@ DOMAIN-SUFFIX,massive-itv.com
 # PROCESS-NAME: 1
 # TOTAL: 25
 
-DOMAIN,d1v5ir2lpwr8os.cloudfront.net
-DOMAIN,d22qjgkvxw22r6.cloudfront.net
-DOMAIN,d25xi40x97liuc.cloudfront.net
-DOMAIN,d27xxe7juh1us6.cloudfront.net
-DOMAIN,dmqdd6hw24ucf.cloudfront.net
-DOMAIN-SUFFIX,aiv-cdn.net
-DOMAIN-SUFFIX,aiv-delivery.net
-DOMAIN-SUFFIX,amazonprimevideo.cn
-DOMAIN-SUFFIX,amazonprimevideo.com.cn
-DOMAIN-SUFFIX,amazonprimevideos.com
-DOMAIN-SUFFIX,amazonvideo.cc
-DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,atv-ps.amazon.com
 DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
 DOMAIN-SUFFIX,fls-na.amazon.com
 DOMAIN-SUFFIX,llnwd.net
-DOMAIN-SUFFIX,media-amazon.com
-DOMAIN-SUFFIX,prime-video.com
-DOMAIN-SUFFIX,primevideo.cc
-DOMAIN-SUFFIX,primevideo.com
-DOMAIN-SUFFIX,primevideo.info
-DOMAIN-SUFFIX,primevideo.org
-DOMAIN-SUFFIX,primevideo.tv
-DOMAIN-KEYWORD,avoddashs
 PROCESS-NAME,com.amazon.avod.thirdpartyclient
 
 # NAME: HWTV
@@ -2129,7 +2043,6 @@ DOMAIN-SUFFIX,ocnttv.com
 # TOTAL: 3
 
 DOMAIN,itvpnpmobile-a.akamaihd.net
-DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,itvstatic.com
 
 # NAME: Kantv

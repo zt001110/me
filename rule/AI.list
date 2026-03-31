@@ -93,7 +93,6 @@ DOMAIN,featuregates.org
 DOMAIN,platform.openai.com
 DOMAIN,widget.intercom.io
 DOMAIN,mtalk.google.com
-DOMAIN,api.qrstrategy.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,open-ai-chat-omega.vercel.app
 DOMAIN,clientstream.launchdarkly.com
@@ -176,7 +175,6 @@ DOMAIN,cc-api-data.adobe.io
 DOMAIN,scss.adobesc.com
 DOMAIN,cdn-ffc.oobesaas.adobe.com
 DOMAIN,ss-prod-ue1-ns.aws.adobess.com
-DOMAIN,cdn-ffc.oobesaas.adobe.com
 DOMAIN,adobeereg.com
 DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
 DOMAIN,crl.versign.net
@@ -195,7 +193,6 @@ DOMAIN-SUFFIX,adbecrsl.com
 DOMAIN-SUFFIX,adobe-aemassets-value.com
 DOMAIN-SUFFIX,adobe-audience-finder.com
 DOMAIN-SUFFIX,adobe-video-partner-finder.com
-DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,adobe.io
 DOMAIN-SUFFIX,adobe.ly
 DOMAIN-SUFFIX,adobeaemcloud.com
@@ -221,7 +218,6 @@ DOMAIN-SUFFIX,adobelogin.com
 DOMAIN-SUFFIX,adobeoobe.com
 DOMAIN-SUFFIX,adobeplatinumclub.com
 DOMAIN-SUFFIX,adobeprojectm.com
-DOMAIN-SUFFIX,adobesc.com
 DOMAIN-SUFFIX,adobesign.com
 DOMAIN-SUFFIX,adobesigncdn.com
 DOMAIN-SUFFIX,adobespark.com
@@ -329,7 +325,6 @@ DOMAIN-KEYWORD,adobe
 DOMAIN-KEYWORD,cutterman
 
 # NAME:bard
-DOMAIN,bard.google.com
 
 # NAME: midjourney
 DOMAIN,cdn.midjourney.com
@@ -351,7 +346,6 @@ DOMAIN,goals-api.duolingo.com
 DOMAIN,duolingo-achievements-prod.duolingo.com
 DOMAIN,www.duolingo.com
 DOMAIN,simg-ssl.duolingo.com
-DOMAIN,goals-api.duolingo.com
 DOMAIN,excess.duolingo.com
 DOMAIN,d35aaqx5ub95lt.cloudfront.net
 DOMAIN-SUFFIX,duolingo.com
