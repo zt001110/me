@@ -60,7 +60,6 @@ DOMAIN,drive-thru.duolingo.com
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
-DOMAIN-SUFFIX,abc.com
 DOMAIN-SUFFIX,anchor.fm
 DOMAIN-SUFFIX,archive.fo
 DOMAIN-SUFFIX,archive.org
@@ -72,7 +71,6 @@ DOMAIN-SUFFIX,avg.com
 DOMAIN-SUFFIX,axios.com
 DOMAIN-SUFFIX,bandcamp.com
 DOMAIN-SUFFIX,bandwagonhost.com
-DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,behance.net
 DOMAIN-SUFFIX,bit.ly
 DOMAIN-SUFFIX,bloglovin.com
@@ -266,11 +264,9 @@ DOMAIN-SUFFIX,feedburner.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,getoutline.org
-DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gmodules.com
 DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,itasoftware.com
 DOMAIN-SUFFIX,on2.com
@@ -307,7 +303,6 @@ DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fb.watch
 DOMAIN-SUFFIX,fbaddins.com
-DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,fbworkmail.com
 DOMAIN-SUFFIX,instagram.com
@@ -1050,11 +1045,8 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
-IP-CIDR,172.110.32.0/21
 IP-CIDR,173.194.0.0/16
-IP-CIDR,216.73.80.0/20
 IP-CIDR,74.125.0.0/16
-IP-CIDR6,2620:120:e000::/40
 PROCESS-NAME,com.android.vending
 PROCESS-NAME,com.google.android.gms
 PROCESS-NAME,com.google.android.gsf
@@ -1125,7 +1117,6 @@ DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,cellmaps.com
 DOMAIN-SUFFIX,ekahau.cloud
 DOMAIN-SUFFIX,ekahau.com
-DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,ookla.com
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,pingtest.net
@@ -1230,8 +1221,6 @@ DOMAIN-SUFFIX,line-apps-beta.com
 DOMAIN-SUFFIX,line-apps-rc.com
 DOMAIN-SUFFIX,line-apps.com
 DOMAIN-SUFFIX,line-beta.me
-DOMAIN-SUFFIX,line-cdn.net
-DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,line.biz
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,linecorp.com
@@ -1241,7 +1230,6 @@ DOMAIN-SUFFIX,linegame.jp
 DOMAIN-SUFFIX,linemobile.com
 DOMAIN-SUFFIX,linemyshop.com
 DOMAIN-SUFFIX,lineshoppingseller.com
-DOMAIN-SUFFIX,linetv.tw
 DOMAIN-SUFFIX,naver.jp
 DOMAIN-SUFFIX,nhncorp.jp
 IP-CIDR,103.2.28.0/22
@@ -2410,7 +2398,6 @@ DOMAIN-SUFFIX,asfiovnxocqpcry.com.cn
 DOMAIN-SUFFIX,assoc-amazon.cn
 DOMAIN-SUFFIX,associates-amazon.com
 DOMAIN-SUFFIX,audible.com
-DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
 DOMAIN-SUFFIX,aws
 DOMAIN-SUFFIX,aws-border.cn
 DOMAIN-SUFFIX,aws-icp-domain-manager.cn
@@ -2470,13 +2457,11 @@ DOMAIN-SUFFIX,kindleoasis.org
 DOMAIN-SUFFIX,kindleoasis.us
 DOMAIN-SUFFIX,kindleoasisnews.com
 DOMAIN-SUFFIX,kindleproject.com
-DOMAIN-SUFFIX,llnwd.net
 DOMAIN-SUFFIX,media-imdb.com
 DOMAIN-SUFFIX,nwcdcloud.cn
 DOMAIN-SUFFIX,nwcdcloud.com.cn
 DOMAIN-SUFFIX,nwcddns.cn
 DOMAIN-SUFFIX,nwcdinfosec.cn
-DOMAIN-SUFFIX,prime-video.com
 DOMAIN-SUFFIX,primeday.cn
 DOMAIN-SUFFIX,primeday.com.cn
 DOMAIN-SUFFIX,primeday.info
@@ -2517,7 +2502,6 @@ IP-CIDR,54.156.0.0/14
 IP-CIDR,54.226.0.0/15
 IP-CIDR,54.230.156.0/22
 IP-CIDR,54.93.0.0/16
-PROCESS-NAME,com.amazon.avod.thirdpartyclient
 
 # NAME: Instagram
 # AUTHOR: MLITM
@@ -2709,7 +2693,6 @@ DOMAIN-SUFFIX,amlg.io
 DOMAIN-SUFFIX,cbs
 DOMAIN-SUFFIX,cbs.com
 DOMAIN-SUFFIX,cbscorporation.com
-DOMAIN-SUFFIX,cbsi.com
 DOMAIN-SUFFIX,cbsi.live.ott.irdeto.com
 DOMAIN-SUFFIX,cbsi.video
 DOMAIN-SUFFIX,cbsiam.com
@@ -2821,10 +2804,6 @@ DOMAIN-SUFFIX,dzcdn.net
 # DOMAIN-SUFFIX: 3
 # TOTAL: 5
 
-DOMAIN,bcbolt446c5271-a.akamaihd.net
-DOMAIN,edge.api.brightcove.com
-DOMAIN-SUFFIX,content.jwplatform.com
-DOMAIN-SUFFIX,videos-f.jwpsrv.com
 
 # NAME: Fox
 # AUTHOR: MLITM
@@ -3652,7 +3631,6 @@ DOMAIN,api-glb-sea.smoot.apple.com
 DOMAIN,books.itunes.apple.com
 DOMAIN,cvws.icloud-content.com
 DOMAIN,developer.apple.com
-DOMAIN,hls.itunes.apple.com
 DOMAIN,lookup-api.apple.com
 DOMAIN,sandbox.itunes.apple.com
 DOMAIN,testflight.apple.com
@@ -3660,7 +3638,6 @@ DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,blobstore.apple.com
-DOMAIN-SUFFIX,digicert.com
 PROCESS-NAME,lookupviewservice
 
 # NAME: iTalkBB
@@ -4472,7 +4449,6 @@ DOMAIN-SUFFIX,microad.co.jp
 DOMAIN-SUFFIX,microad.jp
 DOMAIN-SUFFIX,minori.ph
 DOMAIN-SUFFIX,navismithapis-cdn.com
-DOMAIN-SUFFIX,socdm.com
 DOMAIN-SUFFIX,tenco.cc
 DOMAIN-SUFFIX,wheel-soft.com
 IP-CIDR,125.6.189.7/32
@@ -4633,8 +4609,6 @@ DOMAIN-SUFFIX,flipchina.cn
 DOMAIN,espn.api.edge.bamgrid.com
 DOMAIN,espn.hb.omtrdc.net
 DOMAIN,espndotcom.tt.omtrdc.net
-DOMAIN-SUFFIX,dtci.co
-DOMAIN-SUFFIX,dtci.technology
 
 # NAME: Emojipedia
 # AUTHOR: MLITM
@@ -5201,8 +5175,6 @@ DOMAIN-SUFFIX,cht.com.tw
 DOMAIN-SUFFIX,chtf.org.tw
 DOMAIN-SUFFIX,emome.net
 DOMAIN-SUFFIX,gtlsca.nat.gov.tw
-DOMAIN-SUFFIX,hinet.net
-DOMAIN-SUFFIX,litv.tv
 DOMAIN-SUFFIX,xuite.net
 
 # NAME: Buypass
@@ -8175,16 +8147,12 @@ DOMAIN-SUFFIX,thunderbird.net
 # PROCESS-NAME: 1
 # TOTAL: 65
 
-DOMAIN,d17lx9ucc6k9fc.cloudfront.net
 DOMAIN,d3c7rimkq79yfu.cloudfront.net
-DOMAIN-SUFFIX,chocotv.com.tw
 DOMAIN-SUFFIX,grafolio.com
-DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,naver.net
 DOMAIN-SUFFIX,navercorp.com
 DOMAIN-SUFFIX,plug.game
 DOMAIN-SUFFIX,pstatic.net
-DOMAIN-SUFFIX,smartmediarep.com
 DOMAIN-SUFFIX,webtoons.com
 IP-CIDR,101.101.160.0/20
 IP-CIDR,103.2.28.0/24
@@ -8210,7 +8178,6 @@ IP-CIDR,203.104.152.0/22
 IP-CIDR,203.104.156.0/23
 IP-CIDR,203.104.158.0/24
 IP-CIDR6,2400:dcc0::/32
-PROCESS-NAME,com.linecorp.linetv
 
 # NAME: Nike
 # AUTHOR: MLITM
@@ -8856,7 +8823,6 @@ DOMAIN-SUFFIX,zotero.org
 # DOMAIN-SUFFIX: 6
 # TOTAL: 8
 
-DOMAIN-SUFFIX,bbc.co.uk
 
 # NAME: DigitalOcean
 # AUTHOR: MLITM
@@ -9055,12 +9021,6 @@ DOMAIN-SUFFIX,saasexch.com
 # DOMAIN-SUFFIX: 2
 # TOTAL: 6
 
-DOMAIN,d1koerlbtsmkf8.cloudfront.net
-DOMAIN,d31wl6mro6753i.cloudfront.net
-DOMAIN,static-mycake.pstatic.net
-DOMAIN,vstatic-mycake.pstatic.net
-DOMAIN-SUFFIX,cakeapp.me
-DOMAIN-SUFFIX,mycake.me
 
 # NAME: PikPak
 # AUTHOR: tugepaopao
@@ -9513,7 +9473,6 @@ DOMAIN-SUFFIX,badoo.com
 DOMAIN-SUFFIX,bandisoft.com
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
-DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbtoystore.com
 DOMAIN-SUFFIX,bcvcdn.com
 DOMAIN-SUFFIX,bet365.com
@@ -9590,7 +9549,6 @@ DOMAIN-SUFFIX,flexibits.com
 DOMAIN-SUFFIX,flipkart.com
 DOMAIN-SUFFIX,flzbcdn.xyz
 DOMAIN-SUFFIX,freeopenproxy.com
-DOMAIN-SUFFIX,fubo.tv
 DOMAIN-SUFFIX,fzlm.net
 DOMAIN-SUFFIX,gabia.net
 DOMAIN-SUFFIX,gameloft.com
@@ -9604,7 +9562,6 @@ DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,gfw.press
 DOMAIN-SUFFIX,ghostnoteapp.com
 DOMAIN-SUFFIX,gmocloud.com
-DOMAIN-SUFFIX,go.com
 DOMAIN-SUFFIX,go.jp
 DOMAIN-SUFFIX,godaddy.com
 DOMAIN-SUFFIX,gongm.in
@@ -9695,15 +9652,12 @@ DOMAIN-SUFFIX,netmarble.com
 DOMAIN-SUFFIX,neulion.com
 DOMAIN-SUFFIX,newipnow.com
 DOMAIN-SUFFIX,nianticlabs.com
-DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,nih.gov
-DOMAIN-SUFFIX,nimg.jp
 DOMAIN-SUFFIX,nintendo.com
 DOMAIN-SUFFIX,nintendo.net
 DOMAIN-SUFFIX,novafile.com
 DOMAIN-SUFFIX,nrk.no
 DOMAIN-SUFFIX,nssurge.com
-DOMAIN-SUFFIX,ocnttv.com
 DOMAIN-SUFFIX,omnigroup.com
 DOMAIN-SUFFIX,ooyala.com
 DOMAIN-SUFFIX,openwrt.org
@@ -9711,7 +9665,6 @@ DOMAIN-SUFFIX,orkut.com
 DOMAIN-SUFFIX,osha.gov
 DOMAIN-SUFFIX,osxdaily.com
 DOMAIN-SUFFIX,ouo.io
-DOMAIN-SUFFIX,overcast.fm
 DOMAIN-SUFFIX,ow.ly
 DOMAIN-SUFFIX,paddle.com
 DOMAIN-SUFFIX,paddleapi.com
@@ -9751,7 +9704,6 @@ DOMAIN-SUFFIX,riotgames.com
 DOMAIN-SUFFIX,rsf.org
 DOMAIN-SUFFIX,s.team
 DOMAIN-SUFFIX,sb-cd.com
-DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,sciencedaily.com
 DOMAIN-SUFFIX,sexinsex.net
 DOMAIN-SUFFIX,shadowsocks.org
@@ -9926,15 +9878,12 @@ DOMAIN-KEYWORD,beetalk
 DOMAIN-KEYWORD,dlercloud
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,duolingo
-DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
 DOMAIN-KEYWORD,tesla
-DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,ttvnw
-DOMAIN-KEYWORD,uk-live
 IP-CIDR,101.32.118.0/23
 IP-CIDR,101.32.96.0/20
 IP-CIDR,103.4.96.0/22
