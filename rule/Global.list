@@ -272,7 +272,6 @@ DOMAIN-SUFFIX,itasoftware.com
 DOMAIN-SUFFIX,on2.com
 DOMAIN-SUFFIX,schema.org
 DOMAIN-SUFFIX,tensorflow.org
-DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,tfhub.dev
 DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,waymo.com
@@ -344,19 +343,9 @@ DOMAIN,wego.here.com
 DOMAIN-SUFFIX,go.dev
 DOMAIN-SUFFIX,golang.org
 # > Web Preview
-DOMAIN,apps.apple.com
 DOMAIN,books.apple.com
-DOMAIN,itunes.apple.com
 DOMAIN,tv.apple.com
 # > News
-DOMAIN,gateway.icloud.com
-DOMAIN-SUFFIX,apple.news
-DOMAIN,news-assets.apple.com
-DOMAIN,news-client.apple.com
-DOMAIN,news-client-search.apple.com
-DOMAIN,news-edge.apple.com
-DOMAIN,news-events.apple.com
-DOMAIN,apple.comscoreresearch.com
 
 # NAME: Google
 # AUTHOR: MLITM
@@ -521,7 +510,6 @@ DOMAIN-SUFFIX,cookiechoices.org
 DOMAIN-SUFFIX,coova.com
 DOMAIN-SUFFIX,coova.net
 DOMAIN-SUFFIX,coova.org
-DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,crbug.com
 DOMAIN-SUFFIX,creativelab5.com
 DOMAIN-SUFFIX,crossmediapanel.com
@@ -845,7 +833,6 @@ DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices-cn.com
 DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,googletraveladservices-cn.com
-DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN-SUFFIX,googlevads-cn.com
 DOMAIN-SUFFIX,googleventures.com
 DOMAIN-SUFFIX,googlr.com
@@ -1118,7 +1105,6 @@ DOMAIN-SUFFIX,cellmaps.com
 DOMAIN-SUFFIX,ekahau.cloud
 DOMAIN-SUFFIX,ekahau.com
 DOMAIN-SUFFIX,ookla.com
-DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,pingtest.net
 DOMAIN-SUFFIX,speed.cloudflare.com
 DOMAIN-SUFFIX,speed.dler.io
@@ -1310,15 +1296,8 @@ IP-CIDR,69.195.160.0/19
 
 DOMAIN-SUFFIX,argotunnel.com
 DOMAIN-SUFFIX,cf-ipfs.com
-DOMAIN-SUFFIX,cf-ns.com
-DOMAIN-SUFFIX,cf-ns.net
-DOMAIN-SUFFIX,cf-ns.site
-DOMAIN-SUFFIX,cf-ns.tech
 DOMAIN-SUFFIX,cftest5.cn
 DOMAIN-SUFFIX,cftest6.cn
-DOMAIN-SUFFIX,cftest7.com
-DOMAIN-SUFFIX,cftest8.com
-DOMAIN-SUFFIX,cloudflare-cn.com
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudflare-quic.com
@@ -1329,22 +1308,16 @@ DOMAIN-SUFFIX,cloudflareaccess.com
 DOMAIN-SUFFIX,cloudflareapps.com
 DOMAIN-SUFFIX,cloudflarebolt.com
 DOMAIN-SUFFIX,cloudflareclient.com
-DOMAIN-SUFFIX,cloudflarecn.net
-DOMAIN-SUFFIX,cloudflareinsights-cn.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,cloudflareok.com
 DOMAIN-SUFFIX,cloudflarepreview.com
-DOMAIN-SUFFIX,cloudflareprod.com
 DOMAIN-SUFFIX,cloudflareresolve.com
 DOMAIN-SUFFIX,cloudflaressl.com
-DOMAIN-SUFFIX,cloudflarestaging.com
 DOMAIN-SUFFIX,cloudflarestatus.com
 DOMAIN-SUFFIX,cloudflarestorage.com
-DOMAIN-SUFFIX,cloudflarestoragegw.com
 DOMAIN-SUFFIX,cloudflarestream.com
 DOMAIN-SUFFIX,cloudflaretest.com
 DOMAIN-SUFFIX,cloudflarewarp.com
-DOMAIN-SUFFIX,every1dns.net
 DOMAIN-SUFFIX,one.one.one
 DOMAIN-SUFFIX,pacloudflare.com
 DOMAIN-SUFFIX,pages.dev
@@ -1969,10 +1942,8 @@ DOMAIN-SUFFIX,bigbeans.solutions
 DOMAIN-SUFFIX,dis.gd
 DOMAIN-SUFFIX,discord-activities.com
 DOMAIN-SUFFIX,discord.co
-DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.design
 DOMAIN-SUFFIX,discord.dev
-DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discord.gift
 DOMAIN-SUFFIX,discord.gifts
 DOMAIN-SUFFIX,discord.media
@@ -1980,11 +1951,8 @@ DOMAIN-SUFFIX,discord.new
 DOMAIN-SUFFIX,discord.store
 DOMAIN-SUFFIX,discord.tools
 DOMAIN-SUFFIX,discordactivities.com
-DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.io
-DOMAIN-SUFFIX,discordapp.net
 DOMAIN-SUFFIX,discordapp.page.link
-DOMAIN-SUFFIX,discordcdn.com
 DOMAIN-SUFFIX,discordmerch.com
 DOMAIN-SUFFIX,discordpartygames.com
 DOMAIN-SUFFIX,discordsays.com
@@ -2002,11 +1970,9 @@ DOMAIN-SUFFIX,watchanimeattheoffice.com
 
 DOMAIN,imap-mail.outlook.com
 DOMAIN,imap.gmail.com
-DOMAIN,outlook.office365.com
 DOMAIN,pop.gmail.com
 DOMAIN,smtp-mail.outlook.com
 DOMAIN,smtp.gmail.com
-DOMAIN,smtp.office365.com
 DOMAIN-SUFFIX,apple.imap.mail.yahoo.com
 DOMAIN-SUFFIX,m.hotmail.com
 
@@ -2274,7 +2240,6 @@ DOMAIN-KEYWORD,paypal
 # TOTAL: 5
 
 DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,readdle.com
 
 # NAME: LastPass
@@ -2424,7 +2389,6 @@ DOMAIN-SUFFIX,awstrack.me
 DOMAIN-SUFFIX,awstrust.com
 DOMAIN-SUFFIX,boxofficemojo.com
 DOMAIN-SUFFIX,cdkworkshop.com
-DOMAIN-SUFFIX,cloudfront-cn.net
 DOMAIN-SUFFIX,cloudfront-test.cn
 DOMAIN-SUFFIX,cloudfront.cn
 DOMAIN-SUFFIX,cloudfront.net
@@ -2433,7 +2397,6 @@ DOMAIN-SUFFIX,createspace.com
 DOMAIN-SUFFIX,elasticbeanstalk.com
 DOMAIN-SUFFIX,gameon-masters.com
 DOMAIN-SUFFIX,gdansk-amazon.com
-DOMAIN-SUFFIX,images-amazon.com
 DOMAIN-SUFFIX,imdb
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
@@ -2549,10 +2512,6 @@ DOMAIN-SUFFIX,teamviewer.com
 IP-CIDR,139.220.243.27/32
 IP-CIDR,172.16.102.56/32
 IP-CIDR,221.226.128.146/32
-IP-CIDR6,2a0b:b580::/48
-IP-CIDR6,2a0b:b581::/48
-IP-CIDR6,2a0b:b582::/48
-IP-CIDR6,2a0b:b583::/48
 
 
 # NAME: AFP
@@ -2771,7 +2730,6 @@ DOMAIN-SUFFIX,indaznlab.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,logx.optimizely.com
 DOMAIN-SUFFIX,s.yimg.jp
-DOMAIN-SUFFIX,sentry.io
 DOMAIN-KEYWORD,voddazn
 
 # NAME: Dailymotion
@@ -3627,18 +3585,6 @@ IP-CIDR,129.227.71.0/24
 # PROCESS-NAME: 1
 # TOTAL: 15
 
-DOMAIN,api-glb-sea.smoot.apple.com
-DOMAIN,books.itunes.apple.com
-DOMAIN,cvws.icloud-content.com
-DOMAIN,developer.apple.com
-DOMAIN,lookup-api.apple.com
-DOMAIN,sandbox.itunes.apple.com
-DOMAIN,testflight.apple.com
-DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,apps.apple.com
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,blobstore.apple.com
-PROCESS-NAME,lookupviewservice
 
 # NAME: iTalkBB
 # AUTHOR: MLITM
@@ -4226,7 +4172,6 @@ DOMAIN-SUFFIX,ibm.net
 DOMAIN-SUFFIX,ibm.us
 DOMAIN-SUFFIX,s-bluemix.net
 DOMAIN-SUFFIX,s81c.com
-DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,weatherchannel
 
 # NAME: Heroku
@@ -4500,7 +4445,6 @@ DOMAIN-SUFFIX,regiongold.com
 # DOMAIN-SUFFIX: 14
 # TOTAL: 14
 
-DOMAIN-SUFFIX,alphassl.com
 DOMAIN-SUFFIX,globalsign-media.com
 DOMAIN-SUFFIX,globalsign.be
 DOMAIN-SUFFIX,globalsign.ch
@@ -4789,7 +4733,6 @@ DOMAIN-SUFFIX,digicert.cn
 DOMAIN-SUFFIX,digitalcertvalidation.com
 DOMAIN-SUFFIX,freessl.com
 DOMAIN-SUFFIX,geotrust.com
-DOMAIN-SUFFIX,public-trust.com
 DOMAIN-SUFFIX,quovadisglobal.com
 DOMAIN-SUFFIX,rapidssl.com
 DOMAIN-SUFFIX,thawte.com
@@ -6157,7 +6100,6 @@ DOMAIN-SUFFIX,bitbucket.io
 DOMAIN-SUFFIX,bitbucket.org
 DOMAIN-SUFFIX,statuspage.io
 DOMAIN-SUFFIX,trello.com
-DOMAIN-SUFFIX,trellocdn.com
 
 # NAME: Apkpure
 # AUTHOR: MLITM
@@ -6992,7 +6934,6 @@ DOMAIN-SUFFIX,maktoob.com
 DOMAIN-SUFFIX,myguide.hk
 DOMAIN-SUFFIX,oath.cloud
 DOMAIN-SUFFIX,oath.com
-DOMAIN-SUFFIX,omniroot.com
 DOMAIN-SUFFIX,ouroath.com
 DOMAIN-SUFFIX,static-verizon.com
 DOMAIN-SUFFIX,staticflickr.com
@@ -7821,7 +7762,6 @@ DOMAIN-SUFFIX,rarbg.bypassed.org
 DOMAIN-SUFFIX,rarbg.is
 DOMAIN-SUFFIX,rarbg.link
 DOMAIN-SUFFIX,rarbg.me
-DOMAIN-SUFFIX,rarbg.to
 DOMAIN-SUFFIX,rarbg.unblocked.vc
 DOMAIN-SUFFIX,rarbgaccess.org
 DOMAIN-SUFFIX,rarbgaccessed.org
@@ -8608,26 +8548,15 @@ DOMAIN-SUFFIX,1lib.tw
 DOMAIN-SUFFIX,2lib.org
 DOMAIN-SUFFIX,3lib.net
 DOMAIN-SUFFIX,aclweb.org
-DOMAIN-SUFFIX,acm.org
-DOMAIN-SUFFIX,acs.org
-DOMAIN-SUFFIX,aiaa.org
-DOMAIN-SUFFIX,aip.org
 DOMAIN-SUFFIX,altmetric.com
 DOMAIN-SUFFIX,amamanualofstyle.com
-DOMAIN-SUFFIX,ams.org
 DOMAIN-SUFFIX,analytictech.com
 DOMAIN-SUFFIX,anb.org
-DOMAIN-SUFFIX,annualreviews.org
 DOMAIN-SUFFIX,apa.org
 DOMAIN-SUFFIX,apress.com
-DOMAIN-SUFFIX,aps.org
 DOMAIN-SUFFIX,art1lib.com
 DOMAIN-SUFFIX,arxiv.org
-DOMAIN-SUFFIX,ascelibrary.org
 DOMAIN-SUFFIX,asha.org
-DOMAIN-SUFFIX,asm.org
-DOMAIN-SUFFIX,asme.org
-DOMAIN-SUFFIX,astm.org
 DOMAIN-SUFFIX,b-ok.africa
 DOMAIN-SUFFIX,b-ok.asia
 DOMAIN-SUFFIX,b-ok.cc
@@ -8638,7 +8567,6 @@ DOMAIN-SUFFIX,biomedcentral.com
 DOMAIN-SUFFIX,biorxiv.org
 DOMAIN-SUFFIX,blackstonespoliceservice.com
 DOMAIN-SUFFIX,blackwell-synergy.com
-DOMAIN-SUFFIX,bmj.com
 DOMAIN-SUFFIX,book4you.org
 DOMAIN-SUFFIX,bookfi.net
 DOMAIN-SUFFIX,booksc.eu
@@ -8650,15 +8578,11 @@ DOMAIN-SUFFIX,bookshome.net
 DOMAIN-SUFFIX,bookshome.world
 DOMAIN-SUFFIX,brill.com
 DOMAIN-SUFFIX,cabdirect.org
-DOMAIN-SUFFIX,cambridge.org
 DOMAIN-SUFFIX,cambridgedigital.net
 DOMAIN-SUFFIX,cambridgemaths.org
 DOMAIN-SUFFIX,cambridgeschoolshakespeare.com
-DOMAIN-SUFFIX,cas.org
 DOMAIN-SUFFIX,cell.com
-DOMAIN-SUFFIX,clarivate.com
 DOMAIN-SUFFIX,computingreviews.com
-DOMAIN-SUFFIX,cqvip.com
 DOMAIN-SUFFIX,crossref.org
 DOMAIN-SUFFIX,csiro.au
 DOMAIN-SUFFIX,de1lib.org
@@ -8667,15 +8591,12 @@ DOMAIN-SUFFIX,degruyter.com
 DOMAIN-SUFFIX,dentalhypotheses.com
 DOMAIN-SUFFIX,doi.info
 DOMAIN-SUFFIX,doi.org
-DOMAIN-SUFFIX,ebscohost.com
 DOMAIN-SUFFIX,elifesciences.org
 DOMAIN-SUFFIX,els-cdn.com
 DOMAIN-SUFFIX,elsevier-ae.com
 DOMAIN-SUFFIX,elsevier.com
 DOMAIN-SUFFIX,elsevier.io
-DOMAIN-SUFFIX,emerald.com
 DOMAIN-SUFFIX,endnote.com
-DOMAIN-SUFFIX,engineeringvillage.com
 DOMAIN-SUFFIX,epigeum.com
 DOMAIN-SUFFIX,europepmc.org
 DOMAIN-SUFFIX,evise.com
@@ -8686,65 +8607,46 @@ DOMAIN-SUFFIX,ggsrv.com
 DOMAIN-SUFFIX,hindawi.com
 DOMAIN-SUFFIX,hk1lib.org
 DOMAIN-SUFFIX,ic.ac.uk
-DOMAIN-SUFFIX,icevirtuallibrary.com
-DOMAIN-SUFFIX,ieee.org
 DOMAIN-SUFFIX,imf.org
 DOMAIN-SUFFIX,imperial.ac.uk
 DOMAIN-SUFFIX,imperial.insendi.com
 DOMAIN-SUFFIX,imperialbusiness.school
 DOMAIN-SUFFIX,informs.org
-DOMAIN-SUFFIX,iop.org
 DOMAIN-SUFFIX,isca-speech.org
 DOMAIN-SUFFIX,isiknowledge.com
-DOMAIN-SUFFIX,jamanetwork.com
 DOMAIN-SUFFIX,japanknowledge.com
 DOMAIN-SUFFIX,jbc.org
 DOMAIN-SUFFIX,jbe-platform.com
-DOMAIN-SUFFIX,jhu.edu
 DOMAIN-SUFFIX,jmlr.org
 DOMAIN-SUFFIX,jneurosci.org
-DOMAIN-SUFFIX,jstor.org
-DOMAIN-SUFFIX,karger.com
 DOMAIN-SUFFIX,knovel.com
 DOMAIN-SUFFIX,kuke.com
 DOMAIN-SUFFIX,lawdata.com.tw
-DOMAIN-SUFFIX,libguides.com
 DOMAIN-SUFFIX,libsolutions.app
 DOMAIN-SUFFIX,libsolutions.domains
 DOMAIN-SUFFIX,libsolutions.net
 DOMAIN-SUFFIX,literatumonline.com
 DOMAIN-SUFFIX,ma1lib.org
-DOMAIN-SUFFIX,madsrevolution.net
 DOMAIN-SUFFIX,mdpi.com
 DOMAIN-SUFFIX,mit
 DOMAIN-SUFFIX,mit.edu
 DOMAIN-SUFFIX,mit.net
 DOMAIN-SUFFIX,mitpressjournals.org
-DOMAIN-SUFFIX,mpg.de
-DOMAIN-SUFFIX,myilibrary.com
-DOMAIN-SUFFIX,nature.com
 DOMAIN-SUFFIX,ncbi.nlm.nih.gov
 DOMAIN-SUFFIX,nejm.org
 DOMAIN-SUFFIX,neurology.org
 DOMAIN-SUFFIX,newisiknowledge.com
-DOMAIN-SUFFIX,oecd-ilibrary.org
 DOMAIN-SUFFIX,oed.com
 DOMAIN-SUFFIX,omscr.com
-DOMAIN-SUFFIX,osapublishing.org
-DOMAIN-SUFFIX,oup.com
 DOMAIN-SUFFIX,ouplaw.com
-DOMAIN-SUFFIX,ovid.com
 DOMAIN-SUFFIX,ox.ac.uk
 DOMAIN-SUFFIX,oxfordaasc.com
-DOMAIN-SUFFIX,oxfordartonline.com
-DOMAIN-SUFFIX,oxfordbibliographies.com
 DOMAIN-SUFFIX,oxfordclinicalpsych.com
 DOMAIN-SUFFIX,oxforddnb.com
 DOMAIN-SUFFIX,oxfordfirstsource.com
 DOMAIN-SUFFIX,oxfordhandbooks.com
 DOMAIN-SUFFIX,oxfordlawtrove.com
 DOMAIN-SUFFIX,oxfordmedicine.com
-DOMAIN-SUFFIX,oxfordmusiconline.com
 DOMAIN-SUFFIX,oxfordpoliticstrove.com
 DOMAIN-SUFFIX,oxfordre.com
 DOMAIN-SUFFIX,oxfordreference.com
@@ -8752,43 +8654,31 @@ DOMAIN-SUFFIX,oxfordscholarlyeditions.com
 DOMAIN-SUFFIX,oxfordwesternmusic.com
 DOMAIN-SUFFIX,peerj.com
 DOMAIN-SUFFIX,physiology.org
-DOMAIN-SUFFIX,pkulaw.com
 DOMAIN-SUFFIX,plos.org
-DOMAIN-SUFFIX,pnas.org
 DOMAIN-SUFFIX,princeton.edu
-DOMAIN-SUFFIX,proquest.com
 DOMAIN-SUFFIX,psyccareers.com
 DOMAIN-SUFFIX,readcube.com
 DOMAIN-SUFFIX,researchgate.net
 DOMAIN-SUFFIX,routledgehandbooks.com
 DOMAIN-SUFFIX,royalsocietypublishing.org
-DOMAIN-SUFFIX,rsc.org
-DOMAIN-SUFFIX,sagepub.com
 DOMAIN-SUFFIX,scholarpedia.org
 DOMAIN-SUFFIX,sci-hub.tw
 DOMAIN-SUFFIX,science.org
-DOMAIN-SUFFIX,sciencedirect.com
 DOMAIN-SUFFIX,sciencedirectassets.com
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,sciencenets.com
 DOMAIN-SUFFIX,scientificamerican.com
 DOMAIN-SUFFIX,scitation.org
-DOMAIN-SUFFIX,scopus.com
 DOMAIN-SUFFIX,semanticscholar.org
 DOMAIN-SUFFIX,serialssolutions.com
 DOMAIN-SUFFIX,sg1lib.org
-DOMAIN-SUFFIX,siam.org
 DOMAIN-SUFFIX,silverchair-cdn.com
 DOMAIN-SUFFIX,singlelogin.app
 DOMAIN-SUFFIX,singlelogin.me
 DOMAIN-SUFFIX,sipriyearbook.org
-DOMAIN-SUFFIX,spiedigitallibrary.org
-DOMAIN-SUFFIX,springer.com
-DOMAIN-SUFFIX,springerlink.com
 DOMAIN-SUFFIX,springernature.com
 DOMAIN-SUFFIX,statsmakemecry.com
 DOMAIN-SUFFIX,tandf.co.uk
-DOMAIN-SUFFIX,tandfonline.com
 DOMAIN-SUFFIX,taylorandfrancis.com
 DOMAIN-SUFFIX,taylorfrancis.com
 DOMAIN-SUFFIX,thelancet.com
@@ -8796,19 +8686,12 @@ DOMAIN-SUFFIX,uchicago.edu
 DOMAIN-SUFFIX,ucla.edu
 DOMAIN-SUFFIX,ukwhoswho.com
 DOMAIN-SUFFIX,umass.edu
-DOMAIN-SUFFIX,un.org
-DOMAIN-SUFFIX,uni-bielefeld.de
 DOMAIN-SUFFIX,universitypressscholarship.com
 DOMAIN-SUFFIX,veryshortintroductions.com
 DOMAIN-SUFFIX,wanfangdata.com
-DOMAIN-SUFFIX,webofknowledge.com
 DOMAIN-SUFFIX,webofscience.com
-DOMAIN-SUFFIX,westlaw.com
 DOMAIN-SUFFIX,westlawchina.com
-DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,wkap.nl
-DOMAIN-SUFFIX,worldbank.org
-DOMAIN-SUFFIX,worldscientific.com
 DOMAIN-SUFFIX,yale.edu
 DOMAIN-SUFFIX,zlib.life
 DOMAIN-SUFFIX,zlibcdn.com
@@ -9426,15 +9309,12 @@ DOMAIN,addons.mozilla.org
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
-DOMAIN,assets1.xboxlive.com
-DOMAIN,assets2.xboxlive.com
 DOMAIN,az416426.vo.msecnd.net
 DOMAIN,az668014.vo.msecnd.net
 DOMAIN,beta.music.apple.com
 DOMAIN,clubhouse.pubnubapi.com
 DOMAIN,disk.yandex.com
 DOMAIN,voice.telephony.goog
-DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,4everproxy.com
 DOMAIN-SUFFIX,4shared.com
 DOMAIN-SUFFIX,4sqi.net
@@ -9445,7 +9325,6 @@ DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,aerisapi.com
 DOMAIN-SUFFIX,ahcdn.com
-DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,airtable.com
 DOMAIN-SUFFIX,alfredapp.com
 DOMAIN-SUFFIX,allconnected.co
@@ -9471,8 +9350,6 @@ DOMAIN-SUFFIX,att.com
 DOMAIN-SUFFIX,avgle.com
 DOMAIN-SUFFIX,badoo.com
 DOMAIN-SUFFIX,bandisoft.com
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,bbtoystore.com
 DOMAIN-SUFFIX,bcvcdn.com
 DOMAIN-SUFFIX,bet365.com
@@ -9482,7 +9359,6 @@ DOMAIN-SUFFIX,bit.com
 DOMAIN-SUFFIX,bit.do
 DOMAIN-SUFFIX,bit.no.com
 DOMAIN-SUFFIX,bitshare.com
-DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,blog.com
 DOMAIN-SUFFIX,blogcdn.com
 DOMAIN-SUFFIX,blogsmithmedia.com
@@ -9539,7 +9415,6 @@ DOMAIN-SUFFIX,eurekavpt.com
 DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,extmatrix.com
 DOMAIN-SUFFIX,eyny.com
-DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,fastly.net
 DOMAIN-SUFFIX,fastmail.com
 DOMAIN-SUFFIX,fc2.com
@@ -9552,7 +9427,6 @@ DOMAIN-SUFFIX,freeopenproxy.com
 DOMAIN-SUFFIX,fzlm.net
 DOMAIN-SUFFIX,gabia.net
 DOMAIN-SUFFIX,gameloft.com
-DOMAIN-SUFFIX,garena.com
 DOMAIN-SUFFIX,gate.hockeyapp.net
 DOMAIN-SUFFIX,geni.us
 DOMAIN-SUFFIX,getcloudapp.com
@@ -9574,9 +9448,6 @@ DOMAIN-SUFFIX,homedepot.com
 DOMAIN-SUFFIX,hootsuite.com
 DOMAIN-SUFFIX,hotbak.net
 DOMAIN-SUFFIX,howtoforge.com
-DOMAIN-SUFFIX,hoyolab.com
-DOMAIN-SUFFIX,hoyoverse.com
-DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,icntv.xyz
 DOMAIN-SUFFIX,icoco.com
 DOMAIN-SUFFIX,icons8.com
@@ -9653,8 +9524,6 @@ DOMAIN-SUFFIX,neulion.com
 DOMAIN-SUFFIX,newipnow.com
 DOMAIN-SUFFIX,nianticlabs.com
 DOMAIN-SUFFIX,nih.gov
-DOMAIN-SUFFIX,nintendo.com
-DOMAIN-SUFFIX,nintendo.net
 DOMAIN-SUFFIX,novafile.com
 DOMAIN-SUFFIX,nrk.no
 DOMAIN-SUFFIX,nssurge.com
@@ -9679,9 +9548,7 @@ DOMAIN-SUFFIX,picacomic.com
 DOMAIN-SUFFIX,pinboard.in
 DOMAIN-SUFFIX,ping.pe
 DOMAIN-SUFFIX,pixelmator.com
-DOMAIN-SUFFIX,playartifact.com
 DOMAIN-SUFFIX,playpcesor.com
-DOMAIN-SUFFIX,pokemon.com
 DOMAIN-SUFFIX,popo.tw
 DOMAIN-SUFFIX,potato.im
 DOMAIN-SUFFIX,proxfree.com
@@ -9699,10 +9566,7 @@ DOMAIN-SUFFIX,redtube.com
 DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,rileyguide.com
 DOMAIN-SUFFIX,rime.im
-DOMAIN-SUFFIX,riotcdn.net
-DOMAIN-SUFFIX,riotgames.com
 DOMAIN-SUFFIX,rsf.org
-DOMAIN-SUFFIX,s.team
 DOMAIN-SUFFIX,sb-cd.com
 DOMAIN-SUFFIX,sciencedaily.com
 DOMAIN-SUFFIX,sexinsex.net
@@ -9731,7 +9595,6 @@ DOMAIN-SUFFIX,storify.com
 DOMAIN-SUFFIX,streaming.mediaservices.windows.net
 DOMAIN-SUFFIX,stumbleupon.com
 DOMAIN-SUFFIX,sugarsync.com
-DOMAIN-SUFFIX,supermariorun.com
 DOMAIN-SUFFIX,surfeasy.com.au
 DOMAIN-SUFFIX,surge.run
 DOMAIN-SUFFIX,surrenderat20.net
@@ -9793,7 +9656,6 @@ DOMAIN-SUFFIX,uhdwallpapers.org
 DOMAIN-SUFFIX,ulyssesapp.com
 DOMAIN-SUFFIX,unblockdmm.com
 DOMAIN-SUFFIX,unblocksites.co
-DOMAIN-SUFFIX,underlords.com
 DOMAIN-SUFFIX,unpo.org
 DOMAIN-SUFFIX,unsplash.com
 DOMAIN-SUFFIX,untraceable.us
@@ -9808,7 +9670,6 @@ DOMAIN-SUFFIX,uspto.gov
 DOMAIN-SUFFIX,v.gd
 DOMAIN-SUFFIX,v2ex.co
 DOMAIN-SUFFIX,v2ray.com
-DOMAIN-SUFFIX,valvesoftware.com
 DOMAIN-SUFFIX,van001.com
 DOMAIN-SUFFIX,vanpeople.com
 DOMAIN-SUFFIX,vansky.com
@@ -9842,7 +9703,6 @@ DOMAIN-SUFFIX,wikileaks.info
 DOMAIN-SUFFIX,workflow.is
 DOMAIN-SUFFIX,workflowy.com
 DOMAIN-SUFFIX,wow.com
-DOMAIN-SUFFIX,wr.pvp.net
 DOMAIN-SUFFIX,wwitv.com
 DOMAIN-SUFFIX,xanga.com
 DOMAIN-SUFFIX,xclient.info
@@ -9884,8 +9744,6 @@ DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
 DOMAIN-KEYWORD,tesla
 DOMAIN-KEYWORD,ttvnw
-IP-CIDR,101.32.118.0/23
-IP-CIDR,101.32.96.0/20
 IP-CIDR,103.4.96.0/22
 IP-CIDR,120.232.181.162/32
 IP-CIDR,120.241.147.226/32
@@ -9893,7 +9751,6 @@ IP-CIDR,120.253.253.226/32
 IP-CIDR,120.253.255.162/32
 IP-CIDR,120.253.255.34/32
 IP-CIDR,120.253.255.98/32
-IP-CIDR,129.226.0.0/16
 IP-CIDR,174.37.0.0/16
 IP-CIDR,179.60.192.0/22
 IP-CIDR,180.163.150.162/32
