@@ -54,6 +54,7 @@ DOMAIN,www.lovart.ai
 DOMAIN-SUFFIX,lovart.ai
 
 # NAME: gemini
+DOMAIN,accounts.google.com
 DOMAIN,gemini.google.com
 DOMAIN,www.google-analytics.com
 DOMAIN,www.googletagmanager.com
