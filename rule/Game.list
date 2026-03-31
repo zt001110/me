@@ -1,12 +1,12 @@
-
-
-# NAME: Blizzard
+# NAME: Game
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-20 02:08:38
-# DOMAIN-SUFFIX: 39
-# IP-CIDR: 23
-# TOTAL: 62
+# UPDATED: 2026-03-31 20:12:01
+# DOMAIN: 79
+# DOMAIN-SUFFIX: 640
+# DOMAIN-KEYWORD: 5
+# IP-CIDR: 73
+# TOTAL: 797
 
 DOMAIN,catalog.blzstatic.com
 DOMAIN-SUFFIX,battle.net

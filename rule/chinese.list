@@ -1,13 +1,13 @@
-# NAME: China
+# NAME: chinese
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-11 02:11:26
-# DOMAIN: 19
-# DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3600
+# UPDATED: 2026-03-31 20:12:01
+# DOMAIN: 14
+# DOMAIN-SUFFIX: 3461
+# DOMAIN-KEYWORD: 8
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3642
+# TOTAL: 3497
 
 DOMAIN,analytics.strava.com
 DOMAIN,cdn.angruo.com

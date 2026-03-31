@@ -1,12 +1,13 @@
-# NAME: BiliBili
+# NAME: gangaobili
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-07 14:50:29
-# DOMAIN: 52
-# DOMAIN-SUFFIX: 60
-# IP-CIDR: 8
+# UPDATED: 2026-03-31 20:12:01
+# DOMAIN: 64
+# DOMAIN-SUFFIX: 61
+# DOMAIN-KEYWORD: 1
+# IP-CIDR: 10
 # PROCESS-NAME: 6
-# TOTAL: 126
+# TOTAL: 142
 
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
