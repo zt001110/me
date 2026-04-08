@@ -1,13 +1,13 @@
 # NAME: AI
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-04-08 11:53:00
-# DOMAIN: 100
-# DOMAIN-SUFFIX: 185
+# UPDATED: 2026-04-08 13:38:00
+# DOMAIN: 101
+# DOMAIN-SUFFIX: 187
 # DOMAIN-KEYWORD: 2
 # IP-CIDR: 1
 # IP-CIDR6: 1
-# TOTAL: 289
+# TOTAL: 292
 
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,api.qrstrategy.com
@@ -168,7 +168,10 @@ DOMAIN-SUFFIX, grok.com
 
 # Trae AI
 DOMAIN, trae-api-sg.mchost.guru
+DOMAIN, icube-api.bytedance.net
 DOMAIN-SUFFIX, trae.ai
+DOMAIN-SUFFIX, traeapi.us
+DOMAIN-SUFFIX, traecdn.us
 
 # NAME: Adobe
 DOMAIN,d1swly8pgrbhu5.cloudfront.net
