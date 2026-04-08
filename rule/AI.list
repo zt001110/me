@@ -1,13 +1,13 @@
 # NAME: AI
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-03-31 20:12:01
-# DOMAIN: 99
-# DOMAIN-SUFFIX: 184
+# UPDATED: 2026-04-08 11:53:00
+# DOMAIN: 100
+# DOMAIN-SUFFIX: 185
 # DOMAIN-KEYWORD: 2
 # IP-CIDR: 1
 # IP-CIDR6: 1
-# TOTAL: 287
+# TOTAL: 289
 
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,api.qrstrategy.com
@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,lovart.ai
 # NAME: gemini
 DOMAIN,accounts.google.com
 DOMAIN,gemini.google.com
+DOMAIN,stitch.withgoogle.com
 DOMAIN,apis.google.com
 DOMAIN,people-pa.clients6.google.com
 DOMAIN,t0.gstatic.com
@@ -81,6 +82,7 @@ DOMAIN,generativeai.google
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,makersuite.google.com
 DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
