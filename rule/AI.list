@@ -1,13 +1,13 @@
 # NAME: AI
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-04-08 13:38:00
+# UPDATED: 2026-04-09 11:02:00
 # DOMAIN: 101
-# DOMAIN-SUFFIX: 187
+# DOMAIN-SUFFIX: 188
 # DOMAIN-KEYWORD: 2
 # IP-CIDR: 1
 # IP-CIDR6: 1
-# TOTAL: 292
+# TOTAL: 293
 
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,api.qrstrategy.com
@@ -84,6 +84,7 @@ DOMAIN,makersuite.google.com
 DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,recaptcha.net
