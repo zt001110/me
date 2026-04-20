@@ -1,14 +1,14 @@
 # NAME: GlobalMedia
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-03-31 20:12:01
+# UPDATED: 2026-04-20 10:43:29
 # DOMAIN: 93
-# DOMAIN-SUFFIX: 624
+# DOMAIN-SUFFIX: 615
 # DOMAIN-KEYWORD: 17
 # IP-CIDR: 985
 # IP-CIDR6: 5
 # PROCESS-NAME: 10
-# TOTAL: 1734
+# TOTAL: 1726
 
 DOMAIN-SUFFIX,hdhive.com
 
@@ -36,15 +36,9 @@ DOMAIN-SUFFIX,max.com
 
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,video.google.com
-DOMAIN-SUFFIX,wide-youtube.l.google.com
 DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube-ui.l.google.com
 DOMAIN-SUFFIX,youtube.ae
 DOMAIN-SUFFIX,youtube.al
 DOMAIN-SUFFIX,youtube.am
@@ -140,7 +134,6 @@ DOMAIN-SUFFIX,youtube.es
 DOMAIN-SUFFIX,youtube.fi
 DOMAIN-SUFFIX,youtube.fr
 DOMAIN-SUFFIX,youtube.ge
-DOMAIN-SUFFIX,youtube.googleapis.com
 DOMAIN-SUFFIX,youtube.gr
 DOMAIN-SUFFIX,youtube.gt
 DOMAIN-SUFFIX,youtube.hk
@@ -198,7 +191,6 @@ DOMAIN-SUFFIX,youtube.ug
 DOMAIN-SUFFIX,youtube.uy
 DOMAIN-SUFFIX,youtube.vn
 DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
 DOMAIN-SUFFIX,youtubefanfest.com
 DOMAIN-SUFFIX,youtubegaming.com
 DOMAIN-SUFFIX,youtubego.co.id
@@ -207,7 +199,6 @@ DOMAIN-SUFFIX,youtubego.com
 DOMAIN-SUFFIX,youtubego.com.br
 DOMAIN-SUFFIX,youtubego.id
 DOMAIN-SUFFIX,youtubego.in
-DOMAIN-SUFFIX,youtubei.googleapis.com
 DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youtubemobilesupport.com
 DOMAIN-SUFFIX,yt.be

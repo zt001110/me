@@ -1,12 +1,12 @@
 # NAME: cnlan
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-03-31 20:12:01
+# UPDATED: 2026-04-20 10:43:29
 # DOMAIN: 6
-# DOMAIN-SUFFIX: 120
+# DOMAIN-SUFFIX: 119
 # IP-CIDR: 14
 # IP-CIDR6: 3
-# TOTAL: 143
+# TOTAL: 142
 
 DOMAIN,asusrouter.com
 DOMAIN,instant.arubanetworks.com
@@ -112,7 +112,6 @@ DOMAIN-SUFFIX,a.e.f.ip6.arpa
 DOMAIN-SUFFIX,acl4.ssr
 DOMAIN-SUFFIX,b.e.f.ip6.arpa
 DOMAIN-SUFFIX,captive.apple.com
-DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 DOMAIN-SUFFIX,d.f.ip6.arpa
 DOMAIN-SUFFIX,hiwifi.com
 DOMAIN-SUFFIX,home.arpa

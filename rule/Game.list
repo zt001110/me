@@ -1,12 +1,12 @@
 # NAME: Game
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-03-31 20:12:01
-# DOMAIN: 79
+# UPDATED: 2026-04-20 10:43:29
+# DOMAIN: 77
 # DOMAIN-SUFFIX: 640
 # DOMAIN-KEYWORD: 5
 # IP-CIDR: 73
-# TOTAL: 797
+# TOTAL: 795
 
 DOMAIN,catalog.blzstatic.com
 DOMAIN-SUFFIX,battle.net
@@ -1015,8 +1015,6 @@ DOMAIN-KEYWORD,roblox
 # DOMAIN-SUFFIX: 6
 # TOTAL: 17
 
-DOMAIN,clients4.google.com
-DOMAIN,dns.google
 DOMAIN,csgo.wmsj.cn
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,dl.steam.ksyna.com

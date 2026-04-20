@@ -1,19 +1,18 @@
 # NAME: chinese
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-03-31 20:12:01
-# DOMAIN: 14
-# DOMAIN-SUFFIX: 3461
+# UPDATED: 2026-04-20 10:43:29
+# DOMAIN: 13
+# DOMAIN-SUFFIX: 3460
 # DOMAIN-KEYWORD: 8
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3497
+# TOTAL: 3495
 
 DOMAIN,analytics.strava.com
 DOMAIN,cdn.angruo.com
 DOMAIN,cdp.cloud.unity3d.com
 DOMAIN,client.amplifi.com
-DOMAIN,dl.google.com
 DOMAIN,download.jetbrains.com
 DOMAIN,images-cn.ssl-images-amazon.com
 DOMAIN,ip.istatmenus.app
@@ -1376,7 +1375,6 @@ DOMAIN-SUFFIX,gongxiangcj.com
 DOMAIN-SUFFIX,gongyi.xin
 DOMAIN-SUFFIX,goodread.com
 DOMAIN-SUFFIX,goofish.com
-DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN-SUFFIX,goosail.com
 DOMAIN-SUFFIX,goproxy.io
 DOMAIN-SUFFIX,goselling.com
