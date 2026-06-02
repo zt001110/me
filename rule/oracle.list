@@ -1,11 +1,11 @@
 # NAME: oracle
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-06-03 06:55:09
-# DOMAIN: 51
-# DOMAIN-SUFFIX: 6
+# UPDATED: 2026-06-03 06:59:30
+# DOMAIN: 75
+# DOMAIN-SUFFIX: 7
 # DOMAIN-KEYWORD: 1
-# TOTAL: 58
+# TOTAL: 83
 
 DOMAIN,www.oracle.com
 DOMAIN,usageapi.us-phoenix-1.oci.oraclecloud.com
@@ -58,10 +58,35 @@ DOMAIN,signon.oracle.com
 DOMAIN,c.go-mpulse.net
 DOMAIN,s.go-mpulse.net
 DOMAIN,consent.trustarc.com
+DOMAIN,consent.truste.com
+DOMAIN,assets.adobedtm.com
+DOMAIN,h.online-metrix.net
+DOMAIN,hcaptcha.com
+DOMAIN,newassets.hcaptcha.com
+DOMAIN,tags.tiqcdn.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,www.gstatic.com
+DOMAIN,dd47l3yx22vgq2q6vr3q-f-79ce31cf3-clientnsv4-s.akamaihd.net
+DOMAIN,dd47l3yxb7ywe2q7madq-f-434f7b788-clientnsv4-s.akamaihd.net
+DOMAIN,dd47l3yxb7ywe2q7maha-f-2505d5d5f-clientnsv4-s.akamaihd.net
+DOMAIN,dd47l3yxb7ywe2q7maka-f-d8861f281-clientnsv4-s.akamaihd.net
+DOMAIN,dd47l3yxb7ywe2q7manq-f-3f7f32f35-clientnsv4-s.akamaihd.net
+DOMAIN,dd47l3yxb7ywe2q7mara-f-f060107a3-clientnsv4-s.akamaihd.net
+DOMAIN,dd47l3yxb7ywe2q7mawa-f-7cf28018a-clientnsv4-s.akamaihd.net
+DOMAIN,developer.oracle.com
+DOMAIN,education.oracle.com
+DOMAIN,go.oracle.com
+DOMAIN,livelabs.oracle.com
+DOMAIN,netsuite.com
+DOMAIN,profile.oracle.com
+DOMAIN,search.oracle.com
+DOMAIN,secure.ethicspoint.com
+DOMAIN,www.oracleimg.com
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,oraclecloud.com
 DOMAIN-SUFFIX,oracleinfinity.io
 DOMAIN-SUFFIX,oracleoutsourcing.com
 DOMAIN-SUFFIX,oracle-tencent.com
 DOMAIN-SUFFIX,oracle-tencent.net
+DOMAIN-SUFFIX,oracleimg.com
 DOMAIN-KEYWORD,oracle
