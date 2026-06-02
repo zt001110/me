@@ -1,13 +1,13 @@
 # NAME: chinese
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-04-20 10:43:29
+# UPDATED: 2026-06-02 11:39:07
 # DOMAIN: 13
-# DOMAIN-SUFFIX: 3460
+# DOMAIN-SUFFIX: 3458
 # DOMAIN-KEYWORD: 8
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3495
+# TOTAL: 3493
 
 DOMAIN,analytics.strava.com
 DOMAIN,cdn.angruo.com
@@ -2362,8 +2362,6 @@ DOMAIN-SUFFIX,oppoer.me
 DOMAIN-SUFFIX,oppomobile.com
 DOMAIN-SUFFIX,oppopay.com
 DOMAIN-SUFFIX,opstatics.com
-DOMAIN-SUFFIX,oracle-tencent.com
-DOMAIN-SUFFIX,oracle-tencent.net
 DOMAIN-SUFFIX,oray.com
 DOMAIN-SUFFIX,orient-fund.com
 DOMAIN-SUFFIX,osapublishing.org

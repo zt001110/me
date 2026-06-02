@@ -1,10 +1,10 @@
 # NAME: AdGuardSDNSFilter
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-03-31 20:12:01
-# DOMAIN: 50256
+# UPDATED: 2026-06-02 11:39:07
+# DOMAIN: 50252
 # IP-CIDR: 2
-# TOTAL: 50258
+# TOTAL: 50254
 
 # 🛑 AdGuardsDNS过滤器
 # AUTHOR: MLITM
@@ -10625,7 +10625,6 @@ DOMAIN,cccccd.com
 DOMAIN,cccf.store
 DOMAIN,cccpmo.com
 DOMAIN,ccemqe.cn
-DOMAIN,ccexperimentsstatic.oracleoutsourcing.com
 DOMAIN,ccgateway.net
 DOMAIN,ccgjmzv.cn
 DOMAIN,ccieoqej.xyz
@@ -31934,7 +31933,6 @@ DOMAIN,oqshoyd.cn
 DOMAIN,oqsujyxbsl.xyz
 DOMAIN,oqwrba.com
 DOMAIN,oqxep.cn
-DOMAIN,oracleinfinity.io
 DOMAIN,orahmaggi.xyz
 DOMAIN,orallantyneth.com
 DOMAIN,oralmaliciousmonday.com
@@ -43025,7 +43023,6 @@ DOMAIN,tmrhoe2.com
 DOMAIN,tmrjmp.com
 DOMAIN,tms.dmp.wi-fi.ru
 DOMAIN,tms.fmm.io
-DOMAIN,tms.oracle.com
 DOMAIN,tmstrack.com
 DOMAIN,tmtrck.com
 DOMAIN,tmvtp.com
@@ -46392,7 +46389,6 @@ DOMAIN,visionarycompany52.com
 DOMAIN,visioncriticalpanels.com
 DOMAIN,visionsage.com
 DOMAIN,visistat.com
-DOMAIN,visit-prod-us.occa.ocs.oraclecloud.com
 DOMAIN,visit.webhosting.yahoo.com
 DOMAIN,visit2visit.de
 DOMAIN,visitanalytics.userreport.com
