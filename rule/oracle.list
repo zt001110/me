@@ -1,11 +1,11 @@
 # NAME: oracle
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-06-02 11:39:07
-# DOMAIN: 30
+# UPDATED: 2026-06-03 06:55:09
+# DOMAIN: 51
 # DOMAIN-SUFFIX: 6
 # DOMAIN-KEYWORD: 1
-# TOTAL: 37
+# TOTAL: 58
 
 DOMAIN,www.oracle.com
 DOMAIN,usageapi.us-phoenix-1.oci.oraclecloud.com
@@ -31,12 +31,33 @@ DOMAIN,commercial.us-phoenix-1.oci.oraclecloud.com
 DOMAIN,cloud.oracle.com
 DOMAIN,audit.us-phoenix-1.oci.oraclecloud.com
 DOMAIN,announcements.us-phoenix-1.oraclecloud.com
+DOMAIN,announcements.us-sanjose-1.oraclecloud.com
 DOMAIN,d.oracleinfinity.io
 DOMAIN,dc.oracleinfinity.io
+DOMAIN,c.oracleinfinity.io
 DOMAIN,ccexperimentsstatic.oracleoutsourcing.com
 DOMAIN,oracleinfinity.io
 DOMAIN,visit-prod-us.occa.ocs.oraclecloud.com
 DOMAIN,oracle.112.2o7.net
+DOMAIN,clusterplacementgroups.us-sanjose-1.oci.oraclecloud.com
+DOMAIN,commercial.us-sanjose-1.oci.oraclecloud.com
+DOMAIN,console-telemetry.oci.oraclecloud.com
+DOMAIN,docs.cloud.oracle.com
+DOMAIN,docs.oracle.com
+DOMAIN,guidedlearning.oracle.com
+DOMAIN,iaas.us-sanjose-1.oraclecloud.com
+DOMAIN,idcs-f198775cea724c2f867c875516d35bc3.identity.oraclecloud.com
+DOMAIN,identity.us-sanjose-1.oci.oraclecloud.com
+DOMAIN,identity.us-sanjose-1.oraclecloud.com
+DOMAIN,limits.us-sanjose-1.oci.oraclecloud.com
+DOMAIN,login-ext.identity.oraclecloud.com
+DOMAIN,login.us-sanjose-1.oraclecloud.com
+DOMAIN,organizations.us-sanjose-1.oci.oraclecloud.com
+DOMAIN,personalization.us-sanjose-1.oci.oraclecloud.com
+DOMAIN,signon.oracle.com
+DOMAIN,c.go-mpulse.net
+DOMAIN,s.go-mpulse.net
+DOMAIN,consent.trustarc.com
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,oraclecloud.com
 DOMAIN-SUFFIX,oracleinfinity.io
