@@ -1,4 +1,15 @@
-# NAME: chineseMedia
+# 日本直连线路 
+DOMAIN,plusjp1.younoyes.com
+# 德国直连线路 
+DOMAIN,plusde1.younoyes.com 
+# 美西直连线路 
+DOMAIN,plusus1.younoyes.com
+DOMAIN,plusus2.younoyes.com
+DOMAIN,plusus3.younoyes.com 
+# 香港直连线路 
+DOMAIN,plushk1.younoyes.com 
+DOMAIN-SUFFIX,younoyes.com
+ # NAME: chineseMedia
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-03-31 20:12:01
