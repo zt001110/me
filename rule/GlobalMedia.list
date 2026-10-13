@@ -1,9 +1,4 @@
-DOMAIN-SUFFIX,rexnow.tv
-DOMAIN-SUFFIX,huangguoai.com
-DOMAIN-SUFFIX,fwd.ccwu.cc
-
-# 美国 DOMAIN,plus.younoyes.com
- # NAME: GlobalMedia
+# NAME: GlobalMedia
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-04-20 10:43:29
@@ -16,6 +11,13 @@ DOMAIN-SUFFIX,fwd.ccwu.cc
 # TOTAL: 1726
 
 DOMAIN-SUFFIX,hdhive.com
+
+# NAME: Rex
+DOMAIN-SUFFIX,rexnow.tv
+DOMAIN-SUFFIX,huangguoai.com
+DOMAIN-SUFFIX,fwd.ccwu.cc
+# 美国
+DOMAIN,plus.younoyes.com
 
 # NAME: Max
 # AUTHOR: MLITM
