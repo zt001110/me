@@ -25,6 +25,8 @@ DOMAIN,plushk1.younoyes.com
 
 # Emby 反代：全部线路
 DOMAIN,emby.tli.li
+# Emby 反代：美西 CF
+DOMAIN,emby-cf.tli.li
 
 
 DOMAIN-SUFFIX,cctv.cn
