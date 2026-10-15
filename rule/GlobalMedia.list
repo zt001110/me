@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,huangguoai.com
 DOMAIN-SUFFIX,fwd.ccwu.cc
 # 美国
 DOMAIN,plus.younoyes.com
+# Emby 反代：美西 CF
 DOMAIN,emby-cf.tli.li
 
 # NAME: Max
