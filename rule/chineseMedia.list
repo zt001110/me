@@ -23,6 +23,9 @@ DOMAIN,plusus3.younoyes.com
 # 香港直连线路 
 DOMAIN,plushk1.younoyes.com
 
+# Emby 反代：全部线路
+DOMAIN,emby.tli.li
+
 
 DOMAIN-SUFFIX,cctv.cn
 DOMAIN-SUFFIX,cctv.com
