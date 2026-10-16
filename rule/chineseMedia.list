@@ -10,6 +10,10 @@
 # PROCESS-NAME: 1
 # TOTAL: 322
 
+# 反代面板
+DOMAIN,rex.tli.li
+DOMAIN-WILDCARD,rxp-*.tli.li
+
 # Rex
 DOMAIN-SUFFIX,rexnow.tv
 # 日本直连线路 
@@ -22,11 +26,6 @@ DOMAIN,plusus2.younoyes.com
 DOMAIN,plusus3.younoyes.com
 # 香港直连线路 
 DOMAIN,plushk1.younoyes.com
-
-# Emby 反代：全部线路
-DOMAIN,emby.tli.li
-# Emby 反代：美西 CF
-DOMAIN,emby-cf.tli.li
 
 
 DOMAIN-SUFFIX,cctv.cn
