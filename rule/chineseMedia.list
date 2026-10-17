@@ -13,6 +13,11 @@
 # 反代面板
 DOMAIN-WILDCARD,rxp-*.tli.li
 
+# 瞬影
+DOMAIN-SUFFIX,yd.emby.syemby.com
+DOMAIN-SUFFIX,cmecloud.cn
+DOMAIN-SUFFIX,139.com
+
 # Rex
 DOMAIN-SUFFIX,rexnow.tv
 # 日本直连线路 
