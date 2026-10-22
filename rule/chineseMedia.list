@@ -30,7 +30,8 @@ DOMAIN,plusus2.younoyes.com
 DOMAIN,plusus3.younoyes.com
 # 香港直连线路 
 DOMAIN,plushk1.younoyes.com
-
+# pro直连
+DOMAIN,cdn.younopro.de
 
 DOMAIN-SUFFIX,cctv.cn
 DOMAIN-SUFFIX,cctv.com
