@@ -35,6 +35,18 @@ DOMAIN,plushk1.younoyes.com
 # pro直连
 DOMAIN,cdn.younopro.de
 
+# NAME: IMDB
+# AUTHOR: MLITM
+# REPO: https://github.com/zt001110/me
+# UPDATED: 2023-04-07 14:51:18
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+DOMAIN-SUFFIX,imdb
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,imdb.to
+DOMAIN-SUFFIX,media-imdb.com
+
+
 DOMAIN-SUFFIX,cctv.cn
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cctvlib.cn
