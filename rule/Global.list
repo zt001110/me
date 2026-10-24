@@ -1695,9 +1695,6 @@ DOMAIN-SUFFIX,createspace.com
 DOMAIN-SUFFIX,elasticbeanstalk.com
 DOMAIN-SUFFIX,gameon-masters.com
 DOMAIN-SUFFIX,gdansk-amazon.com
-DOMAIN-SUFFIX,imdb
-DOMAIN-SUFFIX,imdb.com
-DOMAIN-SUFFIX,imdb.to
 DOMAIN-SUFFIX,kindle
 DOMAIN-SUFFIX,kindle.cn
 DOMAIN-SUFFIX,kindle.co.jp
@@ -1718,7 +1715,6 @@ DOMAIN-SUFFIX,kindleoasis.org
 DOMAIN-SUFFIX,kindleoasis.us
 DOMAIN-SUFFIX,kindleoasisnews.com
 DOMAIN-SUFFIX,kindleproject.com
-DOMAIN-SUFFIX,media-imdb.com
 DOMAIN-SUFFIX,nwcdcloud.cn
 DOMAIN-SUFFIX,nwcdcloud.com.cn
 DOMAIN-SUFFIX,nwcddns.cn
@@ -3443,13 +3439,6 @@ DOMAIN-SUFFIX,xscale.com
 # TOTAL: 2
 
 DOMAIN-SUFFIX,imgurinc.com
-
-# NAME: IMDB
-# AUTHOR: MLITM
-# REPO: https://github.com/zt001110/me
-# UPDATED: 2023-04-07 14:51:18
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
 
 
 # NAME: IBM
