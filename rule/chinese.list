@@ -9,6 +9,7 @@
 # IP-CIDR6: 4
 # TOTAL: 3493
 
+DOMAIN,gateway.icloud.com
 DOMAIN,analytics.strava.com
 DOMAIN,cdn.angruo.com
 DOMAIN,cdp.cloud.unity3d.com
