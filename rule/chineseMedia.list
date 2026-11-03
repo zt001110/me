@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,139.com
 # Rex
 DOMAIN-SUFFIX,rexnow.tv
 DOMAIN-SUFFIX,rexnow.app
+DOMAIN,douban-bridge.baran.wang
 
 # 日本直连线路 
 DOMAIN,plusjp1.younoyes.com
