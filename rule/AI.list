@@ -36,7 +36,6 @@ DOMAIN,api.githubcopilot.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,sydney.bing.com
-DOMAIN-SUFFIX,githubcopilot.com
 
 # NAME: lovart
 DOMAIN,assets-persist.lovart.ai
@@ -88,6 +87,11 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,openaimerge.com
+DOMAIN-SUFFIX,workos.com
+DOMAIN-SUFFIX,workoscdn.com
+DOMAIN-SUFFIX,workos.imgix.net
 
 # Anthropic Claude
 DOMAIN-SUFFIX,anthropic.com
