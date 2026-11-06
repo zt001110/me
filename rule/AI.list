@@ -1,13 +1,14 @@
 # NAME: AI
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-02 12:00:00
-# DOMAIN: 75
-# DOMAIN-SUFFIX: 728
+# UPDATED: 2026-11-06
+# DOMAIN: 50
+# DOMAIN-SUFFIX: 715
 # DOMAIN-KEYWORD: 6
 # IP-CIDR: 23
 # IP-CIDR6: 1
-# TOTAL: 835
+# TOTAL: 795
+# ChatGPT / Codex and OpenAI dependencies moved to chatgpt.list.
 
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,api.qrstrategy.com
@@ -45,53 +46,9 @@ DOMAIN,web-static3.lovart.ai
 DOMAIN,www.lovart.ai
 DOMAIN-SUFFIX,lovart.ai
 
-# NAME: OpenAI
-AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
-AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
-DOMAIN,ab.chatgpt.com
-DOMAIN,tcr9i.chat.openai.com
-DOMAIN,cdn.openai.com
-DOMAIN,chat.openai.com
-DOMAIN,cdn.auth0.com
-DOMAIN,challenges.cloudflare.com
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN,api-iam.intercom.io
-DOMAIN,nexus-websocket-a.intercom.io
-DOMAIN,featuregates.org
-DOMAIN,platform.openai.com
-DOMAIN,widget.intercom.io
-DOMAIN,chat.openai.com.cdn.cloudflare.net
+# Historical third-party AI entries; not verified OpenAI service dependencies.
 DOMAIN,open-ai-chat-omega.vercel.app
-DOMAIN,clientstream.launchdarkly.com
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,ios.chat.openai.com
-DOMAIN,api.revenuecat.com
-DOMAIN,o33249.ingest.sentry.io
-DOMAIN,s.gravatar.com
-DOMAIN,sora-cdn.oaistatic.com
-DOMAIN,chatgpt.livekit.cloud
-DOMAIN,host.livekit.cloud
-DOMAIN,openai.com.cdn.cloudflare.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,compute-pipe.com
-DOMAIN-SUFFIX,edgecompute.app
-DOMAIN-SUFFIX,every1dns.net
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN-SUFFIX,sora.com
-DOMAIN-SUFFIX,chat.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,oaistatsig.com
-DOMAIN-SUFFIX,openaimerge.com
-DOMAIN-SUFFIX,workos.com
-DOMAIN-SUFFIX,workoscdn.com
-DOMAIN-SUFFIX,workos.imgix.net
 
 # Anthropic Claude
 DOMAIN-SUFFIX,anthropic.com

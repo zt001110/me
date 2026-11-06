@@ -1,0 +1,68 @@
+# ChatGPT / Codex 分流
+
+`rule/chatgpt.list` 用于 Surge `RULE-SET`，规则不内置策略名。逗号后没有空格。
+它从 `AI.list` 的原 OpenAI 段拆出登录、API、静态资源、上传文件、语音、
+客服、统计与订阅依赖。`openai.com` 和 `chatgpt.com` 使用后缀规则，
+因此无需逐个列出 `auth`、`api`、`ab`、`ws`、`cdn` 或 Codex 路径。
+原 OpenAI 段的 Sora / OpenAI API 范围也予以保留。
+
+## 使用
+
+```ini
+[Proxy Group]
+ChatGPT = select,你的代理节点或策略组
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/zt001110/me/master/rule/chatgpt.list,ChatGPT,update-interval=86400
+```
+
+把这一行放在 AI、全球代理、微软、直连、去广告等规则之前。
+仓库 `Surge.conf` 已加入独立的 `ChatGPT` 策略组，并把规则放到 `[Rule]` 第一条，
+包括原来的 SSID 直连规则之前。实际使用时需要在这个组内选定可用的代理。
+不使用 `DOMAIN-SET`，因为文件还包含 AND 逻辑规则与语音 IP 规则。
+
+## 核对来源
+
+核对日期：2026-11-06。
+
+- OpenAI 网络说明：
+  https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps
+  （本次直连抓取返回 403，未将其作为已成功读取的完整域名清单。）
+- OpenAI 官方 Codex 源码：
+  https://github.com/openai/codex
+  核对版本 `1031a7b`。登录使用 `auth.openai.com`，API 使用 `api.openai.com`，
+  ChatGPT 登录模式使用 `chatgpt.com`；反馈上报包含 `o33249.ingest.us.sentry.io`。
+  `openai.org` 也出现在官方端点校验中。
+- OpenAI 官方语音 IP：
+  https://openai.com/chatgpt-voice.json
+  文件内保留源清单的生成时间。
+- 社区 OpenAI 规则交叉核对：
+  https://github.com/v2fly/domain-list-community/blob/master/data/openai
+  https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/OpenAI/OpenAI.list
+  补充 Azure 文件存储、Statsig、Intercom CDN、Stripe、Arkose 等依赖。
+  社区条目不是 OpenAI 官方归属证明，未照搬整段共享云 IP / ASN。
+
+## 范围与维护
+
+原文件的 `ai.com` 和 `open-ai-chat-omega.vercel.app` 留在 `AI.list` 的历史条目段，
+没有证据把它们当作当前官方 ChatGPT / Codex 依赖。
+其余原 OpenAI 段规则均迁移或由范围更大的后缀规则覆盖。
+
+原有 `identrust.com`、`compute-pipe.com`、`edgecompute.app`、`every1dns.net`、
+`sentry.io` 后缀保留在兼容段，本次没有确认它们全部属于当前必需依赖。
+Auth0、WorkOS、Stripe、Intercom 等也属于共享服务，其他使用相同域名的软件
+可能一并走 ChatGPT 策略。域名规则无法按发起请求的软件区分这些共享域名。
+
+语音 IP 规则匹配官方清单的具体地址，并带 `no-resolve`。
+没有添加整个 Azure / Cloudflare / DigitalOcean 网段或 ASN。
+更新官方语音 IP 快照并重算文件统计：
+
+```sh
+node scripts/update-chatgpt-voice.mjs
+```
+
+这不是永久完整性保证。第三方登录（Google / Apple / Microsoft）、连接器、
+自定义 MCP、Codex 下载依赖/访问仓库或用户自定义 API 网关涉及任意第三方站点，
+不属于可穷举的 OpenAI 服务域名。它们按自己的规则分流。
+未来新增域名、动态 IP、DNS / UDP 能力以及客户端绕过代理，都需要结合实际请求日志检查。
+本次没有在用户的 Surge 客户端完成登录、对话、上传及语音实测。
