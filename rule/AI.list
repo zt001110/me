@@ -8,7 +8,7 @@
 # IP-CIDR: 23
 # IP-CIDR6: 1
 # TOTAL: 795
-# ChatGPT / Codex and OpenAI dependencies moved to chatgpt.list.
+# ChatGPT / Codex 及 OpenAI 依赖已迁移到 chatgpt.list。
 
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,api.qrstrategy.com
@@ -46,7 +46,7 @@ DOMAIN,web-static3.lovart.ai
 DOMAIN,www.lovart.ai
 DOMAIN-SUFFIX,lovart.ai
 
-# Historical third-party AI entries; not verified OpenAI service dependencies.
+# 历史第三方 AI 条目；未确认属于 OpenAI 服务依赖。
 DOMAIN,open-ai-chat-omega.vercel.app
 DOMAIN-SUFFIX,ai.com
 

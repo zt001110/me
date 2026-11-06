@@ -1,9 +1,10 @@
 # NAME: Microsoft
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-03-31 20:12:01
+# UPDATED: 2026-11-06
 # DOMAIN: 9
-# DOMAIN-SUFFIX: 631
+# DOMAIN-SUFFIX: 627
+# AND: 4
 # DOMAIN-KEYWORD: 4
 # PROCESS-NAME: 2
 # TOTAL: 646
@@ -98,7 +99,7 @@ DOMAIN-SUFFIX,azure-mobile.net
 DOMAIN-SUFFIX,azure-sphere.com
 DOMAIN-SUFFIX,azure-test.net
 DOMAIN-SUFFIX,azure.cn
-DOMAIN-SUFFIX,azure.com
+AND,((DOMAIN-SUFFIX,azure.com),(NOT,((AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))))))
 DOMAIN-SUFFIX,azure.net
 DOMAIN-SUFFIX,azurecomcdn.net
 DOMAIN-SUFFIX,azurecomm.net
@@ -117,8 +118,8 @@ DOMAIN-SUFFIX,azuredigitaltwins.net
 DOMAIN-SUFFIX,azuredns-prd.info
 DOMAIN-SUFFIX,azuredns-prd.org
 DOMAIN-SUFFIX,azureedge-test.net
-DOMAIN-SUFFIX,azureedge.net
-DOMAIN-SUFFIX,azurefd.net
+AND,((DOMAIN-SUFFIX,azureedge.net),(NOT,((DOMAIN,openaiapi-site.azureedge.net))),(NOT,((DOMAIN,production-openaicom-storage.azureedge.net))))
+AND,((DOMAIN-SUFFIX,azurefd.net),(NOT,((DOMAIN-KEYWORD,openaicom-api-))))
 DOMAIN-SUFFIX,azurefd.us
 DOMAIN-SUFFIX,azurehdinsight.cn
 DOMAIN-SUFFIX,azureiotcentral.com
@@ -632,7 +633,7 @@ DOMAIN-SUFFIX,windows
 DOMAIN-SUFFIX,windows-int.net
 DOMAIN-SUFFIX,windows-ppe.net
 DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,windows.net
+AND,((DOMAIN-SUFFIX,windows.net),(NOT,((DOMAIN,openaiassets.blob.core.windows.net))),(NOT,((DOMAIN,openaicomproductionae4b.blob.core.windows.net))))
 DOMAIN-SUFFIX,windows.nl
 DOMAIN-SUFFIX,windows8.hk
 DOMAIN-SUFFIX,windowsazure.cn

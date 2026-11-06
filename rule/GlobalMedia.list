@@ -1,14 +1,15 @@
 # NAME: GlobalMedia
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-04-20 10:43:29
-# DOMAIN: 93
-# DOMAIN-SUFFIX: 615
+# UPDATED: 2026-11-06
+# DOMAIN: 95
+# DOMAIN-SUFFIX: 616
 # DOMAIN-KEYWORD: 17
 # IP-CIDR: 985
 # IP-CIDR6: 5
 # PROCESS-NAME: 10
-# TOTAL: 1726
+# USER-AGENT: 1
+# TOTAL: 1729
 
 DOMAIN-SUFFIX,hdhive.com
 DOMAIN,bb.emby.edu.kg
@@ -1368,7 +1369,6 @@ DOMAIN-SUFFIX,disney.in
 DOMAIN-SUFFIX,disney.io
 DOMAIN-SUFFIX,disney.it
 DOMAIN-SUFFIX,disney.my
-DOMAIN-SUFFIX,disney.my.sentry.io
 DOMAIN-SUFFIX,disney.nl
 DOMAIN-SUFFIX,disney.no
 DOMAIN-SUFFIX,disney.ph

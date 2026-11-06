@@ -1,14 +1,15 @@
 # NAME: Global
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-04-20 10:43:29
-# DOMAIN: 102
-# DOMAIN-SUFFIX: 6762
-# DOMAIN-KEYWORD: 34
-# IP-CIDR: 324
+# UPDATED: 2026-11-06
+# DOMAIN: 100
+# DOMAIN-SUFFIX: 6205
+# DOMAIN-KEYWORD: 30
+# AND: 4
+# IP-CIDR: 302
 # IP-CIDR6: 28
 # PROCESS-NAME: 24
-# TOTAL: 7274
+# TOTAL: 6693
 
 DOMAIN-SUFFIX,yzt.moe
 DOMAIN,yt3.ggpht.com
@@ -287,7 +288,7 @@ DOMAIN-SUFFIX,zynamics.com
 DOMAIN-KEYWORD,.blogspot.
 DOMAIN-SUFFIX,goog
 # > Automattic
-DOMAIN-SUFFIX,gravatar.com
+AND,((DOMAIN-SUFFIX,gravatar.com),(NOT,((DOMAIN,s.gravatar.com))))
 DOMAIN-SUFFIX,tumblr.com
 DOMAIN-SUFFIX,videopress.com
 DOMAIN-SUFFIX,wordpress.com
@@ -577,8 +578,8 @@ DOMAIN-SUFFIX,cftest6.cn
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudflare-quic.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare.net
+AND,((DOMAIN-SUFFIX,cloudflare.com),(NOT,((DOMAIN,challenges.cloudflare.com))))
+AND,((DOMAIN-SUFFIX,cloudflare.net),(NOT,((DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net))))
 DOMAIN-SUFFIX,cloudflare.tv
 DOMAIN-SUFFIX,cloudflareaccess.com
 DOMAIN-SUFFIX,cloudflareapps.com
@@ -1427,7 +1428,6 @@ DOMAIN-SUFFIX,dcalivedazn.akamaized.net
 DOMAIN-SUFFIX,dcblivedazn.akamaized.net
 DOMAIN-SUFFIX,indazn.com
 DOMAIN-SUFFIX,indaznlab.com
-DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,logx.optimizely.com
 DOMAIN-SUFFIX,s.yimg.jp
 DOMAIN-KEYWORD,voddazn
@@ -2817,7 +2817,7 @@ DOMAIN-SUFFIX,pentium.com
 DOMAIN-SUFFIX,pentium.net
 DOMAIN-SUFFIX,pintool.com
 DOMAIN-SUFFIX,poweredbyintel.com
-DOMAIN-SUFFIX,qualtrics.com
+AND,((DOMAIN-SUFFIX,qualtrics.com),(NOT,((DOMAIN,openai.qualtrics.com))))
 DOMAIN-SUFFIX,reconinstruments.com
 DOMAIN-SUFFIX,reconjet.com
 DOMAIN-SUFFIX,researchintel.com
@@ -5014,8 +5014,6 @@ DOMAIN-SUFFIX,llnwi.net
 # TOTAL: 4
 
 DOMAIN-SUFFIX,intercom.com
-DOMAIN-SUFFIX,intercomassets.com
-DOMAIN-SUFFIX,intercomcdn.com
 
 # NAME: eBay
 # AUTHOR: MLITM

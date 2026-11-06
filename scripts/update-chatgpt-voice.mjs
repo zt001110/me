@@ -26,24 +26,30 @@ for (const entry of data.prefixes) {
 }
 
 let text = await readFile(target, "utf8");
-const section = /# BEGIN OPENAI VOICE IPS\n[\s\S]*?# END OPENAI VOICE IPS/;
+const section = /# 语音 IP 开始\n[\s\S]*?# 语音 IP 结束/;
 assert(section.test(text), "Missing voice section markers");
 text = text.replace(section, [
-  "# BEGIN OPENAI VOICE IPS",
-  `# SOURCE: ${source}`,
-  `# SOURCE-CREATED: ${data.creationTime}`,
-  "# Official voice relay IP snapshot; refresh with node scripts/update-chatgpt-voice.mjs.",
+  "# 语音 IP 开始",
+  `# 来源: ${source}`,
+  `# 源清单生成时间: ${data.creationTime}`,
+  "# 官方语音中继 IP 快照；更新命令：node scripts/update-chatgpt-voice.mjs",
   ...[...rules].sort(),
-  "# END OPENAI VOICE IPS",
+  "# 语音 IP 结束",
 ].join("\n"));
 const active = text.split("\n").filter(line => line && !line.startsWith("#"));
 assert(new Set(active).size === active.length, "Duplicate rules");
-for (const kind of ["DOMAIN", "DOMAIN-SUFFIX", "AND", "IP-CIDR", "IP-CIDR6"]) {
+for (const [kind, label] of Object.entries({
+  DOMAIN: "精确域名",
+  "DOMAIN-SUFFIX": "域名后缀",
+  AND: "逻辑规则",
+  "IP-CIDR": "IPv4 规则",
+  "IP-CIDR6": "IPv6 规则",
+})) {
   const count = active.filter(line => line.startsWith(`${kind},`)).length;
-  text = text.replace(new RegExp(`^# ${kind}: \\d+$`, "m"), `# ${kind}: ${count}`);
+  text = text.replace(new RegExp(`^# ${label}: \\d+$`, "m"), `# ${label}: ${count}`);
 }
-text = text.replace(/^# TOTAL: \d+$/m, `# TOTAL: ${active.length}`);
+text = text.replace(/^# 规则总数: \d+$/m, `# 规则总数: ${active.length}`);
 const date = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date());
-text = text.replace(/^# UPDATED: .*$/m, `# UPDATED: ${date}`);
+text = text.replace(/^# 更新日期: .*$/m, `# 更新日期: ${date}`);
 await writeFile(target, text);
 console.log(`Updated ${rules.size} official voice IP rules; ${active.length} rules total.`);

@@ -1,10 +1,10 @@
 # NAME: AdGuardSDNSFilter
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-06-02 11:39:07
-# DOMAIN: 50252
+# UPDATED: 2026-11-06
+# DOMAIN: 50243
 # IP-CIDR: 2
-# TOTAL: 50254
+# TOTAL: 50245
 
 # 🛑 AdGuardsDNS过滤器
 # AUTHOR: MLITM
@@ -9748,7 +9748,6 @@ DOMAIN,browork3er.cc
 DOMAIN,broworker4s.com
 DOMAIN,broworker7.com
 DOMAIN,browser-http-intake.logs.datadoghq.com
-DOMAIN,browser-intake-datadoghq.com
 DOMAIN,browser-intake-datadoghq.eu
 DOMAIN,browser-onlytv.ru
 DOMAIN,browser-statistik.de
@@ -17607,7 +17606,6 @@ DOMAIN,events.il.fi
 DOMAIN,events.jokerly.com
 DOMAIN,events.jora.com
 DOMAIN,events.jotform.com
-DOMAIN,events.launchdarkly.com
 DOMAIN,events.lbesecapi.com
 DOMAIN,events.mapbox.com
 DOMAIN,events.matterport.com
@@ -27581,7 +27579,6 @@ DOMAIN,m.gtask.cn
 DOMAIN,m.m216j.cn
 DOMAIN,m.nanyangqiaoxiang.cn
 DOMAIN,m.qhxcdmfj.cn
-DOMAIN,m.stripe.com
 DOMAIN,m.szyuke.cn
 DOMAIN,m.trb.com
 DOMAIN,m.vpadn.com
@@ -35758,7 +35755,6 @@ DOMAIN,r.razer.com
 DOMAIN,r.rbc.ru
 DOMAIN,r.remarketingpixel.com
 DOMAIN,r.sax.sina.com.cn
-DOMAIN,r.stripe.com
 DOMAIN,r.tinmoi24.vn
 DOMAIN,r.topdent.ru
 DOMAIN,r.toplaygame.ru
@@ -40863,8 +40859,6 @@ DOMAIN,statsfa.com
 DOMAIN,statsforads.com
 DOMAIN,statsforever.com
 DOMAIN,statsgoogle.appsflyer.com
-DOMAIN,statsig.com
-DOMAIN,statsigapi.net
 DOMAIN,statsinsight.com
 DOMAIN,statsit.com
 DOMAIN,statsmachine.com

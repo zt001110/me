@@ -1,12 +1,12 @@
 # NAME: Advertising
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-06-02 11:39:07
-# DOMAIN: 23677
-# DOMAIN-SUFFIX: 13563
+# UPDATED: 2026-11-06
+# DOMAIN: 23673
+# DOMAIN-SUFFIX: 13561
 # DOMAIN-KEYWORD: 27
 # IP-CIDR: 184
-# TOTAL: 37451
+# TOTAL: 37445
 
 # 🛑 广告精简版
 # AUTHOR: MLITM
@@ -7429,7 +7429,6 @@ DOMAIN,events.data.microsoft.com
 DOMAIN,events.gfe.nvidia.com
 DOMAIN,events.jianshu.io
 DOMAIN,events.kaloo.ga
-DOMAIN,events.launchdarkly.com
 DOMAIN,eventtracker.videostrip.com
 DOMAIN,evepcynlxks.com
 DOMAIN,everestjs.net
@@ -28232,7 +28231,6 @@ DOMAIN-SUFFIX,dw.cnet.com
 DOMAIN-SUFFIX,dw.koudaibl.com
 DOMAIN-SUFFIX,dw.xcar.com.cn
 DOMAIN-SUFFIX,dw998.com
-DOMAIN-SUFFIX,dwh-tracking.it.auth0.com
 DOMAIN-SUFFIX,dx1200.com
 DOMAIN-SUFFIX,dxcssc.cn
 DOMAIN-SUFFIX,dxmci.com

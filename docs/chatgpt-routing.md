@@ -53,6 +53,14 @@ RULE-SET,https://raw.githubusercontent.com/zt001110/me/master/rule/chatgpt.list,
 Auth0、WorkOS、Stripe、Intercom 等也属于共享服务，其他使用相同域名的软件
 可能一并走 ChatGPT 策略。域名规则无法按发起请求的软件区分这些共享域名。
 
+其他规则文件中与本文件重复的域名和子域名条目已移除，包括去广告文件中的
+部分统计、登录和支付域名，以及媒体文件中的 `disney.my.sentry.io`。
+这是保留原有共享后缀范围后的结果；这些共享域名现在由 ChatGPT 策略统一接管。
+`Global.list` 和 `Microsoft.list` 中的 Cloudflare、Gravatar、Qualtrics、
+Azure 和 Windows 宽泛后缀改为带排除条件的逻辑规则，
+只排除本文件已覆盖的主机或子域名范围，保留其他主机的原分流。
+这部分使用 Surge 的 `AND` / `NOT` 嵌套语法，其他客户端的转换兼容性未实测。
+
 语音 IP 规则匹配官方清单的具体地址，并带 `no-resolve`。
 没有添加整个 Azure / Cloudflare / DigitalOcean 网段或 ASN。
 更新官方语音 IP 快照并重算文件统计：
