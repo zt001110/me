@@ -1,14 +1,15 @@
 # NAME: chineseMedia
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-03-31 20:12:01
-# DOMAIN: 20
-# DOMAIN-SUFFIX: 219
+# UPDATED: 2026-11-06
+# DOMAIN: 28
+# DOMAIN-SUFFIX: 236
+# DOMAIN-WILDCARD: 1
 # DOMAIN-KEYWORD: 1
 # IP-CIDR: 52
 # IP-CIDR6: 29
 # PROCESS-NAME: 1
-# TOTAL: 322
+# TOTAL: 348
 
 # 反代面板
 DOMAIN-WILDCARD,rxp-*.tli.li
@@ -28,7 +29,6 @@ DOMAIN-SUFFIX,zzzb93vip.app
 DOMAIN-SUFFIX,zzzb138vip.app
 DOMAIN-SUFFIX,9939.com
 DOMAIN-SUFFIX,9939zb4.app
-DOMAIN-SUFFIX,emby-icon.vercel.app
 DOMAIN-SUFFIX,flixpatrol.com
 
 # 日本直连线路 

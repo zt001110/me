@@ -1,10 +1,10 @@
 # NAME: zhilian
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-06-02 11:39:07
-# DOMAIN: 14
+# UPDATED: 2026-11-06
+# DOMAIN: 13
 # DOMAIN-SUFFIX: 5
-# TOTAL: 19
+# TOTAL: 18
 
 # 我的直连列表1
 
@@ -20,7 +20,6 @@
 # RULE-SET：Rule Provider 规则匹配
 # MATCH：全匹配
 
-DOMAIN,apple-finance.query.yahoo.com
 DOMAIN-SUFFIX,yzt.best
 
 # NAME: 1password

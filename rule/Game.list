@@ -1,12 +1,12 @@
 # NAME: Game
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-04-20 10:43:29
+# UPDATED: 2026-11-06
 # DOMAIN: 77
-# DOMAIN-SUFFIX: 640
+# DOMAIN-SUFFIX: 638
 # DOMAIN-KEYWORD: 5
 # IP-CIDR: 73
-# TOTAL: 795
+# TOTAL: 793
 
 DOMAIN,catalog.blzstatic.com
 DOMAIN-SUFFIX,battle.net
@@ -27,7 +27,6 @@ DOMAIN-SUFFIX,bnet.163.com
 DOMAIN-SUFFIX,bnetcmsus-a.akamaihd.net
 DOMAIN-SUFFIX,bnetproduct-a.akamaihd.net
 DOMAIN-SUFFIX,bnetshopus.akamaized.net
-DOMAIN-SUFFIX,cdp.cloud.unity3d.com
 DOMAIN-SUFFIX,di.res.netease.com
 DOMAIN-SUFFIX,diablo3.com
 DOMAIN-SUFFIX,diablo3.nosdn.127.net
@@ -94,7 +93,6 @@ DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
 DOMAIN-SUFFIX,steam.cdn.webra.ru
 DOMAIN-SUFFIX,steambroadcast.akamaized.net
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamdeck.com
 DOMAIN-SUFFIX,steamgames.com

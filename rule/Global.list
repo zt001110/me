@@ -3,13 +3,13 @@
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-11-06
 # DOMAIN: 100
-# DOMAIN-SUFFIX: 6205
+# DOMAIN-SUFFIX: 6197
 # DOMAIN-KEYWORD: 30
-# AND: 4
+# AND: 11
 # IP-CIDR: 302
 # IP-CIDR6: 28
 # PROCESS-NAME: 24
-# TOTAL: 6693
+# TOTAL: 6692
 
 DOMAIN-SUFFIX,yzt.moe
 DOMAIN,yt3.ggpht.com
@@ -310,7 +310,7 @@ DOMAIN-SUFFIX,nytlog.com
 DOMAIN-SUFFIX,nytstyle.com
 DOMAIN-SUFFIX,tmagazine.com
 # > Yahoo
-DOMAIN-SUFFIX,yahoo.com
+AND,((DOMAIN-SUFFIX,yahoo.com),(NOT,((DOMAIN,apple-finance.query.yahoo.com))))
 DOMAIN,search.yahoo.co.jp
 
 # (Region-Restricted Access Denied)
@@ -1144,7 +1144,7 @@ DOMAIN-SUFFIX,sagemaker.com.cn
 DOMAIN-SUFFIX,serving-sys.com
 DOMAIN-SUFFIX,siege-amazon.com
 DOMAIN-SUFFIX,ss2.us
-DOMAIN-SUFFIX,ssl-images-amazon.com
+AND,((DOMAIN-SUFFIX,ssl-images-amazon.com),(NOT,((DOMAIN,images-cn.ssl-images-amazon.com))))
 DOMAIN-SUFFIX,thinkboxsoftware.com
 DOMAIN-SUFFIX,ueberamazon.de
 DOMAIN-SUFFIX,wfm.com
@@ -2562,7 +2562,7 @@ DOMAIN-SUFFIX,datalore.io
 DOMAIN-SUFFIX,intellij.com
 DOMAIN-SUFFIX,intellij.net
 DOMAIN-SUFFIX,intellij.org
-DOMAIN-SUFFIX,jetbrains.com
+AND,((DOMAIN-SUFFIX,jetbrains.com),(NOT,((DOMAIN,download.jetbrains.com))))
 DOMAIN-SUFFIX,jetbrains.net
 DOMAIN-SUFFIX,jetbrains.space
 DOMAIN-SUFFIX,jetbrains.team
@@ -4850,7 +4850,7 @@ DOMAIN-SUFFIX,akamaietpmalwaretest.com
 DOMAIN-SUFFIX,akamaietpphishingtest.com
 DOMAIN-SUFFIX,akamaihd-staging.net
 DOMAIN-SUFFIX,akamaihd.com
-DOMAIN-SUFFIX,akamaihd.net
+AND,((DOMAIN-SUFFIX,akamaihd.net),(NOT,((DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net))))
 DOMAIN-SUFFIX,akamaimagicmath.net
 DOMAIN-SUFFIX,akamainewzealand.com
 DOMAIN-SUFFIX,akamaiphillipines.com
@@ -4889,7 +4889,7 @@ DOMAIN-SUFFIX,srtcdn.net
 DOMAIN-SUFFIX,multiplay.cn
 DOMAIN-SUFFIX,unity.cn
 DOMAIN-SUFFIX,unity.com
-DOMAIN-SUFFIX,unity3d.com
+AND,((DOMAIN-SUFFIX,unity3d.com),(NOT,((DOMAIN-SUFFIX,cdp.cloud.unity3d.com))))
 DOMAIN-SUFFIX,unity3dusercontent.com
 DOMAIN-SUFFIX,unitychina.cn
 DOMAIN-SUFFIX,unityedu.cn
@@ -5861,7 +5861,7 @@ DOMAIN-SUFFIX,vercel-analytics.com
 DOMAIN-SUFFIX,vercel-dns.com
 DOMAIN-SUFFIX,vercel-insights.com
 DOMAIN-SUFFIX,vercel-status.com
-DOMAIN-SUFFIX,vercel.app
+AND,((DOMAIN-SUFFIX,vercel.app),(NOT,((DOMAIN-SUFFIX,emby-icon.vercel.app))))
 DOMAIN-SUFFIX,vercel.blog
 DOMAIN-SUFFIX,vercel.com
 DOMAIN-SUFFIX,vercel.events
@@ -7992,7 +7992,6 @@ DOMAIN-SUFFIX,box.net
 DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,cachefly.net
 DOMAIN-SUFFIX,cbc.ca
-DOMAIN-SUFFIX,cdn.angruo.com
 DOMAIN-SUFFIX,cdn.segment.com
 DOMAIN-SUFFIX,celestrak.com
 DOMAIN-SUFFIX,census.gov
@@ -8008,7 +8007,7 @@ DOMAIN-SUFFIX,cmail19.com
 DOMAIN-SUFFIX,cnet.com
 DOMAIN-SUFFIX,cocoapods.org
 DOMAIN-SUFFIX,content.office.net
-DOMAIN-SUFFIX,crisp.chat
+AND,((DOMAIN-SUFFIX,crisp.chat),(NOT,((DOMAIN-SUFFIX,api.crisp.chat))))
 DOMAIN-SUFFIX,crittercism.com
 DOMAIN-SUFFIX,culturalspot.org
 DOMAIN-SUFFIX,culturedcode.com

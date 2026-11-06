@@ -1,19 +1,26 @@
 # NAME: chinese
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-05 16:00:00
-# DOMAIN: 13
-# DOMAIN-SUFFIX: 3459
+# UPDATED: 2026-11-06
+# DOMAIN: 12
+# DOMAIN-SUFFIX: 3463
 # DOMAIN-KEYWORD: 8
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3494
+# TOTAL: 3497
+
+# 原有直连选择统一维护于此；名称不表示这些服务均属于国内网站。
+# 用途记录及未确认条目见 docs/direct-routing.md；其他服务列表排除这些域名。
+DOMAIN,apple-finance.query.yahoo.com
+DOMAIN-SUFFIX,cdn.angruo.com
+DOMAIN-SUFFIX,cdp.cloud.unity3d.com
+DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+DOMAIN-SUFFIX,api.crisp.chat
+DOMAIN-SUFFIX,emby-icon.vercel.app
 
 DOMAIN-SUFFIX,seagm.com
 DOMAIN,gateway.icloud.com
 DOMAIN,analytics.strava.com
-DOMAIN,cdn.angruo.com
-DOMAIN,cdp.cloud.unity3d.com
 DOMAIN,client.amplifi.com
 DOMAIN,download.jetbrains.com
 DOMAIN,images-cn.ssl-images-amazon.com
@@ -21,7 +28,6 @@ DOMAIN,ip.istatmenus.app
 DOMAIN,kc.kexinshe.com
 DOMAIN,origin-a.akamaihd.ne
 DOMAIN,sms.imagetasks.com
-DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,www.libvideo.com
 DOMAIN,www.yxssp.com
 DOMAIN-SUFFIX,00cdn.com
@@ -436,7 +442,6 @@ DOMAIN-SUFFIX,ap-southeast-3.myhuaweicloud.com
 DOMAIN-SUFFIX,apaas-zone-test.com
 DOMAIN-SUFFIX,apabi.com
 DOMAIN-SUFFIX,apcdns.net
-DOMAIN-SUFFIX,api.crisp.chat
 DOMAIN-SUFFIX,apigwtencent.com
 DOMAIN-SUFFIX,apimkt.net
 DOMAIN-SUFFIX,apk3.com
