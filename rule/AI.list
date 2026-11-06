@@ -2,13 +2,14 @@
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-11-06
-# DOMAIN: 50
-# DOMAIN-SUFFIX: 715
+# DOMAIN: 49
+# DOMAIN-SUFFIX: 710
+# AND: 1
 # DOMAIN-KEYWORD: 6
 # IP-CIDR: 23
 # IP-CIDR6: 1
-# TOTAL: 795
-# ChatGPT / Codex 及 OpenAI 依赖已迁移到 chatgpt.list。
+# TOTAL: 790
+# ChatGPT / Codex、OpenAI 依赖及 Muse / Meta AI 已迁移到 chatgpt.list。
 
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,api.qrstrategy.com
@@ -63,13 +64,6 @@ IP-CIDR6,2607:6bc0::/48,no-resolve
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,jetbrains.ai
-
-# Meta AI
-DOMAIN,imagine.meta.com
-DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,muse.ai
-DOMAIN-SUFFIX,metaaivm.com
-DOMAIN-SUFFIX,metaaiusercontent.com
 
 # Perplexity AI
 DOMAIN-SUFFIX,pplx.ai
@@ -738,7 +732,7 @@ DOMAIN-SUFFIX,markzuckerberg.com
 DOMAIN-SUFFIX,mcrouter.net
 DOMAIN-SUFFIX,mcrouter.org
 DOMAIN-SUFFIX,messengerdevelopers.com
-DOMAIN-SUFFIX,meta.com
+AND,((DOMAIN-SUFFIX,meta.com),(NOT,((DOMAIN,imagine.meta.com))))
 DOMAIN-SUFFIX,midentsolutions.com
 DOMAIN-SUFFIX,mobilefacebook.com
 DOMAIN-SUFFIX,moneywithfacebook.com

@@ -6,6 +6,11 @@
 因此无需逐个列出 `auth`、`api`、`ab`、`ws`、`cdn` 或 Codex 路径。
 原 OpenAI 段的 Sora / OpenAI API 范围也予以保留。
 
+按个人分流需要，`AI.list` 原 `Meta AI` 分段的 5 条规则也迁入此文件：
+`imagine.meta.com`、`meta.ai`、`muse.ai`、`metaaivm.com`、`metaaiusercontent.com`。
+它们使用同一个策略，不表示这些服务属于 OpenAI。
+`AI.list` 中的 `meta.com` 后缀已排除 `imagine.meta.com`，避免交叉覆盖。
+
 ## 使用
 
 ```ini

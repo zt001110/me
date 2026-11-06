@@ -2,15 +2,16 @@
 # 作者: MLITM
 # 仓库: https://github.com/zt001110/me
 # 更新日期: 2026-11-06
-# 精确域名: 11
-# 域名后缀: 32
+# 精确域名: 12
+# 域名后缀: 36
 # 逻辑规则: 2
 # IPv4 规则: 402
 # IPv6 规则: 0
-# 规则总数: 447
+# 规则总数: 452
 #
 # 用于 Surge 规则集；放在 AI、全球分流、直连和拦截规则之前。
 # 保留原 OpenAI 分段的接口和 Sora 范围，因为它们共用部分服务。
+# 按个人分流需要，Muse / Meta AI 也统一使用本规则集。
 # 共享的登录、支付和客服域名也会影响使用相同域名的其他软件。
 # 来源和范围说明见：../docs/chatgpt-routing.md
 
@@ -24,6 +25,13 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,openaimerge.com
 DOMAIN-SUFFIX,sora.com
+
+# Muse / Meta AI：从 AI.list 迁移，统一使用当前策略。
+DOMAIN,imagine.meta.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,metaaiusercontent.com
 
 # Azure 内容分发、文件存储和异步长连接；不匹配整个 Azure 平台。
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
