@@ -1,13 +1,14 @@
 # NAME: apple
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-03-31 20:12:01
-# DOMAIN: 136
-# DOMAIN-SUFFIX: 1232
+# UPDATED: 2026-11-12
+# DOMAIN: 134
+# DOMAIN-SUFFIX: 1230
 # DOMAIN-KEYWORD: 5
 # IP-CIDR: 10
 # PROCESS-NAME: 5
-# TOTAL: 1388
+# AND: 2
+# TOTAL: 1386
 
 DOMAIN,apps.mzstatic.com
 DOMAIN,profile.ess.apple.com
@@ -50,7 +51,7 @@ DOMAIN,probe.icloud.com
 DOMAIN,setup.icloud.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,fmfmobile.icloud.com
-DOMAIN-SUFFIX,apple.com
+AND,((DOMAIN-SUFFIX,apple.com),(NOT,((DOMAIN,appleid.apple.com))))
 DOMAIN-SUFFIX,buy.itunes.apple.com
 
 
@@ -78,7 +79,7 @@ DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,appleicloud.cn
 DOMAIN-SUFFIX,applemx-icloud.com
 DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,cdn-apple.com
+AND,((DOMAIN-SUFFIX,cdn-apple.com),(NOT,((DOMAIN,appleid.cdn-apple.com))))
 DOMAIN-SUFFIX,gc.apple.com
 DOMAIN-SUFFIX,icloud-apple.cn
 DOMAIN-SUFFIX,icloud-content.com
@@ -1574,6 +1575,4 @@ DOMAIN-SUFFIX,yourmonsterbeats.com
 # DOMAIN: 4
 # TOTAL: 4
 
-DOMAIN,appleid.apple.com
-DOMAIN,appleid.cdn-apple.com
 DOMAIN,idmsa.apple.com

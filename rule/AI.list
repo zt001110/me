@@ -1,15 +1,15 @@
 # NAME: AI
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-06
+# UPDATED: 2026-11-12
 # DOMAIN: 49
-# DOMAIN-SUFFIX: 710
+# DOMAIN-SUFFIX: 705
 # AND: 1
 # DOMAIN-KEYWORD: 6
-# IP-CIDR: 23
-# IP-CIDR6: 1
-# TOTAL: 790
-# ChatGPT / Codex、OpenAI 依赖及 Muse / Meta AI 已迁移到 chatgpt.list。
+# IP-CIDR: 22
+# IP-CIDR6: 0
+# TOTAL: 783
+# ChatGPT / Codex、Claude、OpenAI 依赖及 Muse / Meta AI 已迁移到 chatgpt.list。
 
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,api.qrstrategy.com
@@ -50,15 +50,6 @@ DOMAIN-SUFFIX,lovart.ai
 # 历史第三方 AI 条目；未确认属于 OpenAI 服务依赖。
 DOMAIN,open-ai-chat-omega.vercel.app
 DOMAIN-SUFFIX,ai.com
-
-# Anthropic Claude
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,clau.de
-DOMAIN-SUFFIX,claudeusercontent.com
-IP-CIDR,160.79.104.0/23,no-resolve
-IP-CIDR6,2607:6bc0::/48,no-resolve
 
 # JetBrains AI
 DOMAIN-SUFFIX,grazie.ai

@@ -1,13 +1,14 @@
-# 名称: ChatGPT / Codex
+# 名称: ChatGPT / Codex / Claude
 # 作者: MLITM
 # 仓库: https://github.com/zt001110/me
-# 更新日期: 2026-11-06
-# 精确域名: 12
-# 域名后缀: 36
+# 更新日期: 2026-11-12
+# 精确域名: 29
+# 域名后缀: 44
+# 域名通配: 1
 # 逻辑规则: 2
-# IPv4 规则: 402
-# IPv6 规则: 0
-# 规则总数: 452
+# IPv4 规则: 404
+# IPv6 规则: 1
+# 规则总数: 481
 #
 # 用于 Surge 规则集；放在 AI、全球分流、直连和拦截规则之前。
 # 保留原 OpenAI 分段的接口和 Sora 范围，因为它们共用部分服务。
@@ -25,6 +26,40 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,openaimerge.com
 DOMAIN-SUFFIX,sora.com
+
+# Claude / Anthropic：登录、OAuth/SSO、网页、API、桌面与移动端、Cowork、Code、内容与连接器。
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claude.dev
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+
+# Claude 第三方登录端点；这些主机也服务其他应用。
+DOMAIN,accounts.google.com
+DOMAIN,appleid.apple.com
+DOMAIN,appleid.cdn-apple.com
+
+# Claude Code 安装、更新、插件、Gerrit 与可选遥测；共享主机上的其他请求也使用本策略。
+DOMAIN,storage.googleapis.com
+DOMAIN,registry.npmjs.org
+DOMAIN,github.com
+DOMAIN,raw.githubusercontent.com
+DOMAIN,formulae.brew.sh
+DOMAIN-WILDCARD,*-review.googlesource.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+
+# Claude Artifacts 可选字体与 JS 库。
+DOMAIN,fonts.googleapis.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,cdnjs.cloudflare.com
+DOMAIN,cdn.jsdelivr.net
+DOMAIN,cdn.tailwindcss.com
+DOMAIN,code.jquery.com
+DOMAIN,unpkg.com
 
 # Muse / Meta AI：从 AI.list 迁移，统一使用当前策略。
 DOMAIN,imagine.meta.com
@@ -81,6 +116,11 @@ DOMAIN-SUFFIX,compute-pipe.com
 DOMAIN-SUFFIX,edgecompute.app
 DOMAIN-SUFFIX,every1dns.net
 DOMAIN-SUFFIX,sentry.io
+
+# Claude API / Console 的官方入站地址；按 IP 连接时也命中本策略。
+IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR,153.61.224.0/22,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
 
 # 语音 IP 开始
 # 来源: https://openai.com/chatgpt-voice.json

@@ -1,4 +1,4 @@
-# ChatGPT / Codex 分流
+# ChatGPT / Codex / Claude 分流
 
 `rule/chatgpt.list` 用于 Surge `RULE-SET`，规则不内置策略名。逗号后没有空格。
 它从 `AI.list` 的原 OpenAI 段拆出登录、API、静态资源、上传文件、语音、
@@ -10,6 +10,24 @@
 `imagine.meta.com`、`meta.ai`、`muse.ai`、`metaaivm.com`、`metaaiusercontent.com`。
 它们使用同一个策略，不表示这些服务属于 OpenAI。
 `AI.list` 中的 `meta.com` 后缀已排除 `imagine.meta.com`，避免交叉覆盖。
+
+## Claude
+
+原 `AI.list` 的 Anthropic Claude 段已迁入 `chatgpt.list`。
+域名后缀涵盖网页和应用、邮件登录链接、OAuth、SSO、Claude API、Console、
+Claude Code、Cowork、Artifacts、预览、Claude in Chrome 和 MCP 小组件。
+同时包含 Anthropic 公布的 API / Console 入站 IPv4 和 IPv6 网段。
+
+Google 和 Apple 登录端点、Claude Code 的安装更新和插件端点、可选遥测、
+Artifacts 的字体和 JS 库也走这个策略。共享主机（例如
+`accounts.google.com`、`github.com` 和 `raw.githubusercontent.com`）上的其他请求
+同样会走 ChatGPT 策略。已移除其他列表里的精确重复项，并在通用域名规则中排除这些主机。
+企业自定义身份提供商、MCP 服务和 API 网关的域名取决于实际配置。
+
+- Claude Code 网络要求 https://code.claude.com/docs/en/network-config#network-access-requirements
+- Claude Desktop 网络要求 https://code.claude.com/docs/en/desktop#network-access-requirements
+- Claude 登录方式 https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account
+- Anthropic 官方入站地址 https://platform.claude.com/docs/en/api/ip-addresses
 
 ## 使用
 
@@ -23,10 +41,10 @@ RULE-SET,https://raw.githubusercontent.com/zt001110/me/master/rule/chatgpt.list,
 
 把这一行放在 AI、全球代理、微软、直连、去广告等规则之前。
 仓库 `Surge.conf` 已加入独立的 `ChatGPT` 策略组，并把规则放到 `[Rule]` 第一条，
-包括原来的 SSID 直连规则之前。实际使用时需要在这个组内选定可用的代理。
+包括原来的 SSID 直连规则之前。需要固定出口时，请在这个组内选定同一个代理节点。
 不使用 `DOMAIN-SET`，因为文件还包含 AND 逻辑规则与语音 IP 规则。
 
-## 核对来源
+## OpenAI 核对来源
 
 核对日期：2026-11-06。
 
@@ -74,8 +92,8 @@ Azure 和 Windows 宽泛后缀改为带排除条件的逻辑规则，
 node scripts/update-chatgpt-voice.mjs
 ```
 
-这不是永久完整性保证。第三方登录（Google / Apple / Microsoft）、连接器、
+这不是永久完整性保证。企业自定义登录、连接器、
 自定义 MCP、Codex 下载依赖/访问仓库或用户自定义 API 网关涉及任意第三方站点，
-不属于可穷举的 OpenAI 服务域名。它们按自己的规则分流。
+不属于可穷举的 OpenAI 服务域名。这些站点按自身命中的规则分流。
 未来新增域名、动态 IP、DNS / UDP 能力以及客户端绕过代理，都需要结合实际请求日志检查。
 本次没有在用户的 Surge 客户端完成登录、对话、上传及语音实测。

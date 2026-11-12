@@ -1,21 +1,21 @@
 # NAME: Google
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-04-20 12:09:52
-# DOMAIN: 52
-# DOMAIN-SUFFIX: 709
+# UPDATED: 2026-11-12
+# DOMAIN: 51
+# DOMAIN-SUFFIX: 705
 # DOMAIN-KEYWORD: 3
 # IP-CIDR: 28
 # IP-CIDR6: 0
 # PROCESS-NAME: 6
-# TOTAL: 798
+# AND: 4
+# TOTAL: 797
 
 # NAME: notebooklm
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,notebooklm.google
 
 # NAME: gemini
-DOMAIN,accounts.google.com
 DOMAIN,gemini.google.com
 DOMAIN,stitch.withgoogle.com
 DOMAIN,apis.google.com
@@ -45,10 +45,10 @@ DOMAIN,generativelanguage.googleapis.com
 DOMAIN,makersuite.google.com
 DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,withgoogle.com
-DOMAIN-SUFFIX,google.com
+AND,((DOMAIN-SUFFIX,google.com),(NOT,((DOMAIN,accounts.google.com))))
 DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.com
+AND,((DOMAIN-SUFFIX,googleapis.com),(NOT,((DOMAIN,storage.googleapis.com))),(NOT,((DOMAIN,fonts.googleapis.com))))
+AND,((DOMAIN-SUFFIX,gstatic.com),(NOT,((DOMAIN,fonts.gstatic.com))))
 DOMAIN-SUFFIX,recaptcha.net
 
 # NAME: Google / Antigravity
@@ -527,7 +527,7 @@ DOMAIN-SUFFIX,googleplay.com
 DOMAIN-SUFFIX,googleplex.com
 DOMAIN-SUFFIX,googleplus.com
 DOMAIN-SUFFIX,googlescholar.com
-DOMAIN-SUFFIX,googlesource.com
+AND,((DOMAIN-SUFFIX,googlesource.com),(NOT,((DOMAIN-WILDCARD,*-review.googlesource.com))))
 DOMAIN-SUFFIX,googlestore.com
 DOMAIN-SUFFIX,googlesverige.com
 DOMAIN-SUFFIX,googlesyndication-cn.com

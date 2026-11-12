@@ -94,18 +94,18 @@ https://cdn.jsdelivr.net/gh/zt001110/me@master/rule/Game.list
 
 ---------------------------------------------------------------------------------------
 
-ChatGPT / Codex
+ChatGPT / Codex / Claude
 
 https://raw.githubusercontent.com/zt001110/me/master/rule/chatgpt.list
 
 https://cdn.jsdelivr.net/gh/zt001110/me@master/rule/chatgpt.list
 
 Surge 规则应放在 AI、全球代理、直连、去广告等规则之前，单独指定 ChatGPT 策略。
-范围、共享服务说明与语音 IP 更新方法见 [ChatGPT 分流说明](docs/chatgpt-routing.md)。
+范围、共享服务说明与语音 IP 更新方法见 [ChatGPT / Codex / Claude 分流说明](docs/chatgpt-routing.md)。
 
 ---------------------------------------------------------------------------------------
 
-✨ AI平台（ChatGPT / Codex 已拆出）
+✨ AI平台（ChatGPT / Codex / Claude 已拆出）
 
 https://raw.githubusercontent.com/zt001110/me/master/rule/AI.list
 

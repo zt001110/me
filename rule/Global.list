@@ -1,11 +1,11 @@
 # NAME: Global
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-06
+# UPDATED: 2026-11-12
 # DOMAIN: 100
-# DOMAIN-SUFFIX: 6197
-# DOMAIN-KEYWORD: 30
-# AND: 11
+# DOMAIN-SUFFIX: 6192
+# DOMAIN-KEYWORD: 29
+# AND: 17
 # IP-CIDR: 302
 # IP-CIDR6: 28
 # PROCESS-NAME: 24
@@ -345,7 +345,7 @@ DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
 DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
 DOMAIN-SUFFIX,github.blog
-DOMAIN-SUFFIX,github.com
+AND,((DOMAIN-SUFFIX,github.com),(NOT,((DOMAIN,github.com))))
 DOMAIN-SUFFIX,github.community
 DOMAIN-SUFFIX,github.dev
 DOMAIN-SUFFIX,github.io
@@ -357,17 +357,17 @@ DOMAIN-SUFFIX,githubnext.com
 DOMAIN-SUFFIX,githubpreview.dev
 DOMAIN-SUFFIX,githubstatus.com
 DOMAIN-SUFFIX,githubuniverse.com
-DOMAIN-SUFFIX,githubusercontent.com
+AND,((DOMAIN-SUFFIX,githubusercontent.com),(NOT,((DOMAIN,raw.githubusercontent.com))))
 DOMAIN-SUFFIX,myoctocat.com
 DOMAIN-SUFFIX,npm.community
 DOMAIN-SUFFIX,npmjs.com
-DOMAIN-SUFFIX,npmjs.org
+AND,((DOMAIN-SUFFIX,npmjs.org),(NOT,((DOMAIN,registry.npmjs.org))))
 DOMAIN-SUFFIX,opensource.guide
 DOMAIN-SUFFIX,rawgit.com
 DOMAIN-SUFFIX,rawgithub.com
 DOMAIN-SUFFIX,repo.new
 DOMAIN-SUFFIX,thegithubshop.com
-DOMAIN-KEYWORD,github
+AND,((DOMAIN-KEYWORD,github),(NOT,((DOMAIN,github.com))),(NOT,((DOMAIN,raw.githubusercontent.com))))
 
 # NAME: Speedtest
 # AUTHOR: MLITM
@@ -578,7 +578,7 @@ DOMAIN-SUFFIX,cftest6.cn
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudflare-quic.com
-AND,((DOMAIN-SUFFIX,cloudflare.com),(NOT,((DOMAIN,challenges.cloudflare.com))))
+AND,((DOMAIN-SUFFIX,cloudflare.com),(NOT,((DOMAIN,challenges.cloudflare.com))),(NOT,((DOMAIN,cdnjs.cloudflare.com))))
 AND,((DOMAIN-SUFFIX,cloudflare.net),(NOT,((DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net))))
 DOMAIN-SUFFIX,cloudflare.tv
 DOMAIN-SUFFIX,cloudflareaccess.com
@@ -2526,7 +2526,7 @@ DOMAIN-SUFFIX,longtailvideo.com
 
 DOMAIN-SUFFIX,esm.run
 DOMAIN-SUFFIX,jsdelivr.com
-DOMAIN-SUFFIX,jsdelivr.net
+AND,((DOMAIN-SUFFIX,jsdelivr.net),(NOT,((DOMAIN,cdn.jsdelivr.net))))
 
 # NAME: Jquery
 # AUTHOR: MLITM
@@ -2535,7 +2535,7 @@ DOMAIN-SUFFIX,jsdelivr.net
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
 
-DOMAIN-SUFFIX,jquery.com
+AND,((DOMAIN-SUFFIX,jquery.com),(NOT,((DOMAIN,code.jquery.com))))
 DOMAIN-SUFFIX,jquerymobile.com
 DOMAIN-SUFFIX,jqueryui.com
 

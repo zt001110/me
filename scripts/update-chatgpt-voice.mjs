@@ -41,6 +41,7 @@ assert(new Set(active).size === active.length, "Duplicate rules");
 for (const [kind, label] of Object.entries({
   DOMAIN: "精确域名",
   "DOMAIN-SUFFIX": "域名后缀",
+  "DOMAIN-WILDCARD": "域名通配",
   AND: "逻辑规则",
   "IP-CIDR": "IPv4 规则",
   "IP-CIDR6": "IPv6 规则",
