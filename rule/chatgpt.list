@@ -10,8 +10,7 @@
 # IPv4 规则: 406
 # IPv6 规则: 1
 # ASN 规则: 2
-# 进程规则: 1
-# 规则总数: 511
+# 规则总数: 510
 #
 # 用于 Surge 规则集；放在 AI、全球分流、直连和拦截规则之前。
 # 保留原 OpenAI 分段的接口和 Sora 范围，因为它们共用部分服务。
@@ -152,9 +151,6 @@ DOMAIN-KEYWORD,sift
 
 # OpenAI 域名关键词兜底。
 DOMAIN-KEYWORD,openai
-
-# Surge Mac：Claude 桌面版及其 Helper 发起的请求。
-PROCESS-NAME,/Applications/Claude.app/
 
 # Claude IP 和 ASN 兜底，包含清单中的宽网段和额外的官方 IPv4 入站段。
 IP-CIDR,160.79.104.0/21,no-resolve
