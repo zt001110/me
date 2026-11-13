@@ -3,12 +3,12 @@
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-11-12
 # DOMAIN: 49
-# DOMAIN-SUFFIX: 705
+# DOMAIN-SUFFIX: 704
 # AND: 1
 # DOMAIN-KEYWORD: 6
 # IP-CIDR: 22
 # IP-CIDR6: 0
-# TOTAL: 783
+# TOTAL: 782
 # ChatGPT / Codex、Claude、OpenAI 依赖及 Muse / Meta AI 已迁移到 chatgpt.list。
 
 DOMAIN-SUFFIX,perplexity.ai
@@ -49,7 +49,6 @@ DOMAIN-SUFFIX,lovart.ai
 
 # 历史第三方 AI 条目；未确认属于 OpenAI 服务依赖。
 DOMAIN,open-ai-chat-omega.vercel.app
-DOMAIN-SUFFIX,ai.com
 
 # JetBrains AI
 DOMAIN-SUFFIX,grazie.ai

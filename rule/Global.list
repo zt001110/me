@@ -3,9 +3,9 @@
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-11-12
 # DOMAIN: 100
-# DOMAIN-SUFFIX: 6192
+# DOMAIN-SUFFIX: 6191
 # DOMAIN-KEYWORD: 29
-# AND: 17
+# AND: 18
 # IP-CIDR: 302
 # IP-CIDR6: 28
 # PROCESS-NAME: 24
@@ -585,7 +585,7 @@ DOMAIN-SUFFIX,cloudflareaccess.com
 DOMAIN-SUFFIX,cloudflareapps.com
 DOMAIN-SUFFIX,cloudflarebolt.com
 DOMAIN-SUFFIX,cloudflareclient.com
-DOMAIN-SUFFIX,cloudflareinsights.com
+AND,((DOMAIN-SUFFIX,cloudflareinsights.com),(NOT,((DOMAIN,static.cloudflareinsights.com))))
 DOMAIN-SUFFIX,cloudflareok.com
 DOMAIN-SUFFIX,cloudflarepreview.com
 DOMAIN-SUFFIX,cloudflareresolve.com

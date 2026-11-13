@@ -2,9 +2,9 @@
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-11-12
-# DOMAIN: 50234
+# DOMAIN: 50233
 # IP-CIDR: 2
-# TOTAL: 50236
+# TOTAL: 50235
 
 # 🛑 AdGuardsDNS过滤器
 # AUTHOR: MLITM
@@ -38334,7 +38334,6 @@ DOMAIN,sefytiavhavrds.com
 DOMAIN,seg.sharethis.com
 DOMAIN,segment-cdn.producthunt.com
 DOMAIN,segment.com
-DOMAIN,segment.io
 DOMAIN,segmenthub.com
 DOMAIN,segmentify.com
 DOMAIN,segmentor.snowfox-ai.com

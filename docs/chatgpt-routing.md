@@ -77,9 +77,10 @@ RULE-SET,https://raw.githubusercontent.com/zt001110/me/master/rule/chatgpt.list,
 
 ## 范围与维护
 
-原文件的 `ai.com` 和 `open-ai-chat-omega.vercel.app` 留在 `AI.list` 的历史条目段，
-没有证据把它们当作当前官方 ChatGPT / Codex 依赖。
-其余原 OpenAI 段规则均迁移或由范围更大的后缀规则覆盖。
+按兼容清单将 `ai.com` 从 `AI.list` 迁入本文件，并补充共享服务、域名关键词、
+两个 IPv4 地址和 `AS20473`。`AS20473` 是 Vultr 的 ASN，其他 Vultr 目标 IP
+也可能命中本策略。`openai` 关键词也会匹配名称中含有该字符串的第三方域名。
+原 `open-ai-chat-omega.vercel.app` 历史条目仍由 `AI.list` 管理。
 
 原有 `identrust.com`、`compute-pipe.com`、`edgecompute.app`、`every1dns.net`、
 `sentry.io` 后缀保留在兼容段，本次没有确认它们全部属于当前必需依赖。

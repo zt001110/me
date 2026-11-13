@@ -2,11 +2,11 @@
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-11-12
-# DOMAIN: 23668
+# DOMAIN: 23666
 # DOMAIN-SUFFIX: 13561
 # DOMAIN-KEYWORD: 27
 # IP-CIDR: 184
-# TOTAL: 37440
+# TOTAL: 37438
 
 # 🛑 广告精简版
 # AUTHOR: MLITM
@@ -4384,7 +4384,6 @@ DOMAIN,cdn.optmd.com
 DOMAIN,cdn.rhombusads.com
 DOMAIN,cdn.runative-syndicate.com
 DOMAIN,cdn.segment.com
-DOMAIN,cdn.segment.io
 DOMAIN,cdn.static-cnt.bid
 DOMAIN,cdn.surroundtm.com
 DOMAIN,cdn.taboola.com.cn
@@ -17738,7 +17737,6 @@ DOMAIN,seesaa.jp
 DOMAIN,seethisinaction.com
 DOMAIN,seevolution.com
 DOMAIN,seewhy.com
-DOMAIN,segment.io
 DOMAIN,segmentify.com
 DOMAIN,sehiba.com
 DOMAIN,seitentipp.com

@@ -2,15 +2,15 @@
 # 作者: MLITM
 # 仓库: https://github.com/zt001110/me
 # 更新日期: 2026-11-12
-# 精确域名: 37
-# 域名后缀: 48
+# 精确域名: 38
+# 域名后缀: 56
 # 域名通配: 1
-# 域名关键词: 2
+# 域名关键词: 3
 # 逻辑规则: 2
-# IPv4 规则: 404
+# IPv4 规则: 406
 # IPv6 规则: 1
-# ASN 规则: 1
-# 规则总数: 496
+# ASN 规则: 2
+# 规则总数: 509
 #
 # 用于 Surge 规则集；放在 AI、全球分流、直连和拦截规则之前。
 # 保留原 OpenAI 分段的接口和 Sora 范围，因为它们共用部分服务。
@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,openaimerge.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,crixet.com
+DOMAIN-SUFFIX,ai.com
 
 # Claude / Anthropic：登录、OAuth/SSO、网页、API、桌面与移动端、Cowork、Code、内容与连接器。
 DOMAIN-SUFFIX,anthropic.com
@@ -80,12 +81,14 @@ DOMAIN-SUFFIX,metaaiusercontent.com
 
 # Azure 内容分发、文件存储和异步长连接；不匹配整个 Azure 平台。
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
-DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN,openaiassets.blob.core.windows.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,openaicom.imgix.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net
 
@@ -106,7 +109,9 @@ DOMAIN,cloudflare-dns.com
 
 # 功能开关、运行统计、客服和用户头像。
 DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,intercom.io
@@ -117,6 +122,10 @@ DOMAIN,browser-intake-datadoghq.com
 DOMAIN,rum.browser-intake-datadoghq.com
 DOMAIN,openai.qualtrics.com
 DOMAIN,s.gravatar.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,segment.io
 
 # 支付和移动端订阅。
 DOMAIN-SUFFIX,stripe.com
@@ -139,11 +148,19 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-KEYWORD,datadog
 DOMAIN-KEYWORD,sift
 
+# OpenAI 域名关键词兜底。
+DOMAIN-KEYWORD,openai
+
 # Claude IP 和 ASN 兜底，包含清单中的宽网段和额外的官方 IPv4 入站段。
 IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR,153.61.224.0/22,no-resolve
 IP-CIDR6,2607:6bc0::/32,no-resolve
 IP-ASN,399358,no-resolve
+
+# OpenAI 兼容清单中的 IP 和共享 ASN。
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
 
 # 语音 IP 开始
 # 来源: https://openai.com/chatgpt-voice.json

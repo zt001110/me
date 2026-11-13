@@ -118,7 +118,7 @@ DOMAIN-SUFFIX,azuredigitaltwins.net
 DOMAIN-SUFFIX,azuredns-prd.info
 DOMAIN-SUFFIX,azuredns-prd.org
 DOMAIN-SUFFIX,azureedge-test.net
-AND,((DOMAIN-SUFFIX,azureedge.net),(NOT,((DOMAIN,openaiapi-site.azureedge.net))),(NOT,((DOMAIN,production-openaicom-storage.azureedge.net))))
+AND,((DOMAIN-SUFFIX,azureedge.net),(NOT,((DOMAIN-SUFFIX,openaiapi-site.azureedge.net))),(NOT,((DOMAIN,production-openaicom-storage.azureedge.net))))
 AND,((DOMAIN-SUFFIX,azurefd.net),(NOT,((DOMAIN-KEYWORD,openaicom-api-))))
 DOMAIN-SUFFIX,azurefd.us
 DOMAIN-SUFFIX,azurehdinsight.cn
