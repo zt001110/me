@@ -47,6 +47,7 @@ for (const [kind, label] of Object.entries({
   "IP-CIDR": "IPv4 规则",
   "IP-CIDR6": "IPv6 规则",
   "IP-ASN": "ASN 规则",
+  "PROCESS-NAME": "进程规则",
 })) {
   const count = active.filter(line => line.startsWith(`${kind},`)).length;
   text = text.replace(new RegExp(`^# ${label}: \\d+$`, "m"), `# ${label}: ${count}`);

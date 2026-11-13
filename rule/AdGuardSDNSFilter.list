@@ -1,10 +1,10 @@
 # NAME: AdGuardSDNSFilter
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-12
-# DOMAIN: 50233
+# UPDATED: 2026-11-13
+# DOMAIN: 50232
 # IP-CIDR: 2
-# TOTAL: 50235
+# TOTAL: 50234
 
 # 🛑 AdGuardsDNS过滤器
 # AUTHOR: MLITM
@@ -1813,7 +1813,6 @@ DOMAIN,a.fobos.tv
 DOMAIN,a.getflowbox.com
 DOMAIN,a.guzhilin.com
 DOMAIN,a.hbf23.cn
-DOMAIN,a.hcaptcha.com
 DOMAIN,a.huocheba.com
 DOMAIN,a.icdol.com
 DOMAIN,a.imgso.cn

@@ -1,12 +1,12 @@
 # NAME: Global
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-12
+# UPDATED: 2026-11-13
 # DOMAIN: 100
-# DOMAIN-SUFFIX: 6191
+# DOMAIN-SUFFIX: 6190
 # DOMAIN-KEYWORD: 29
-# AND: 18
-# IP-CIDR: 302
+# AND: 20
+# IP-CIDR: 301
 # IP-CIDR6: 28
 # PROCESS-NAME: 24
 # TOTAL: 6692
@@ -427,7 +427,7 @@ IP-CIDR,109.239.140.0/24
 IP-CIDR,149.154.160.0/20
 IP-CIDR,5.28.195.163/32
 IP-CIDR,5.28.195.205/32
-IP-CIDR,91.108.0.0/16
+AND,((IP-CIDR,91.108.0.0/16),(NOT,((IP-ASN,20473,no-resolve))))
 IP-CIDR6,2001:67c:4e8::/48
 IP-CIDR6,2001:b28:f23c::/47
 IP-CIDR6,2001:b28:f23f::/48
@@ -575,7 +575,7 @@ DOMAIN-SUFFIX,argotunnel.com
 DOMAIN-SUFFIX,cf-ipfs.com
 DOMAIN-SUFFIX,cftest5.cn
 DOMAIN-SUFFIX,cftest6.cn
-DOMAIN-SUFFIX,cloudflare-dns.com
+AND,((DOMAIN-SUFFIX,cloudflare-dns.com),(NOT,((DOMAIN,cloudflare-dns.com))))
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudflare-quic.com
 AND,((DOMAIN-SUFFIX,cloudflare.com),(NOT,((DOMAIN,challenges.cloudflare.com))),(NOT,((DOMAIN,cdnjs.cloudflare.com))))

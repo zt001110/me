@@ -1,8 +1,9 @@
 # NAME: ChinaIp
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-03-31 20:12:01
-# IP-CIDR: 6249
+# UPDATED: 2026-11-13
+# IP-CIDR: 6248
+# AND: 1
 # TOTAL: 6249
 
 # 内容：中国IP地址段ipv4
@@ -1922,7 +1923,7 @@ IP-CIDR,103.96.136.0/22,no-resolve
 IP-CIDR,103.96.152.0/21,no-resolve
 IP-CIDR,103.96.160.0/19,no-resolve
 IP-CIDR,103.96.192.0/20,no-resolve
-IP-CIDR,103.96.208.0/21,no-resolve
+AND,((IP-CIDR,103.96.208.0/21,no-resolve),(NOT,((IP-ASN,20473,no-resolve))))
 IP-CIDR,103.96.216.0/22,no-resolve
 IP-CIDR,103.97.40.0/22,no-resolve
 IP-CIDR,103.97.60.0/23,no-resolve

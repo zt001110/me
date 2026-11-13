@@ -24,6 +24,12 @@ Artifacts 的字体和 JS 库也走这个策略。共享主机（例如
 同样会走 ChatGPT 策略。已移除其他列表里的精确重复项，并在通用域名规则中排除这些主机。
 企业自定义身份提供商、MCP 服务和 API 网关的域名取决于实际配置。
 
+`hcaptcha.com` 后缀涵盖验证码 API、资源和动态子域。其他应用使用 hCaptcha 时，
+这些域名也会走同一个策略。Surge Mac 还会按 `/Applications/Claude.app/` 匹配
+Claude Desktop 及其 Helper 捕获到的请求，为未知域名兜底。外部浏览器和 iOS
+仍依靠域名规则。
+
+
 - Claude Code 网络要求 https://code.claude.com/docs/en/network-config#network-access-requirements
 - Claude Desktop 网络要求 https://code.claude.com/docs/en/desktop#network-access-requirements
 - Claude 登录方式 https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account

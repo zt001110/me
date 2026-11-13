@@ -1,11 +1,11 @@
 # NAME: oracle
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-12
-# DOMAIN: 74
+# UPDATED: 2026-11-13
+# DOMAIN: 72
 # DOMAIN-SUFFIX: 7
 # DOMAIN-KEYWORD: 1
-# TOTAL: 82
+# TOTAL: 80
 
 DOMAIN,www.oracle.com
 DOMAIN,usageapi.us-phoenix-1.oci.oraclecloud.com
@@ -61,8 +61,6 @@ DOMAIN,consent.trustarc.com
 DOMAIN,consent.truste.com
 DOMAIN,assets.adobedtm.com
 DOMAIN,h.online-metrix.net
-DOMAIN,hcaptcha.com
-DOMAIN,newassets.hcaptcha.com
 DOMAIN,tags.tiqcdn.com
 DOMAIN,www.gstatic.com
 DOMAIN,dd47l3yx22vgq2q6vr3q-f-79ce31cf3-clientnsv4-s.akamaihd.net
