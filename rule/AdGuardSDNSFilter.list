@@ -1,10 +1,10 @@
 # NAME: AdGuardSDNSFilter
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-06
-# DOMAIN: 50243
+# UPDATED: 2026-11-12
+# DOMAIN: 50234
 # IP-CIDR: 2
-# TOTAL: 50245
+# TOTAL: 50236
 
 # 🛑 AdGuardsDNS过滤器
 # AUTHOR: MLITM
@@ -9747,8 +9747,6 @@ DOMAIN,broweb.site
 DOMAIN,browork3er.cc
 DOMAIN,broworker4s.com
 DOMAIN,broworker7.com
-DOMAIN,browser-http-intake.logs.datadoghq.com
-DOMAIN,browser-intake-datadoghq.eu
 DOMAIN,browser-onlytv.ru
 DOMAIN,browser-statistik.de
 DOMAIN,browser-update.org
@@ -10765,7 +10763,6 @@ DOMAIN,cdn.topmind.io
 DOMAIN,cdn.trafficexchangelist.com
 DOMAIN,cdn.umh.ua
 DOMAIN,cdn.upthinking.cn
-DOMAIN,cdn.usefathom.com
 DOMAIN,cdn.userreport.com
 DOMAIN,cdn.vip-hd-movies.xyz
 DOMAIN,cdn.wadawada-stop-report-us.com
@@ -14405,7 +14402,6 @@ DOMAIN,datacoral.io
 DOMAIN,datacryhurt.live
 DOMAIN,datacygnal.io
 DOMAIN,datado.me
-DOMAIN,datadog-service.mvfglobal.com
 DOMAIN,datadsk.com
 DOMAIN,datafeedfile.com
 DOMAIN,datajsext.com
@@ -27107,7 +27103,6 @@ DOMAIN,logs.1cdn.vn
 DOMAIN,logs.51cto.com
 DOMAIN,logs.amap.com
 DOMAIN,logs.animaapp.com
-DOMAIN,logs.datadoghq.eu
 DOMAIN,logs.docnhanh.com.vn
 DOMAIN,logs.eresmas.com
 DOMAIN,logs.gaaana.com
@@ -38992,8 +38987,6 @@ DOMAIN,sifenews.com
 DOMAIN,sifiwoery.xyz
 DOMAIN,sifomedia.se
 DOMAIN,sifomedia.sportsverige.se
-DOMAIN,siftscience.com
-DOMAIN,siftshortagepopped.com
 DOMAIN,sifuglie.com
 DOMAIN,sige20221230.xyz
 DOMAIN,sigerait.net
@@ -44405,7 +44398,6 @@ DOMAIN,trtjigpsscmv9epe10.com
 DOMAIN,trtl.ws
 DOMAIN,tru.am
 DOMAIN,truceforensicswaterfall.com
-DOMAIN,trucksift.com
 DOMAIN,truckstomatoes.com
 DOMAIN,truconversion.com
 DOMAIN,true2file.com
@@ -48216,7 +48208,6 @@ DOMAIN,www.adsnet.se
 DOMAIN,www.air-max.se
 DOMAIN,www.auditude.com
 DOMAIN,www.blogtoplist.se
-DOMAIN,www.datadoghq-browser-agent.com
 DOMAIN,www.fakturino.se
 DOMAIN,www.hey.lt
 DOMAIN,www.kundvisaren.se

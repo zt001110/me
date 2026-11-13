@@ -42,9 +42,11 @@ for (const [kind, label] of Object.entries({
   DOMAIN: "精确域名",
   "DOMAIN-SUFFIX": "域名后缀",
   "DOMAIN-WILDCARD": "域名通配",
+  "DOMAIN-KEYWORD": "域名关键词",
   AND: "逻辑规则",
   "IP-CIDR": "IPv4 规则",
   "IP-CIDR6": "IPv6 规则",
+  "IP-ASN": "ASN 规则",
 })) {
   const count = active.filter(line => line.startsWith(`${kind},`)).length;
   text = text.replace(new RegExp(`^# ${label}: \\d+$`, "m"), `# ${label}: ${count}`);

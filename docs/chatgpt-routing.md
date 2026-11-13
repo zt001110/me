@@ -31,8 +31,10 @@ Artifacts 的字体和 JS 库也走这个策略。共享主机（例如
 
 与 Net.Coffee 和 v2fly 对照后补充 Claude MCP 客户端兼容域名和两个具体 CDN 主机。
 `claudemcpclient.com` 来源于社区清单，公开 DNS 查询暂未返回根域的 A 记录。
-保留官方入站段。Anthropic 标明 `160.79.104.0/21` 用于服务端出站，
-而公开的入站 IPv6 前缀为 `2607:6bc0::/48`。
+按用户提供的清单补充 Ghost、Fathom、Datadog 和 Sift 关键词，以及
+`160.79.104.0/21`、`2607:6bc0::/32` 和 `AS399358` 兜底。
+这些 IP 规则覆盖 Anthropic 公布的三个入站网段。Datadog 和 Sift 关键词也会
+匹配其他应用的域名，两个广告规则集中的重叠条目已移除。
 
 ## 使用
 

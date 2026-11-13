@@ -2,13 +2,15 @@
 # 作者: MLITM
 # 仓库: https://github.com/zt001110/me
 # 更新日期: 2026-11-12
-# 精确域名: 34
+# 精确域名: 37
 # 域名后缀: 48
 # 域名通配: 1
+# 域名关键词: 2
 # 逻辑规则: 2
 # IPv4 规则: 404
 # IPv6 规则: 1
-# 规则总数: 490
+# ASN 规则: 1
+# 规则总数: 496
 #
 # 用于 Surge 规则集；放在 AI、全球分流、直连和拦截规则之前。
 # 保留原 OpenAI 分段的接口和 Sora 范围，因为它们共用部分服务。
@@ -43,6 +45,7 @@ DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,anthropic-com.ghost.io
 
 # Claude 第三方登录端点；这些主机也服务其他应用。
 DOMAIN,accounts.google.com
@@ -87,6 +90,7 @@ DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net
 
 # 登录、企业单点登录和人机验证。
+DOMAIN,anthropic.auth0.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,ct.sendgrid.net
 DOMAIN,humb.apple.com
@@ -108,6 +112,7 @@ DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,intercomassets.com
+DOMAIN,cdn.usefathom.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,rum.browser-intake-datadoghq.com
 DOMAIN,openai.qualtrics.com
@@ -130,10 +135,15 @@ DOMAIN-SUFFIX,edgecompute.app
 DOMAIN-SUFFIX,every1dns.net
 DOMAIN-SUFFIX,sentry.io
 
-# Claude API / Console 的官方入站地址；按 IP 连接时也命中本策略。
-IP-CIDR,160.79.104.0/23,no-resolve
+# Claude 共享遥测和反欺诈关键词。
+DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,sift
+
+# Claude IP 和 ASN 兜底，包含清单中的宽网段和额外的官方 IPv4 入站段。
+IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR,153.61.224.0/22,no-resolve
-IP-CIDR6,2607:6bc0::/48,no-resolve
+IP-CIDR6,2607:6bc0::/32,no-resolve
+IP-ASN,399358,no-resolve
 
 # 语音 IP 开始
 # 来源: https://openai.com/chatgpt-voice.json
