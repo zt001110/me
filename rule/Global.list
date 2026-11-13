@@ -579,7 +579,7 @@ DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudflare-quic.com
 AND,((DOMAIN-SUFFIX,cloudflare.com),(NOT,((DOMAIN,challenges.cloudflare.com))),(NOT,((DOMAIN,cdnjs.cloudflare.com))))
-AND,((DOMAIN-SUFFIX,cloudflare.net),(NOT,((DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net))))
+AND,((DOMAIN-SUFFIX,cloudflare.net),(NOT,((DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net))),(NOT,((DOMAIN,anthropic.com.cdn.cloudflare.net))))
 DOMAIN-SUFFIX,cloudflare.tv
 DOMAIN-SUFFIX,cloudflareaccess.com
 DOMAIN-SUFFIX,cloudflareapps.com

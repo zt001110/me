@@ -2,13 +2,13 @@
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-11-12
-# DOMAIN: 134
+# DOMAIN: 133
 # DOMAIN-SUFFIX: 1230
 # DOMAIN-KEYWORD: 5
 # IP-CIDR: 10
 # PROCESS-NAME: 5
 # AND: 2
-# TOTAL: 1386
+# TOTAL: 1385
 
 DOMAIN,apps.mzstatic.com
 DOMAIN,profile.ess.apple.com
@@ -25,7 +25,6 @@ DOMAIN,musicstatus.itunes.apple.com
 DOMAIN,init.itunes.apple.com
 DOMAIN,identity.ess.apple.com
 DOMAIN,iadsdk.apple.com
-DOMAIN,humb.apple.com
 DOMAIN,static.ess.apple.com
 DOMAIN,guzzoni.apple.com
 DOMAIN,gsas.apple.com
@@ -51,7 +50,7 @@ DOMAIN,probe.icloud.com
 DOMAIN,setup.icloud.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,fmfmobile.icloud.com
-AND,((DOMAIN-SUFFIX,apple.com),(NOT,((DOMAIN,appleid.apple.com))))
+AND,((DOMAIN-SUFFIX,apple.com),(NOT,((DOMAIN,appleid.apple.com))),(NOT,((DOMAIN,humb.apple.com))))
 DOMAIN-SUFFIX,buy.itunes.apple.com
 
 

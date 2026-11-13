@@ -29,6 +29,11 @@ Artifacts 的字体和 JS 库也走这个策略。共享主机（例如
 - Claude 登录方式 https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account
 - Anthropic 官方入站地址 https://platform.claude.com/docs/en/api/ip-addresses
 
+与 Net.Coffee 和 v2fly 对照后补充 Claude MCP 客户端兼容域名和两个具体 CDN 主机。
+`claudemcpclient.com` 来源于社区清单，公开 DNS 查询暂未返回根域的 A 记录。
+保留官方入站段。Anthropic 标明 `160.79.104.0/21` 用于服务端出站，
+而公开的入站 IPv6 前缀为 `2607:6bc0::/48`。
+
 ## 使用
 
 ```ini
@@ -50,7 +55,10 @@ RULE-SET,https://raw.githubusercontent.com/zt001110/me/master/rule/chatgpt.list,
 
 - OpenAI 网络说明：
   https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps
-  （本次直连抓取返回 403，未将其作为已成功读取的完整域名清单。）
+  复核后补充 `ct.sendgrid.net`、`humb.apple.com` 和 `rum.browser-intake-datadoghq.com`。
+- OpenAI Prism 与 ChatGPT Sites 的域名另见官方说明。
+  https://openai.com/index/introducing-prism/
+  https://help.openai.com/en/articles/20001339-creating-and-using-chatgpt-sites
 - OpenAI 官方 Codex 源码：
   https://github.com/openai/codex
   核对版本 `1031a7b`。登录使用 `auth.openai.com`，API 使用 `api.openai.com`，

@@ -2,13 +2,13 @@
 # 作者: MLITM
 # 仓库: https://github.com/zt001110/me
 # 更新日期: 2026-11-12
-# 精确域名: 30
-# 域名后缀: 44
+# 精确域名: 34
+# 域名后缀: 48
 # 域名通配: 1
 # 逻辑规则: 2
 # IPv4 规则: 404
 # IPv6 规则: 1
-# 规则总数: 482
+# 规则总数: 490
 #
 # 用于 Surge 规则集；放在 AI、全球分流、直连和拦截规则之前。
 # 保留原 OpenAI 分段的接口和 Sora 范围，因为它们共用部分服务。
@@ -20,12 +20,14 @@
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openai.org
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.site
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,openaimerge.com
 DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,crixet.com
 
 # Claude / Anthropic：登录、OAuth/SSO、网页、API、桌面与移动端、Cowork、Code、内容与连接器。
 DOMAIN-SUFFIX,anthropic.com
@@ -36,6 +38,11 @@ DOMAIN-SUFFIX,claude.dev
 DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claudemcpcontent.com
+
+# Claude MCP 与网站 CDN 兼容端点。
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,anthropic.com.cdn.cloudflare.net
 
 # Claude 第三方登录端点；这些主机也服务其他应用。
 DOMAIN,accounts.google.com
@@ -81,6 +88,8 @@ DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net
 
 # 登录、企业单点登录和人机验证。
 DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,ct.sendgrid.net
+DOMAIN,humb.apple.com
 DOMAIN-SUFFIX,workos.com
 DOMAIN-SUFFIX,workoscdn.com
 DOMAIN-SUFFIX,workos.imgix.net
@@ -100,6 +109,7 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,intercomassets.com
 DOMAIN,browser-intake-datadoghq.com
+DOMAIN,rum.browser-intake-datadoghq.com
 DOMAIN,openai.qualtrics.com
 DOMAIN,s.gravatar.com
 
