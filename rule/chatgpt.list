@@ -2,13 +2,13 @@
 # 作者: MLITM
 # 仓库: https://github.com/zt001110/me
 # 更新日期: 2026-11-12
-# 精确域名: 29
+# 精确域名: 30
 # 域名后缀: 44
 # 域名通配: 1
 # 逻辑规则: 2
 # IPv4 规则: 404
 # IPv6 规则: 1
-# 规则总数: 481
+# 规则总数: 482
 #
 # 用于 Surge 规则集；放在 AI、全球分流、直连和拦截规则之前。
 # 保留原 OpenAI 分段的接口和 Sora 范围，因为它们共用部分服务。
@@ -87,6 +87,9 @@ DOMAIN-SUFFIX,workos.imgix.net
 DOMAIN,challenges.cloudflare.com
 DOMAIN,openai-api.arkoselabs.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
+
+# Cloudflare DNS-over-HTTPS.
+DOMAIN,cloudflare-dns.com
 
 # 功能开关、运行统计、客服和用户头像。
 DOMAIN-SUFFIX,featuregates.org
