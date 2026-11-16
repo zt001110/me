@@ -2,14 +2,14 @@
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-11-16
-# DOMAIN: 30
-# DOMAIN-SUFFIX: 259
+# DOMAIN: 31
+# DOMAIN-SUFFIX: 260
 # DOMAIN-WILDCARD: 1
 # DOMAIN-KEYWORD: 1
 # IP-CIDR: 52
 # IP-CIDR6: 29
 # PROCESS-NAME: 1
-# TOTAL: 373
+# TOTAL: 375
 
 # 反代面板
 DOMAIN-WILDCARD,rxp-*.tli.li
@@ -465,6 +465,8 @@ DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,fqnovelpic.com
 DOMAIN-SUFFIX,bytegecko.com
 DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,hongguoduanju.com
+DOMAIN,v3-reading-video.qznovelvod.com
 
 # 七猫
 DOMAIN-SUFFIX,qmplaylet.com
