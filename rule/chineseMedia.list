@@ -1,15 +1,15 @@
 # NAME: chineseMedia
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-06
-# DOMAIN: 28
-# DOMAIN-SUFFIX: 236
+# UPDATED: 2026-11-16
+# DOMAIN: 30
+# DOMAIN-SUFFIX: 259
 # DOMAIN-WILDCARD: 1
 # DOMAIN-KEYWORD: 1
 # IP-CIDR: 52
 # IP-CIDR6: 29
 # PROCESS-NAME: 1
-# TOTAL: 348
+# TOTAL: 373
 
 # 反代面板
 DOMAIN-WILDCARD,rxp-*.tli.li
@@ -456,3 +456,44 @@ DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,ixiguavideo.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,toutiao.com
+
+# 红果、抖音及弹幕
+DOMAIN-SUFFIX,fqnovel.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,fqnovelpic.com
+DOMAIN-SUFFIX,bytegecko.com
+DOMAIN-SUFFIX,bytednsdoc.com
+
+# 七猫
+DOMAIN-SUFFIX,qmplaylet.com
+DOMAIN-SUFFIX,wtzw.com
+
+# 星芽
+DOMAIN-SUFFIX,whjzjx.cn
+DOMAIN-SUFFIX,shytkjgs.com
+DOMAIN-SUFFIX,xingya.com.cn
+DOMAIN-SUFFIX,rongjuwh.cn
+
+# 喜番
+DOMAIN-SUFFIX,kuaishou.com
+DOMAIN-SUFFIX,adukwai.com
+
+# 河马
+DOMAIN-SUFFIX,zqqds.cn
+DOMAIN-SUFFIX,kuaikaw.cn
+DOMAIN-SUFFIX,cbread.cn
+
+# 火龙及弹幕
+DOMAIN-SUFFIX,kairos.qq.com
+DOMAIN-SUFFIX,tc.qq.com
+DOMAIN-SUFFIX,qpic.cn
+
+# 好看、柚漫剧
+DOMAIN,sv.baidu.com
+DOMAIN,yo.baidu.com
+DOMAIN-SUFFIX,bdstatic.com
+
+# 围观
+DOMAIN-SUFFIX,9ddm.com
