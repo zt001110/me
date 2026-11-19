@@ -76,13 +76,21 @@ Google 账号授权页 `accounts.google.com` 已在 Claude 段列出。`Google.l
 API（含地区端点）、语音、Imagine 和 Grok Build。原 `api.x.ai` 精确条目已由 `x.ai` 覆盖。
 
 Grok 官网的内容安全策略列出 `grokusercontent.com` 资源、`grok-sandbox.com` 沙盒
-和 `groktpcontent.com` 嵌入资源。相关入口还包括 `grok.me`、`grokipedia.com`、
-`grok.x.com` 以及 X Subscription 共用的账号主机 `accounts.spacex.ai`。
-`grok.x.com` 会跳转到 X。跳转后的 `x.com/i/grok` 与普通 X 页面共用主机，继续由 X 的原有策略处理。
+和 `groktpcontent.com` 嵌入资源。相关入口还包括 `grok.me`、`grokipedia.com`
+以及 X Subscription 共用的账号主机 `accounts.spacex.ai`。
+
+X 的帖子、视频和站内 Grok 页面使用 `Global.list` 中的 `x.com`、`twimg.com`
+和 `t.co` 等域名规则。`grok.x.com` 也由 `x.com` 后缀覆盖。
+
+Grok Bot 官网和 Grok 登录由现有后缀覆盖。桌面端还使用 Cursor 的 `cursor.sh` API、
+`cursor-cdn.com` 静态资源、`cursorapi.com` 扩展市场、`cursorvm.com` 云电脑，以及
+`cursor.com` 和 `downloads.cursor.com` 安装更新。`cursorvm.com` 的后缀规则也匹配
+多级云电脑子域。其他 Cursor 应用访问这些共享主机时也会走 ChatGPT 策略。
 
 - [Grok 官网](https://grok.com/)
 - [xAI API 参考](https://docs.x.ai/developers/rest-api-reference/inference)
 - [Grok Build 文档](https://docs.x.ai/build/overview)
+- [Grok Bot 官方网络域名](https://docs.x.ai/grok-bot/proxies#allow-these-domain-patterns)
 - [X Subscription 账号域名](https://docs.x.ai/x-subscription/sign-in-domains)
 
 ## 使用
