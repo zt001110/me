@@ -1,15 +1,18 @@
 # NAME: zhilian
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-06
+# UPDATED: 2026-11-18
 # DOMAIN: 13
-# DOMAIN-SUFFIX: 5
-# TOTAL: 18
+# DOMAIN-SUFFIX: 6
+# TOTAL: 19
 
 # 我的直连列表1
 
 DOMAIN-SUFFIX,tli.li
 DOMAIN-SUFFIX,todesk.com
+
+# 上海停车 App（上海停车信息科技有限公司）
+DOMAIN-SUFFIX,shanghai-parking.com
 
 # DOMAIN-SUFFIX：域名后缀匹配
 # DOMAIN：域名匹配
