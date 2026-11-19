@@ -61,8 +61,11 @@ Artifacts 的字体和 JS 库也走这个策略。共享主机（例如
 文档托管在 Mintlify 等共享平台的资源未加入，以免影响其他网站。
 
 Devin Desktop 的官方网络清单还列出 Google 登录所用的 `googleapis.com`（含子域）、
-`apis.google.com`，以及客服入口 `decagon.ai`。这些共享域名上的其他请求也会走
-ChatGPT 策略，包括 Google API、YouTube API 和 Firebase 等服务的部分请求。
+`apis.google.com`，以及客服入口 `decagon.ai`。为免整个 Google API 走 ChatGPT 策略，
+只加入 Devin Desktop 登录页（`windsurf.com` 的 Firebase Auth）实际请求的主机：
+`identitytoolkit.googleapis.com`、`securetoken.googleapis.com`、
+`content-firebaseappcheck.googleapis.com`、`exa2-fb170.firebaseapp.com` 和 `apis.google.com`。
+Google 账号授权页 `accounts.google.com` 已在 Claude 段列出。`Google.list` 中对应的通用规则排除了这些主机。
 企业自定义 SSO 和第三方集成的域名取决于实际配置。
 
 - [Devin Desktop 官方网络清单](https://docs.devin.ai/desktop/devin-desktop-faq#what-is-the-full-list-of-hostnames-we-should-allow)

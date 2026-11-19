@@ -1,15 +1,15 @@
 # NAME: Google
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-12
-# DOMAIN: 51
-# DOMAIN-SUFFIX: 705
+# UPDATED: 2026-11-18
+# DOMAIN: 50
+# DOMAIN-SUFFIX: 704
 # DOMAIN-KEYWORD: 3
 # IP-CIDR: 28
 # IP-CIDR6: 0
 # PROCESS-NAME: 6
-# AND: 4
-# TOTAL: 797
+# AND: 5
+# TOTAL: 796
 
 # NAME: notebooklm
 DOMAIN-SUFFIX,notebooklm.google.com
@@ -18,7 +18,6 @@ DOMAIN-SUFFIX,notebooklm.google
 # NAME: gemini
 DOMAIN,gemini.google.com
 DOMAIN,stitch.withgoogle.com
-DOMAIN,apis.google.com
 DOMAIN,people-pa.clients6.google.com
 DOMAIN,t0.gstatic.com
 DOMAIN,t1.gstatic.com
@@ -47,7 +46,7 @@ DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,withgoogle.com
 AND,((DOMAIN-SUFFIX,google.com),(NOT,((DOMAIN,accounts.google.com))))
 DOMAIN-SUFFIX,googleusercontent.com
-AND,((DOMAIN-SUFFIX,googleapis.com),(NOT,((DOMAIN,storage.googleapis.com))),(NOT,((DOMAIN,fonts.googleapis.com))))
+AND,((DOMAIN-SUFFIX,googleapis.com),(NOT,((DOMAIN,storage.googleapis.com))),(NOT,((DOMAIN,fonts.googleapis.com))),(NOT,((DOMAIN,identitytoolkit.googleapis.com))),(NOT,((DOMAIN,securetoken.googleapis.com))),(NOT,((DOMAIN,content-firebaseappcheck.googleapis.com))))
 AND,((DOMAIN-SUFFIX,gstatic.com),(NOT,((DOMAIN,fonts.gstatic.com))))
 DOMAIN-SUFFIX,recaptcha.net
 
@@ -250,7 +249,7 @@ DOMAIN-SUFFIX,fastlane.ci
 DOMAIN-SUFFIX,fastlane.tools
 DOMAIN-SUFFIX,fflick.com
 DOMAIN-SUFFIX,financeleadsonline.com
-DOMAIN-SUFFIX,firebaseapp.com
+AND,((DOMAIN-SUFFIX,firebaseapp.com),(NOT,((DOMAIN,exa2-fb170.firebaseapp.com))))
 DOMAIN-SUFFIX,flutter.dev
 DOMAIN-SUFFIX,flutterapp.com
 DOMAIN-SUFFIX,foofle.com
