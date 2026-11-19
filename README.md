@@ -94,7 +94,7 @@ https://cdn.jsdelivr.net/gh/zt001110/me@master/rule/Game.list
 
 ---------------------------------------------------------------------------------------
 
-ChatGPT / Codex / Claude
+ChatGPT / Codex / Claude / Devin
 
 https://raw.githubusercontent.com/zt001110/me/master/rule/chatgpt.list
 
@@ -105,7 +105,7 @@ Surge 规则应放在 AI、全球代理、直连、去广告等规则之前，�
 
 ---------------------------------------------------------------------------------------
 
-✨ AI平台（ChatGPT / Codex / Claude 已拆出）
+✨ AI平台（ChatGPT / Codex / Claude / Devin 已拆出）
 
 https://raw.githubusercontent.com/zt001110/me/master/rule/AI.list
 

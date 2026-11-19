@@ -43,6 +43,23 @@ Artifacts 的字体和 JS 库也走这个策略。共享主机（例如
 这些 IP 规则覆盖 Anthropic 公布的三个入站网段。Datadog 和 Sift 关键词也会
 匹配其他应用的域名，两个广告规则集中的重叠条目已移除。
 
+## Devin
+
+按个人分流需要，Devin / Cognition 的全部域名也迁入 `chatgpt.list`，使用同一个策略：
+
+- `devin.ai`：网页 `app.devin.ai`、API `api.devin.ai`、CLI `cli.devin.ai` / `static.devin.ai`、
+  文档 `docs.devin.ai`、状态页 `status.devin.ai` 和 MCP 端点。
+- `devinusercontent.com`：会话附件和文件。
+- `devinapps.com`：Devin Apps 与 IDE。
+- `devinenterprise.com`：企业版网页和 API。
+- `watchdevinwork.com`：演示站。
+- `cognition.ai`、`cognition.com`、`cognition-labs.com`：Cognition 官网与服务。
+- `windsurf.com`、`codeium.com`、`codeiumdata.com`：Devin Desktop（Windsurf）登录、推理、插件市场和更新。
+- `deepwiki.com`：DeepWiki。
+
+域名来自 `app.devin.ai` 前端脚本、`docs.devin.ai` 文档和 CLI 安装脚本，核对日期 2026-11-18。
+文档托管在 Mintlify 等共享平台的资源未加入，以免影响其他网站。
+
 ## 使用
 
 ```ini
