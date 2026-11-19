@@ -1,16 +1,16 @@
-# 名称: ChatGPT / Codex / Claude
+# 名称: ChatGPT / Codex / Claude / Devin
 # 作者: MLITM
 # 仓库: https://github.com/zt001110/me
 # 更新日期: 2026-11-18
-# 精确域名: 38
-# 域名后缀: 69
+# 精确域名: 40
+# 域名后缀: 70
 # 域名通配: 1
 # 域名关键词: 3
 # 逻辑规则: 2
 # IPv4 规则: 406
 # IPv6 规则: 1
 # ASN 规则: 2
-# 规则总数: 522
+# 规则总数: 525
 #
 # 用于 Surge 规则集；放在 AI、全球分流、直连和拦截规则之前。
 # 保留原 OpenAI 分段的接口和 Sora 范围，因为它们共用部分服务。
@@ -92,6 +92,11 @@ DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,codeiumdata.com
 DOMAIN-SUFFIX,deepwiki.com
+
+# Devin Desktop 共享登录和客服域名。
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN,apis.google.com
+DOMAIN,decagon.ai
 
 # Azure 内容分发、文件存储和异步长连接；不匹配整个 Azure 平台。
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))

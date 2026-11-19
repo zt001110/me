@@ -1,4 +1,4 @@
-# ChatGPT / Codex / Claude 分流
+# ChatGPT / Codex / Claude / Devin 分流
 
 `rule/chatgpt.list` 用于 Surge `RULE-SET`，规则不内置策略名。逗号后没有空格。
 它从 `AI.list` 的原 OpenAI 段拆出登录、API、静态资源、上传文件、语音、
@@ -59,6 +59,13 @@ Artifacts 的字体和 JS 库也走这个策略。共享主机（例如
 
 域名来自 `app.devin.ai` 前端脚本、`docs.devin.ai` 文档和 CLI 安装脚本，核对日期 2026-11-18。
 文档托管在 Mintlify 等共享平台的资源未加入，以免影响其他网站。
+
+Devin Desktop 的官方网络清单还列出 Google 登录所用的 `googleapis.com`（含子域）、
+`apis.google.com`，以及客服入口 `decagon.ai`。这些共享域名上的其他请求也会走
+ChatGPT 策略，包括 Google API、YouTube API 和 Firebase 等服务的部分请求。
+企业自定义 SSO 和第三方集成的域名取决于实际配置。
+
+- [Devin Desktop 官方网络清单](https://docs.devin.ai/desktop/devin-desktop-faq#what-is-the-full-list-of-hostnames-we-should-allow)
 
 ## 使用
 
