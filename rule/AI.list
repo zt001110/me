@@ -1,15 +1,15 @@
 # NAME: AI
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-12
-# DOMAIN: 49
-# DOMAIN-SUFFIX: 704
+# UPDATED: 2026-11-19
+# DOMAIN: 48
+# DOMAIN-SUFFIX: 702
 # AND: 1
 # DOMAIN-KEYWORD: 6
 # IP-CIDR: 22
 # IP-CIDR6: 0
-# TOTAL: 782
-# ChatGPT / Codex、Claude、OpenAI 依赖及 Muse / Meta AI 已迁移到 chatgpt.list。
+# TOTAL: 779
+# ChatGPT / Codex、Claude、OpenAI 依赖、Muse / Meta AI 和 Grok / xAI 已迁移到 chatgpt.list。
 
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,api.qrstrategy.com
@@ -63,11 +63,6 @@ DOMAIN-SUFFIX,perplexity.com
 DOMAIN,chat.mistral.ai
 DOMAIN,console.mistral.ai
 DOMAIN-SUFFIX,mistral.ai
-
-# Grok AI
-DOMAIN,api.x.ai
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.com
 
 # Trae AI
 DOMAIN,trae-api-sg.mchost.guru

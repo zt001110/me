@@ -1,4 +1,4 @@
-# ChatGPT / Codex / Claude / Devin 分流
+# ChatGPT / Codex / Claude / Devin / Grok 分流
 
 `rule/chatgpt.list` 用于 Surge `RULE-SET`，规则不内置策略名。逗号后没有空格。
 它从 `AI.list` 的原 OpenAI 段拆出登录、API、静态资源、上传文件、语音、
@@ -69,6 +69,21 @@ Google 账号授权页 `accounts.google.com` 已在 Claude 段列出。`Google.l
 企业自定义 SSO 和第三方集成的域名取决于实际配置。
 
 - [Devin Desktop 官方网络清单](https://docs.devin.ai/desktop/devin-desktop-faq#what-is-the-full-list-of-hostnames-we-should-allow)
+
+## Grok
+
+从 `AI.list` 迁入 `x.ai` 和 `grok.com` 后缀，涵盖 Grok 网页、账号、开发者控制台、
+API（含地区端点）、语音、Imagine 和 Grok Build。原 `api.x.ai` 精确条目已由 `x.ai` 覆盖。
+
+Grok 官网的内容安全策略列出 `grokusercontent.com` 资源、`grok-sandbox.com` 沙盒
+和 `groktpcontent.com` 嵌入资源。相关入口还包括 `grok.me`、`grokipedia.com`、
+`grok.x.com` 以及 X Subscription 共用的账号主机 `accounts.spacex.ai`。
+`grok.x.com` 会跳转到 X。跳转后的 `x.com/i/grok` 与普通 X 页面共用主机，继续由 X 的原有策略处理。
+
+- [Grok 官网](https://grok.com/)
+- [xAI API 参考](https://docs.x.ai/developers/rest-api-reference/inference)
+- [Grok Build 文档](https://docs.x.ai/build/overview)
+- [X Subscription 账号域名](https://docs.x.ai/x-subscription/sign-in-domains)
 
 ## 使用
 

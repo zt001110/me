@@ -1,20 +1,20 @@
-# 名称: ChatGPT / Codex / Claude / Devin
+# 名称: ChatGPT / Codex / Claude / Devin / Grok
 # 作者: MLITM
 # 仓库: https://github.com/zt001110/me
-# 更新日期: 2026-11-18
-# 精确域名: 44
-# 域名后缀: 69
+# 更新日期: 2026-11-19
+# 精确域名: 47
+# 域名后缀: 75
 # 域名通配: 1
 # 域名关键词: 3
 # 逻辑规则: 2
 # IPv4 规则: 406
 # IPv6 规则: 1
 # ASN 规则: 2
-# 规则总数: 528
+# 规则总数: 537
 #
 # 用于 Surge 规则集；放在 AI、全球分流、直连和拦截规则之前。
 # 保留原 OpenAI 分段的接口和 Sora 范围，因为它们共用部分服务。
-# 按个人分流需要，Muse / Meta AI 和 Devin / Cognition 也统一使用本规则集。
+# 按个人分流需要，Muse / Meta AI、Devin / Cognition 和 Grok / xAI 也统一使用本规则集。
 # 共享的登录、支付和客服域名也会影响使用相同域名的其他软件。
 # 来源和范围说明见：../docs/chatgpt-routing.md
 
@@ -100,6 +100,19 @@ DOMAIN,content-firebaseappcheck.googleapis.com
 DOMAIN,exa2-fb170.firebaseapp.com
 DOMAIN,apis.google.com
 DOMAIN,decagon.ai
+
+# Grok / xAI 网页、API、账号、语音、Imagine、Build、附件和沙盒。
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokusercontent.com
+DOMAIN-SUFFIX,grok-sandbox.com
+DOMAIN,groktpcontent.com
+
+# Grok 相关入口、Grokipedia 和 X Subscription 共享账号主机。
+DOMAIN-SUFFIX,grok.me
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN,grok.x.com
+DOMAIN,accounts.spacex.ai
 
 # Azure 内容分发、文件存储和异步长连接；不匹配整个 Azure 平台。
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
