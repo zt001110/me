@@ -1,20 +1,20 @@
 # 名称: ChatGPT / Codex / Claude
 # 作者: MLITM
 # 仓库: https://github.com/zt001110/me
-# 更新日期: 2026-11-13
+# 更新日期: 2026-11-18
 # 精确域名: 38
-# 域名后缀: 57
+# 域名后缀: 69
 # 域名通配: 1
 # 域名关键词: 3
 # 逻辑规则: 2
 # IPv4 规则: 406
 # IPv6 规则: 1
 # ASN 规则: 2
-# 规则总数: 510
+# 规则总数: 522
 #
 # 用于 Surge 规则集；放在 AI、全球分流、直连和拦截规则之前。
 # 保留原 OpenAI 分段的接口和 Sora 范围，因为它们共用部分服务。
-# 按个人分流需要，Muse / Meta AI 也统一使用本规则集。
+# 按个人分流需要，Muse / Meta AI 和 Devin / Cognition 也统一使用本规则集。
 # 共享的登录、支付和客服域名也会影响使用相同域名的其他软件。
 # 来源和范围说明见：../docs/chatgpt-routing.md
 
@@ -78,6 +78,20 @@ DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,metaaiusercontent.com
+
+# Devin / Cognition：网页、API、CLI、文件、Apps、企业版、Devin Desktop（Windsurf）与 DeepWiki。
+DOMAIN-SUFFIX,devin.ai
+DOMAIN-SUFFIX,devinusercontent.com
+DOMAIN-SUFFIX,devinapps.com
+DOMAIN-SUFFIX,devinenterprise.com
+DOMAIN-SUFFIX,watchdevinwork.com
+DOMAIN-SUFFIX,cognition.ai
+DOMAIN-SUFFIX,cognition.com
+DOMAIN-SUFFIX,cognition-labs.com
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,codeiumdata.com
+DOMAIN-SUFFIX,deepwiki.com
 
 # Azure 内容分发、文件存储和异步长连接；不匹配整个 Azure 平台。
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
