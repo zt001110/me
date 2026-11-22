@@ -1,15 +1,15 @@
 # NAME: chineseMedia
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
-# UPDATED: 2026-11-16
+# UPDATED: 2026-11-22
 # DOMAIN: 31
-# DOMAIN-SUFFIX: 260
+# DOMAIN-SUFFIX: 259
 # DOMAIN-WILDCARD: 1
 # DOMAIN-KEYWORD: 1
 # IP-CIDR: 52
 # IP-CIDR6: 29
 # PROCESS-NAME: 1
-# TOTAL: 375
+# TOTAL: 374
 
 # 反代面板
 DOMAIN-WILDCARD,rxp-*.tli.li
@@ -54,7 +54,6 @@ DOMAIN-SUFFIX,imdb
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
 DOMAIN-SUFFIX,media-imdb.com
-DOMAIN-SUFFIX,image.tmdb.org
 
 
 DOMAIN-SUFFIX,cctv.cn
