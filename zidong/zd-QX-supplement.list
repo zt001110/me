@@ -1,0 +1,13 @@
+# ChatGPT 等专用规则集先匹配例外，本规则集补齐各服务的上级域名。
+host-suffix, google.com, ✨ AI平台
+host-suffix, googleapis.com, ✨ AI平台
+host-suffix, gstatic.com, ✨ AI平台
+host-suffix, firebaseapp.com, ✨ AI平台
+host-suffix, googlesource.com, ✨ AI平台
+host-suffix, meta.com, ✨ AI平台
+host-suffix, azure.com, Ⓜ️ 微软服务
+host-suffix, azureedge.net, Ⓜ️ 微软服务
+host-suffix, azurefd.net, Ⓜ️ 微软服务
+host-suffix, windows.net, Ⓜ️ 微软服务
+host-suffix, apple.com, 🍎 苹果服务
+host-suffix, cdn-apple.com, 🍎 苹果服务
