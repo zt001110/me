@@ -2,12 +2,12 @@
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-11-23
-# DOMAIN: 17
+# DOMAIN: 19
 # DOMAIN-SUFFIX: 3477
 # DOMAIN-KEYWORD: 8
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3516
+# TOTAL: 3518
 
 # 原有直连选择统一维护于此；名称不表示这些服务均属于国内网站。
 # 用途记录及未确认条目见 docs/direct-routing.md；其他服务列表排除这些域名。
@@ -41,6 +41,10 @@ DOMAIN,api-access.pangolin-sdk-toutiao.com
 DOMAIN,toblog.ctobsnssdk.com
 DOMAIN,api-access.pangolin-sdk-toutiao1.com
 DOMAIN,mssdk.volces.com
+
+# 抖店与微信
+DOMAIN,fxg.jinritemai.com
+DOMAIN,badjs.weixinbridge.com
 
 DOMAIN-SUFFIX,seagm.com
 DOMAIN,gateway.icloud.com
