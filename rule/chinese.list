@@ -2,12 +2,12 @@
 # AUTHOR: MLITM
 # REPO: https://github.com/zt001110/me
 # UPDATED: 2026-11-23
-# DOMAIN: 12
-# DOMAIN-SUFFIX: 3464
+# DOMAIN: 17
+# DOMAIN-SUFFIX: 3477
 # DOMAIN-KEYWORD: 8
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 3498
+# TOTAL: 3516
 
 # 原有直连选择统一维护于此；名称不表示这些服务均属于国内网站。
 # 用途记录及未确认条目见 docs/direct-routing.md；其他服务列表排除这些域名。
@@ -17,6 +17,30 @@ DOMAIN-SUFFIX,cdp.cloud.unity3d.com
 DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
 DOMAIN-SUFFIX,api.crisp.chat
 DOMAIN-SUFFIX,emby-icon.vercel.app
+
+# 小蓝国内域名及淡蓝网
+DOMAIN-SUFFIX,blued.cn
+DOMAIN-SUFFIX,bluedgames.cn
+DOMAIN-SUFFIX,bluedimg.cn
+DOMAIN-SUFFIX,budimg.cn
+DOMAIN-SUFFIX,danlan.org
+DOMAIN-SUFFIX,danlancare.cn
+DOMAIN-SUFFIX,danlanlove.cn
+DOMAIN-SUFFIX,irisdt.cn
+DOMAIN-SUFFIX,irisgw.cn
+DOMAIN-SUFFIX,ourbluecity.cn
+DOMAIN-SUFFIX,xiaogegelive.cn
+DOMAIN-SUFFIX,yijian-app.cn
+
+# Flipboard 红板报中国版
+DOMAIN-SUFFIX,flipchina.cn
+
+# 字节跳动穿山甲及火山引擎 SDK 主机
+DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
+DOMAIN,api-access.pangolin-sdk-toutiao.com
+DOMAIN,toblog.ctobsnssdk.com
+DOMAIN,api-access.pangolin-sdk-toutiao1.com
+DOMAIN,mssdk.volces.com
 
 DOMAIN-SUFFIX,seagm.com
 DOMAIN,gateway.icloud.com
