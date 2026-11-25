@@ -1,16 +1,16 @@
-# 名称: ChatGPT / Codex / Claude / Devin / Grok
+# 名称: ChatGPT / Codex / Claude / Devin / Grok / ClawChat
 # 作者: MLITM
 # 仓库: https://github.com/zt001110/me
-# 更新日期: 2026-11-19
+# 更新日期: 2026-11-24
 # 精确域名: 48
-# 域名后缀: 79
+# 域名后缀: 82
 # 域名通配: 1
 # 域名关键词: 3
 # 逻辑规则: 2
 # IPv4 规则: 406
 # IPv6 规则: 1
 # ASN 规则: 2
-# 规则总数: 542
+# 规则总数: 545
 #
 # 用于 Surge 规则集；放在 AI、全球分流、直连和拦截规则之前。
 # 保留原 OpenAI 分段的接口和 Sora 范围，因为它们共用部分服务。
@@ -120,6 +120,11 @@ DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursorvm.com
 DOMAIN,cursor.com
 DOMAIN,downloads.cursor.com
+
+# ClawChat：官网、下载与更新、消息 API / WebSocket、Agent 配对、媒体、插件与 Liveware。
+DOMAIN-SUFFIX,clawling.com
+DOMAIN-SUFFIX,clawling.chat
+DOMAIN-SUFFIX,apps.clawling.io
 
 # Azure 内容分发、文件存储和异步长连接；不匹配整个 Azure 平台。
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
